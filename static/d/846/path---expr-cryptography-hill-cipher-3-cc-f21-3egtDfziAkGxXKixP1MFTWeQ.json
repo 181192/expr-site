@@ -1,0 +1,1 @@
+{"data":{"markdownRemark":{"html":"<h4>Hill Cipher</h4>\n<ul>\n<li>Polyalphabetic cipher</li>\n<li>Requires at least 2 keys</li>\n<li>Uses a linear combination of the key with the plaintext to form the ciphertext.</li>\n</ul>","frontmatter":{"title":""}}},"pageContext":{"slug":"/expr/cryptography/Hill_cipher/"}}
