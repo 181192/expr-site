@@ -96,7 +96,7 @@ module.exports = {
       options: {
         name: "Exam Preparation 2018",
         short_name: "ExPr",
-        start_url: "/",
+        start_url: "/expr-site",
         background_color: "#f7f0eb",
         theme_color: "#0275d8",
         display: "minimal-ui",

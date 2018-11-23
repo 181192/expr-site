@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { withPrefix } from "gatsby";
 import Link from "gatsby-link";
 import svgRightArrow from "../images/right-arrow.svg";
 
@@ -205,7 +206,7 @@ export default class PostsList extends Component {
                       {this.props.showImage === "yes" && (
                         <div className="post-preview-image">
                           <img
-                            src="/expr-site/default-ogimage.png"
+                            src={withPrefix("/default-ogimage.png")}
                             alt={post.node.frontmatter.title}
                           />
                         </div>
@@ -258,7 +259,7 @@ export default class PostsList extends Component {
                       {this.props.showImage === "yes" && (
                         <div className="post-preview-image">
                           <img
-                            src="/expr-site/default-ogimage.png"
+                            src={withPrefix("/default-ogimage.png")}
                             alt={post.node.frontmatter.title}
                           />
                         </div>
