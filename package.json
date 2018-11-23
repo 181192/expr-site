@@ -36,8 +36,8 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "build": "gatsby build",
-    "dev": "gatsby develop",
+    "build": "gatsby build --paths-prefix",
+    "dev": "gatsby develop --paths-prefix",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -rf ./public && rm -rf .cache",
