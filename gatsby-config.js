@@ -1,10 +1,10 @@
 module.exports = {
-  pathPrefix: `/`,
+  pathPrefix: `/expr-site`,
   siteMetadata: {
-    title: `Georgi Yanev's Blog`,
+    title: `Exam Preparation 2018`,
     siteUrl: `https://example.com`,
-    author: `Georgi Yanev`,
-    description: `Georgi Yanev's Blog`
+    author: `Kristoffer-Andre Kalliainen & Peder Wiig Aalen`,
+    description: `Exam Preparation 2018`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -12,35 +12,21 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sitemap`
     },
-    // {
-    //   resolve: `gatsby-plugin-google-tagmanager`,
-    //   options: {
-    //     id: 'GTM-XXXXXX',
-    //     // Include GTM in development.
-    //     // Defaults to false meaning GTM will only be loaded in production.
-    //     includeInDevelopment: true
-    //   }
-    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/pages`,
-        name: 'pages'
+        name: "pages"
       }
     },
     {
-      resolve: 'gatsby-transformer-remark',
+      resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
           {
             resolve: `gatsby-remark-images`,
             options: {
-              // It's important to specify the maxWidth (in pixels) of
-              // the content container as this plugin uses this as the
-              // base for generating different widths of each image.
               maxWidth: 590,
-              // Remove the default behavior of adding a link to each
-              // image.
               linkImagesToOriginal: true,
               sizeByPixelDensity: true
             }
@@ -48,22 +34,14 @@ module.exports = {
           {
             resolve: `gatsby-remark-prismjs`,
             options: {
-              // Class prefix for <pre> tags containing syntax highlighting;
-              // defaults to 'language-' (eg <pre class="language-js">).
-              // If your site loads Prism into the browser at runtime,
-              // (eg for use with libraries like react-live),
-              // you may use this to prevent Prism from re-processing syntax.
-              // This is an uncommon use-case though;
-              // If you're unsure, it's best to use the default value.
-              classPrefix: 'language-'
+              classPrefix: "language-"
             }
           },
-          'gatsby-remark-copy-linked-files',
-          'gatsby-remark-smartypants'
+          "gatsby-remark-copy-linked-files",
+          "gatsby-remark-smartypants"
         ]
       }
     },
-
     {
       resolve: `gatsby-plugin-feed`,
       options: {
@@ -76,14 +54,14 @@ module.exports = {
                   url:
                     site.siteMetadata.siteUrl +
                     edge.node.frontmatter.path +
-                    '/',
+                    "/",
                   guid:
                     site.siteMetadata.siteUrl +
                     edge.node.frontmatter.path +
-                    '/',
-                  custom_elements: [{ 'content:encoded': edge.node.html }]
-                })
-              })
+                    "/",
+                  custom_elements: [{ "content:encoded": edge.node.html }]
+                });
+              });
             },
             query: `
             {
@@ -105,7 +83,7 @@ module.exports = {
               }
             }
             `,
-            output: '/feed.xml'
+            output: "/feed.xml"
           }
         ]
       }
@@ -116,12 +94,12 @@ module.exports = {
       // this plugin should be listed before the offline plugin so that it can cache the created manifest.json.
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Georgi Yanev Blog',
-        short_name: 'GY Blog',
-        start_url: '/',
-        background_color: '#f7f0eb',
-        theme_color: '#0275d8',
-        display: 'minimal-ui',
+        name: "Exam Preparation 2018",
+        short_name: "ExPr",
+        start_url: "/",
+        background_color: "#f7f0eb",
+        theme_color: "#0275d8",
+        display: "minimal-ui",
         icons: [
           {
             // Everything in /static will be copied to an equivalent
@@ -142,4 +120,4 @@ module.exports = {
     },
     `gatsby-plugin-offline`
   ]
-}
+};

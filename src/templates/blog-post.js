@@ -1,70 +1,65 @@
-import React from 'react'
-import { graphql } from 'gatsby'
-import Helmet from 'react-helmet'
-import Layout from '../components/Layout'
-import FeedbackSection from '../components/FeedbackSection.js'
-import RelatedArticles from '../components/RelatedArticles.js'
-import ReadProgressLine from '../components/ReadProgressLine.js'
+import React from "react";
+import { graphql } from "gatsby";
+import Helmet from "react-helmet";
+import Layout from "../components/Layout";
+import ReadProgressLine from "../components/ReadProgressLine.js";
 
 export default function Template({ data, location }) {
-  const { markdownRemark: post } = data // data.markdownRemark holds our post data
+  const { markdownRemark: post } = data; // data.markdownRemark holds our post data
 
   // If post doesn't have a defined og image, fall back to default defined here
-  const ogImage =
-    post.frontmatter.ogImage !== null
-      ? `https://blog.georgi-yanev.com${post.frontmatter.ogImage.publicURL}`
-      : `https://blog.georgi-yanev.com/default-ogimage-github.jpg`
+  const ogImage = `https://blog.georgi-yanev.com/default-ogimage-github.jpg`;
 
   return (
     <Layout location={location}>
       <div className="blog-post-container">
         <Helmet
-          title={`Georgi Yanev - ${post.frontmatter.title}`}
+          title={`ExPr - ${post.frontmatter.title}`}
           meta={[
             {
-              name: 'description',
+              name: "description",
               content: `${post.frontmatter.ogDescription}`
             },
-            { name: 'keywords', content: `${post.frontmatter.ogKeywords}` },
-            { property: 'og:type', content: 'website' },
+            { name: "keywords", content: `${post.frontmatter.ogKeywords}` },
+            { property: "og:type", content: "website" },
             {
-              property: 'og:url',
+              property: "og:url",
               content: `https://blog.georgi-yanev.com${post.frontmatter.path}`
             },
             {
-              property: 'og:image',
+              property: "og:image",
               content: ogImage
             },
             {
-              property: 'og:title',
+              property: "og:title",
               content: `Georgi Yanev | ${post.frontmatter.title}`
             },
             {
-              property: 'og:description',
+              property: "og:description",
               content: `${post.frontmatter.ogDescription}`
             },
             {
-              name: 'twitter:card',
-              content: 'summary'
+              name: "twitter:card",
+              content: "summary"
             },
             {
-              name: 'twitter:site',
-              content: '@jumpalottahigh'
+              name: "twitter:site",
+              content: "@jumpalottahigh"
             },
             {
-              name: 'twitter:image',
+              name: "twitter:image",
               content: ogImage
             },
             {
-              name: 'twitter:creator',
-              content: '@jumpalottahigh'
+              name: "twitter:creator",
+              content: "@jumpalottahigh"
             },
             {
-              name: 'twitter:title',
+              name: "twitter:title",
               content: `Georgi Yanev | ${post.frontmatter.title}`
             },
             {
-              name: 'twitter:description',
+              name: "twitter:description",
               content: `${post.frontmatter.ogDescription}`
             }
           ]}
@@ -116,15 +111,10 @@ export default function Template({ data, location }) {
             className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: post.html }}
           />
-          <RelatedArticles articles={post.frontmatter.relatedArticles} />
-          <div className="affiliate-note m-t-1">
-            {post.frontmatter.affiliate}
-          </div>
-          <FeedbackSection />
         </div>
       </div>
     </Layout>
-  )
+  );
 }
 
 export const pageQuery = graphql`
@@ -138,16 +128,9 @@ export const pageQuery = graphql`
         path
         title
         tags
-        relatedArticles
-        disqus_identifier
         author
-        affiliate
-        ogKeywords
         ogDescription
-        ogImage {
-          publicURL
-        }
       }
     }
   }
-`
+`;
