@@ -2,7 +2,6 @@ import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import PostList from "../components/PostsList";
-import Button from "../components/Button";
 
 const IndexPage = ({ data, location }) => (
   <Layout location={location}>

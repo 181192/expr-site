@@ -4,11 +4,11 @@ import Helmet from "react-helmet";
 import Layout from "../components/Layout";
 import ReadProgressLine from "../components/ReadProgressLine.js";
 import ogImage from "../../static/default-ogimage.png";
+import favicon from "../../static/favicon.ico";
 
 export default function Template({ data, location }) {
   const { markdownRemark: post } = data; // data.markdownRemark holds our post data
 
-  // If post doesn't have a defined og image, fall back to default defined here
   const website = `https://https://181192.github.io/expr-site`;
 
   return (
@@ -36,6 +36,9 @@ export default function Template({ data, location }) {
               property: "og:description",
               content: `${post.frontmatter.ogDescription}`
             }
+          ]}
+          link={[
+            { rel: "shortcut icon", type: "image/png", href: `${favicon}` }
           ]}
         >
           {/* Google Structured Data */}
