@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{127:function(e,n,a){"use strict";a.r(n);var t=a(0),l=a.n(t);n.default=function(){return l.a.createElement("div",null,l.a.createElement("h1",null,"Oops: 404"),l.a.createElement("p",null,"Try going back to ",l.a.createElement("a",{href:"/"},"example.com")," and see if that helps 🙂"))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-3c122f7534a89e6cfe23.js.map
