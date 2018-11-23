@@ -1,8 +1,8 @@
 module.exports = {
   pathPrefix: `/expr-site`,
   siteMetadata: {
-    title: `Exam Preparation 2018`,
-    siteUrl: `https://example.com`,
+    title: `ExPr 2018`,
+    siteUrl: `https://181192.github.io/expr-site`,
     author: `Kristoffer-Andre Kalliainen & Peder Wiig Aalen`,
     description: `Exam Preparation 2018`
   },
@@ -90,8 +90,6 @@ module.exports = {
     },
 
     {
-      // If you’re using this plugin together with gatsby-plugin-offline (recommended),
-      // this plugin should be listed before the offline plugin so that it can cache the created manifest.json.
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: "Exam Preparation 2018",
@@ -99,19 +97,15 @@ module.exports = {
         start_url: "/expr-site",
         background_color: "#f7f0eb",
         theme_color: "#0275d8",
-        display: "minimal-ui",
+        display: "standalone",
         icons: [
           {
-            // Everything in /static will be copied to an equivalent
-            // directory in /public during development and build, so
-            // assuming your favicons are in /static/favicons,
-            // you can reference them here
-            src: `/favicons/android-chrome-192x192.png`,
+            src: "favicons/android-chrome-192x192.png",
             sizes: `192x192`,
             type: `image/png`
           },
           {
-            src: `/favicons/android-chrome-512x512.png`,
+            src: "favicons/android-chrome-512x512.png",
             sizes: `512x512`,
             type: `image/png`
           }
