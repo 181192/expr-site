@@ -9,4 +9,26 @@ ogKeywords: "blockchain questions"
 ogDescription: "Blockchain Questions"
 ---
 
-Not implemented yet :)
+## How is a payment carried out in the Bitcoin network?
+
+## What is distributed consensus?
+
+## What is a blockchain?
+
+## What is scripts and smart contracts?
+
+## How does blockchain scale and how fast is it?
+
+## What applications / use cases is there for blockchain?
+
+## What are inputs and outputs?
+
+## What are transactions, signing, validation?
+
+## What is private key, public key, address and signature?
+
+## What is hashing used for?
+
+## What is the UTXO-set?
+
+## What is mining, nonce and "target"?
