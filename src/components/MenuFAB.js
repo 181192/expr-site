@@ -1,4 +1,5 @@
 import React from "react";
+import { withPrefix } from "gatsby";
 import Link from "gatsby-link";
 
 class NavigationBar extends React.Component {
