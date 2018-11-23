@@ -27,7 +27,7 @@ export default function Template({ data, location }) {
               property: "og:url",
               content: `${website}${post.frontmatter.path}`
             },
-            { property: "og:image", content: ogImage },
+            { property: "og:image", content: `${ogImage}` },
             {
               property: "og:title",
               content: `ExPr | ${post.frontmatter.title}`
