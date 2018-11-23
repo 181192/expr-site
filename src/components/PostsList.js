@@ -205,7 +205,7 @@ export default class PostsList extends Component {
                       {this.props.showImage === "yes" && (
                         <div className="post-preview-image">
                           <img
-                            src="/default-ogimage.png"
+                            src="/expr-site/default-ogimage.png"
                             alt={post.node.frontmatter.title}
                           />
                         </div>
@@ -257,17 +257,10 @@ export default class PostsList extends Component {
                     <div className="post-preview-content">
                       {this.props.showImage === "yes" && (
                         <div className="post-preview-image">
-                          {post.node.frontmatter.ogImage !== null ? (
-                            <img
-                              src={post.node.frontmatter.ogImage.publicURL}
-                              alt={post.node.frontmatter.title}
-                            />
-                          ) : (
-                            <img
-                              src="/default-ogimage.png"
-                              alt={post.node.frontmatter.title}
-                            />
-                          )}
+                          <img
+                            src="/expr-site/default-ogimage.png"
+                            alt={post.node.frontmatter.title}
+                          />
                         </div>
                       )}
                       <p

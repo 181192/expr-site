@@ -8,10 +8,11 @@ const IndexPage = ({ data, location }) => (
   <Layout location={location}>
     <div>
       <p>
-        This blog was a joy to build using <strong>Gatsby 💜</strong> (a React
-        based static site generator) and is hosted on{" "}
-        <strong>Netlify 🔥</strong>.
+        This page is build to provide all curriculum for the DAT159 subject at
+        HVL. This page is build with <strong>Gatsby 💜</strong> (a React based
+        static site generator) and is hosted on <strong>Github Pages</strong>.
       </p>
+      <p>The page is under construction.</p>
       <h4 style={{ marginTop: "2rem" }}>Last 5 recent posts:</h4>
       <PostList
         showChevron="yes"

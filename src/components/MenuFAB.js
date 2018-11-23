@@ -34,7 +34,7 @@ class NavigationBar extends React.Component {
           >
             <div style={{ display: "flex" }}>
               <div style={{ width: "25%" }}>
-                <img src="/default-ogimage.png" />
+                <img src="/expr-site/default-ogimage.png" />
               </div>
               <div
                 style={{
