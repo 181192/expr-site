@@ -12,10 +12,10 @@ This page is build with Gatsby 💜 (a React based static site generator) and is
 
 ## Requirements
 
-- Node.js v8 or greater (https://nodejs.org/en/)[https://nodejs.org/en/]
-- Yarn (https://yarnpkg.com/lang/en/)[https://yarnpkg.com/lang/en/]
-- Npm (https://www.npmjs.com/get-npm)[https://www.npmjs.com/get-npm]
-- Gatsby-cli (https://www.gatsbyjs.org/)[https://www.gatsbyjs.org/]
+- Node.js v8 or greater [https://nodejs.org/en/](https://nodejs.org/en/)
+- Yarn [https://yarnpkg.com/lang/en/](https://yarnpkg.com/lang/en/)
+- Npm [https://www.npmjs.com/get-npm](https://www.npmjs.com/get-npm)
+- Gatsby-cli [https://www.gatsbyjs.org/](https://www.gatsbyjs.org/)
 
 Install gatsby-cli by running:
 
