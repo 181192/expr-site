@@ -64,13 +64,13 @@ const Header = () => (
               marginRight: ".5rem"
             }}
           />
-          Exam Preparation 2018
+          ExPr 2018
         </h1>
       </Link>
 
       <ul className="nav">
         <li>
-          <Link to="/news/">Blog posts</Link>
+          <Link to="/news/">Show All</Link>
         </li>
       </ul>
       <ul className="nav social">

@@ -132,8 +132,8 @@ export default class PostsList extends Component {
             {this.state.exam_details.length > 0 && (
               <button
                 className={`category exam-details ${currentFilter ===
-                  "exam-details" && "active"}`}
-                data-filter="exam-details"
+                  "exam_details" && "active"}`}
+                data-filter="exam_details"
                 onClick={this.handleFilterClick}
               >
                 Exam details

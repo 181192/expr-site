@@ -7,6 +7,7 @@ import Button from "../components/Button";
 const IndexPage = ({ data, location }) => (
   <Layout location={location}>
     <div>
+      <h1>Exam Preparation 2018</h1>
       <p>
         This page is build to provide all curriculum for the DAT159 subject at
         HVL. This page is build with <strong>Gatsby 💜</strong> (a React based
@@ -21,9 +22,6 @@ const IndexPage = ({ data, location }) => (
         showSearch="no"
         posts={data.allMarkdownRemark.edges}
       />
-      <Button style={{ fontSize: "1.2rem", marginRight: "1rem" }} to="/news/">
-        All blog posts
-      </Button>
     </div>
   </Layout>
 );
