@@ -11,6 +11,8 @@ export default class SideBar extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      exam_details: [],
+      questions: [],
       blockchain: [],
       cryptography: [],
       refactoring: []
@@ -18,6 +20,8 @@ export default class SideBar extends React.Component {
   }
 
   filter(pages) {
+    let exam_details = [];
+    let questions = [];
     let blockchain = [];
     let cryptography = [];
     let refactoring = [];
@@ -25,6 +29,12 @@ export default class SideBar extends React.Component {
     // Filter the data
     pages.map(page => {
       switch (page.node.frontmatter.tags) {
+        case "exam-details":
+          exam_details.push(page);
+          break;
+        case "questions":
+          questions.push(page);
+          break;
         case "blockchain":
           blockchain.push(page);
           break;
@@ -38,6 +48,8 @@ export default class SideBar extends React.Component {
     });
 
     this.setState({
+      exam_details,
+      questions,
       blockchain,
       cryptography,
       refactoring
@@ -54,6 +66,26 @@ export default class SideBar extends React.Component {
       <div className="sidebar-wrapper">
         <div className="sidebar">
           <ul className="sidenav">
+            <li>
+              📝 <em>Exam Details</em>
+            </li>
+            {this.state.exam_details.map((page, index) => (
+              <li key={page.node.id}>
+                <Link to={page.node.frontmatter.path} activeStyle={activeStyle}>
+                  {page.node.frontmatter.title}
+                </Link>
+              </li>
+            ))}
+            <li>
+              📝 <em>Questions</em>
+            </li>
+            {this.state.questions.map((page, index) => (
+              <li key={page.node.id}>
+                <Link to={page.node.frontmatter.path} activeStyle={activeStyle}>
+                  {page.node.frontmatter.title}
+                </Link>
+              </li>
+            ))}
             <li>
               📝 <em>Blockchain</em>
             </li>

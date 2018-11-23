@@ -1,15 +1,13 @@
 ---
-path: "/cryptography/cryptography"
+path: "/exam-details/cryptography"
 date: "2018-11-23"
 title: "Examination details for Basic Cryptography Module"
 author: "Kristoffer-Andre Kalliainen"
 draft: false
-tags: "cryptography"
-ogKeywords: "cryptography"
+tags: "exam-details"
+ogKeywords: "cryptography exam-details"
 ogDescription: "Examination details for Basic Cryptography Module"
 ---
-
-# Examination details for Basic Cryptography Module
 
 ## Reading Lists for the Exam
 

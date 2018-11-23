@@ -24,12 +24,16 @@ export default class PostsList extends Component {
     search: "",
     currentFilter: "all",
     allPosts: [...this.props.posts],
+    exam_details: [],
+    questions: [],
     blockchain: [],
     refactoring: [],
     cryptography: []
   };
 
   filter(pages) {
+    let exam_details = [];
+    let questions = [];
     let blockchain = [];
     let refactoring = [];
     let cryptography = [];
@@ -37,6 +41,12 @@ export default class PostsList extends Component {
     // Filter the data
     pages.map(page => {
       switch (page.node.frontmatter.tags) {
+        case "exam-details":
+          exam_details.push(page);
+          break;
+        case "questions":
+          questions.push(page);
+          break;
         case "blockchain":
           blockchain.push(page);
           break;
@@ -50,6 +60,8 @@ export default class PostsList extends Component {
     });
 
     this.setState({
+      exam_details,
+      questions,
       blockchain,
       refactoring,
       cryptography
@@ -116,6 +128,26 @@ export default class PostsList extends Component {
             >
               All posts
             </button>
+            {this.state.exam_details.length > 0 && (
+              <button
+                className={`category exam-details ${currentFilter ===
+                  "exam-details" && "active"}`}
+                data-filter="exam-details"
+                onClick={this.handleFilterClick}
+              >
+                Exam details
+              </button>
+            )}
+            {this.state.questions.length > 0 && (
+              <button
+                className={`category questions ${currentFilter ===
+                  "questions" && "active"}`}
+                data-filter="questions"
+                onClick={this.handleFilterClick}
+              >
+                Questions
+              </button>
+            )}
             {this.state.blockchain.length > 0 && (
               <button
                 className={`category blockchain ${currentFilter ===
@@ -168,17 +200,12 @@ export default class PostsList extends Component {
                     key={post.node.id}
                     to={post.node.frontmatter.path + "/"}
                   >
-                    <h4>
-                      {currentMonth === post.node.frontmatter.date.split(" ")[0]
-                        ? "🆕 "
-                        : null}
-                      {post.node.frontmatter.title}
-                    </h4>
+                    <h4>{post.node.frontmatter.title}</h4>
                     <div className="post-preview-content">
                       {this.props.showImage === "yes" && (
                         <div className="post-preview-image">
                           <img
-                            src="/default-ogimage.jpg"
+                            src="/default-ogimage.png"
                             alt={post.node.frontmatter.title}
                           />
                         </div>
@@ -209,7 +236,10 @@ export default class PostsList extends Component {
                       {this.props.showChevron === "yes" && (
                         <img
                           src={svgRightArrow}
-                          style={{ height: "24px", justifySelf: "flex-end" }}
+                          style={{
+                            height: "24px",
+                            justifySelf: "flex-end"
+                          }}
                           alt="Arrow"
                         />
                       )}
@@ -223,12 +253,7 @@ export default class PostsList extends Component {
                     key={post.node.id}
                     to={post.node.frontmatter.path + "/"}
                   >
-                    <h4>
-                      {currentMonth === post.node.frontmatter.date.split(" ")[0]
-                        ? "🆕 "
-                        : null}
-                      {post.node.frontmatter.title}
-                    </h4>
+                    <h4>{post.node.frontmatter.title}</h4>
                     <div className="post-preview-content">
                       {this.props.showImage === "yes" && (
                         <div className="post-preview-image">
@@ -239,7 +264,7 @@ export default class PostsList extends Component {
                             />
                           ) : (
                             <img
-                              src="/default-ogimage.jpg"
+                              src="/default-ogimage.png"
                               alt={post.node.frontmatter.title}
                             />
                           )}
@@ -271,7 +296,10 @@ export default class PostsList extends Component {
                       {this.props.showChevron === "yes" && (
                         <img
                           src={svgRightArrow}
-                          style={{ height: "24px", justifySelf: "flex-end" }}
+                          style={{
+                            height: "24px",
+                            justifySelf: "flex-end"
+                          }}
                           alt="Arrow"
                         />
                       )}

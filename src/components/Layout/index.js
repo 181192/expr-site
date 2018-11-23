@@ -8,11 +8,13 @@ import "./index.css";
 import SideBar from "../Sidebar";
 import MenuFAB from "../MenuFAB";
 import logo from "../../images/logo.png";
-import ogImage from "../../../static/default-ogimage.jpg";
+import ogImage from "../../../static/default-ogimage.png";
 import github from "../../../static/github.svg";
 
 // PrismJS dependency
 import "prismjs/themes/prism-okaidia.css";
+
+const website = `https://181192.github.io/expr-site`;
 
 const Header = () => (
   <div
@@ -124,10 +126,10 @@ const TemplateWrapper = ({ children }) => (
               },
               {
                 property: "og:image",
-                content: `https://blog.georgi-yanev.com${ogImage}`
+                content: `${website}${ogImage}`
               },
               { property: "og:type", content: "website" },
-              { property: "og:url", content: "https://blog.georgi-yanev.com" },
+              { property: "og:url", content: `${website}` },
               {
                 property: "og:title",
                 content: "Exam Preparation 2018"

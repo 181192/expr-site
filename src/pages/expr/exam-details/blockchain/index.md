@@ -1,15 +1,13 @@
 ---
-path: "/blockchain/blockchain"
+path: "/exam-details/blockchain"
 date: "2018-11-23"
-title: "Blockchain"
+title: "Examination details for the Blockchain module"
 author: "Kristoffer-Andre Kalliainen"
 draft: false
-tags: "blockchain"
-ogKeywords: "blockchain"
-ogDescription: "All about Affice Cypher"
+tags: "exam-details"
+ogKeywords: "blockchain exam-details"
+ogDescription: "Examination details for the Blockchain module"
 ---
-
-# Examination details for the Blockchain module
 
 The list of reading material is the Blockchain: Reading List. In addition, you have the lecture notes and the assignments.
 

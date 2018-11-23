@@ -1,15 +1,13 @@
 ---
 path: "/cryptography/hill-cypher"
 date: "2018-11-23"
-title: "Affine Cypher"
+title: "Hill Cypher"
 author: "Kristoffer-Andre Kalliainen"
 draft: false
 tags: "cryptography"
 ogKeywords: "cryptography"
-ogDescription: "All about Affice Cypher"
+ogDescription: "All about Hill Cypher"
 ---
-
-#### Hill Cipher
 
 - Polyalphabetic cipher
 - Requires at least 2 keys

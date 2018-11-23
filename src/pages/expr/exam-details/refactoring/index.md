@@ -1,15 +1,13 @@
 ---
-path: "/refactoring/refactoring"
+path: "/exam-details/refactoring"
 date: "2018-11-23"
-title: "Refactoring"
+title: "Examination details for the Refactoring module"
 author: "Kristoffer-Andre Kalliainen"
 draft: false
-tags: "refactoring"
-ogKeywords: "refactoring"
-ogDescription: "All about Affice Cypher"
+tags: "exam-details"
+ogKeywords: "refactoring exam-details"
+ogDescription: "Examination details for the Refactoring module"
 ---
-
-# Examination details for the Refactoring module
 
 ## Reading List
 

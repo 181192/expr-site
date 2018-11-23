@@ -3,12 +3,13 @@ import { graphql } from "gatsby";
 import Helmet from "react-helmet";
 import Layout from "../components/Layout";
 import ReadProgressLine from "../components/ReadProgressLine.js";
+import ogImage from "../../static/default-ogimage.png";
 
 export default function Template({ data, location }) {
   const { markdownRemark: post } = data; // data.markdownRemark holds our post data
 
   // If post doesn't have a defined og image, fall back to default defined here
-  const ogImage = `https://blog.georgi-yanev.com/default-ogimage-github.jpg`;
+  const website = `https://https://181192.github.io/expr-site`;
 
   return (
     <Layout location={location}>
@@ -24,42 +25,15 @@ export default function Template({ data, location }) {
             { property: "og:type", content: "website" },
             {
               property: "og:url",
-              content: `https://blog.georgi-yanev.com${post.frontmatter.path}`
+              content: `${website}${post.frontmatter.path}`
             },
-            {
-              property: "og:image",
-              content: ogImage
-            },
+            { property: "og:image", content: ogImage },
             {
               property: "og:title",
-              content: `Georgi Yanev | ${post.frontmatter.title}`
+              content: `ExPr | ${post.frontmatter.title}`
             },
             {
               property: "og:description",
-              content: `${post.frontmatter.ogDescription}`
-            },
-            {
-              name: "twitter:card",
-              content: "summary"
-            },
-            {
-              name: "twitter:site",
-              content: "@jumpalottahigh"
-            },
-            {
-              name: "twitter:image",
-              content: ogImage
-            },
-            {
-              name: "twitter:creator",
-              content: "@jumpalottahigh"
-            },
-            {
-              name: "twitter:title",
-              content: `Georgi Yanev | ${post.frontmatter.title}`
-            },
-            {
-              name: "twitter:description",
               content: `${post.frontmatter.ogDescription}`
             }
           ]}
@@ -71,7 +45,7 @@ export default function Template({ data, location }) {
             "@type": "NewsArticle",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://blog.georgi-yanev.com${post.frontmatter.path}"
+              "@id": "${website}${post.frontmatter.path}"
             },
             "headline": "${post.frontmatter.title}",
             "name": "${post.frontmatter.title}",
@@ -88,25 +62,21 @@ export default function Template({ data, location }) {
             ],
             "publisher": {
               "@type": "Organization",
-              "name": "Georgi's Blog",
+              "name": "ExPr",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://blog.georgi-yanev.com/default-ogimage-generic.png"
+                "url": "${website}"
               }
             },
             "description": "${post.excerpt}",
             "articleSection": "${post.excerpt}",
-            "url": "https://blog.georgi-yanev.com${post.frontmatter.path}"
+            "url": "${website}${post.frontmatter.path}"
           }
         `}</script>
         </Helmet>
         <div className="blog-post">
           <ReadProgressLine />
           <h1>{post.frontmatter.title}</h1>
-          <div className="disclaimer-container">
-            <span className="year">{post.frontmatter.date}</span>
-            <span className="disclaimer">{post.frontmatter.author}</span>
-          </div>
           <div
             className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: post.html }}
