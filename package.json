@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-blog",
-  "description": "Georgi Yanev's Gatsby blog starter",
+  "name": "expr",
+  "description": "Exam preparation site 2018",
   "version": "1.1.0",
-  "author": "Georgi Yanev <georgiyanev.gy@gmail.com>",
+  "author": "Kristoffer-Andre Kalliainen <181192@stud.hvl.no>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.8.0",
     "gatsby": "^2.0.19",
@@ -31,7 +31,7 @@
     "styled-components": "^3.4.9"
   },
   "keywords": [
-    "Georgi Yanev Gatsby.js Blog Starter"
+    "Gatsby.js"
   ],
   "license": "MIT",
   "main": "n/a",
