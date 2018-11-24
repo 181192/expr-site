@@ -13,6 +13,10 @@ ogDescription: "Examination details for Basic Cryptography Module"
 
 - Lecture Notes
 - [http://www.tutorialspoint.com/cryptography/](http://www.tutorialspoint.com/cryptography/)
+- [The DES Algorithm Illustrated](http://page.math.tu-berlin.de/~kant/teaching/hess/krypto-ws2006/des.htm)
+- [A Stick Figure guide to the Advanced Encryption standard (AES)](http://www.moserware.com/2009/09/stick-figure-guide-to-advanced.html)
+- [Ten Risks of PKI: What You’re not Being Told about Public Key Infrastructure By Carl Ellison and Bruce Schneier (pdf)](https://hvl.instructure.com/courses/3040/files/174469/download?wrap=1)
+- [15 reasons not to start using PGP (pdf)](https://hvl.instructure.com/courses/3040/files/174633/download?wrap=1)
 
 ## Exam structure
 
