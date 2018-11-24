@@ -41,5 +41,9 @@ yarn install
 Start the development and hot-reload server:
 
 ```shell
-gatsby develop
+yarn dev
 ```
+
+## Lighthouse audits
+
+![Audits](https://raw.githubusercontent.com/181192/expr-site/master/audits.png)
