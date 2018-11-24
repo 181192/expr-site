@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ExPr 2018]]></title><description><![CDATA[Exam Preparation 2018]]></description><link>https://181192.github.io/expr-site</link><generator>RSS for Node</generator><lastBuildDate>Fri, 23 Nov 2018 22:58:58 GMT</lastBuildDate><item><title><![CDATA[Examination details for the Blockchain module]]></title><description><![CDATA[The list of reading material is the Blockchain: Reading List. In addition, you have the lecture notes and the assignments. In the…]]></description><link>https://181192.github.io/expr-site/exam-details/blockchain/</link><guid isPermaLink="false">https://181192.github.io/expr-site/exam-details/blockchain/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The list of reading material is the Blockchain: Reading List. In addition, you have the lecture notes and the assignments.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ExPr 2018]]></title><description><![CDATA[Exam Preparation 2018]]></description><link>https://181192.github.io/expr-site</link><generator>RSS for Node</generator><lastBuildDate>Sat, 24 Nov 2018 09:08:47 GMT</lastBuildDate><item><title><![CDATA[Examination details for the Blockchain module]]></title><description><![CDATA[The list of reading material is the Blockchain: Reading List. In addition, you have the lecture notes and the assignments. In the…]]></description><link>https://181192.github.io/expr-site/exam-details/blockchain/</link><guid isPermaLink="false">https://181192.github.io/expr-site/exam-details/blockchain/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The list of reading material is the Blockchain: Reading List. In addition, you have the lecture notes and the assignments.&lt;/p&gt;
 &lt;p&gt;In the examination of the Blockchain module, you will draw and answer 2 questions.&lt;/p&gt;
 &lt;h2&gt;The first question&lt;/h2&gt;
 &lt;p&gt;The first question will be about a general blockchain topic (from the lectures / books). You will get one (randomly selected) of these:&lt;/p&gt;
@@ -20,48 +20,7 @@
 &lt;li&gt;The UTXO-set&lt;/li&gt;
 &lt;li&gt;Mining, nonce, “target”&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;It is preferrable that you elaborate on your own. You will probably get follow-up questions. The total examination time for this module is ~10 minutes. You are not allowed to bring notes.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Examination details for Basic Cryptography Module]]></title><description><![CDATA[Reading Lists for the Exam Lecture Notes http://www.tutorialspoint.com/cryptography/ Exam structure No hard calculations!!! Come with your…]]></description><link>https://181192.github.io/expr-site/exam-details/cryptography/</link><guid isPermaLink="false">https://181192.github.io/expr-site/exam-details/cryptography/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Reading Lists for the Exam&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Lecture Notes&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.tutorialspoint.com/cryptography/&quot;&gt;http://www.tutorialspoint.com/cryptography/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Exam structure&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;No hard calculations!!!&lt;/li&gt;
-&lt;li&gt;Come with your pen, pencil &amp;#x26; erasers&lt;/li&gt;
-&lt;li&gt;3 parts with different weights. Parts 1 and 2 are the most important.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Part 1.Definitions and concepts&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Show understanding of the different crypto algorithms and concepts under:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Symmetric, Asymmetric, Hashing, Digital Signature, + PKI&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Basics of crypto&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;e.g. substitution, permutation, diffusion, confusion, mono- and poly-alphabetic, gcd, Finding inverse, etc&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Security properties&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Confidentiality, Integrity, Availability, Authentication, Authorization, Non-repudiation&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Part 2.Practical applications of cryptography&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Real scenarios of crypto application (blockchain excluded!). You will be given an application scenario that requires crypto solution. You will then describe how you can use crypto systems to provide relevant security solutions to the problem.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Part 3.Bonus Questions&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;You should be able to give examples of different crypto algorithms&lt;/li&gt;
-&lt;li&gt;You might get names of crypto algorithms and you should be able to fit them into the appropriate category (symmetric, Asymmetric, Hash functions, etc)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;You are allowed to illustrate on the board but NO MATERIAL is allowed for this module!!!&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Examination details for the Refactoring module]]></title><description><![CDATA[Reading List As per  Reading List  on Refactoring. Remember to look at the work on refactoring C/C++. Exam Question There will only be time…]]></description><link>https://181192.github.io/expr-site/exam-details/refactoring/</link><guid isPermaLink="false">https://181192.github.io/expr-site/exam-details/refactoring/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Reading List&lt;/h2&gt;
+&lt;p&gt;It is preferrable that you elaborate on your own. You will probably get follow-up questions. The total examination time for this module is ~10 minutes. You are not allowed to bring notes.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Examination details for the Refactoring module]]></title><description><![CDATA[Reading List As per  Reading List  on Refactoring. Remember to look at the work on refactoring C/C++. Exam Question There will only be time…]]></description><link>https://181192.github.io/expr-site/exam-details/refactoring/</link><guid isPermaLink="false">https://181192.github.io/expr-site/exam-details/refactoring/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Reading List&lt;/h2&gt;
 &lt;p&gt;As per &lt;a href=&quot;https://hvl.instructure.com/courses/3040/pages/reading-list-refactoring&quot;&gt;Reading List&lt;/a&gt; on Refactoring. Remember to look at the work on refactoring C/C++.&lt;/p&gt;
 &lt;h2&gt;Exam Question&lt;/h2&gt;
 &lt;p&gt;There will only be time for 2-3 questions per module. We will discuss a randomly selected refactoring first. After that, we will discuss a secondary topic (on smells or metrics), but depending on the refactoring we discuss in the first part, we may go seamlessly from one topic to the next.&lt;/p&gt;
@@ -320,8 +279,222 @@ different metrics, advantages/disadvantages&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Ciphertext: $y = {VKZIBEVCCH}$&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Cryptography Questions]]></title><description><![CDATA[Not implemented yet :)]]></description><link>https://181192.github.io/expr-site/questions/cryptography/</link><guid isPermaLink="false">https://181192.github.io/expr-site/questions/cryptography/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Not implemented yet :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Refactoring Questions]]></title><description><![CDATA[Not implemented yet :)]]></description><link>https://181192.github.io/expr-site/questions/refactoring/</link><guid isPermaLink="false">https://181192.github.io/expr-site/questions/refactoring/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Not implemented yet :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hill Cypher]]></title><description><![CDATA[Polyalphabetic cipher Requires at least 2 keys Uses a linear combination of the key with the plaintext to form the ciphertext.]]></description><link>https://181192.github.io/expr-site/cryptography/hill-cypher/</link><guid isPermaLink="false">https://181192.github.io/expr-site/cryptography/hill-cypher/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;ul&gt;
+&lt;p&gt;Ciphertext: $y = {VKZIBEVCCH}$&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Refactoring Questions]]></title><description><![CDATA[Not implemented yet :)]]></description><link>https://181192.github.io/expr-site/questions/refactoring/</link><guid isPermaLink="false">https://181192.github.io/expr-site/questions/refactoring/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Not implemented yet :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hill Cypher]]></title><description><![CDATA[Polyalphabetic cipher Requires at least 2 keys Uses a linear combination of the key with the plaintext to form the ciphertext.]]></description><link>https://181192.github.io/expr-site/cryptography/hill-cypher/</link><guid isPermaLink="false">https://181192.github.io/expr-site/cryptography/hill-cypher/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;ul&gt;
 &lt;li&gt;Polyalphabetic cipher&lt;/li&gt;
 &lt;li&gt;Requires at least 2 keys&lt;/li&gt;
 &lt;li&gt;Uses a linear combination of the key with the plaintext to form the ciphertext.&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item></channel></rss>
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Examination details for Basic Cryptography Module]]></title><description><![CDATA[Reading Lists for the Exam Lecture Notes http://www.tutorialspoint.com/cryptography/ The DES Algorithm Illustrated A Stick Figure guide to…]]></description><link>https://181192.github.io/expr-site/exam-details/cryptography/</link><guid isPermaLink="false">https://181192.github.io/expr-site/exam-details/cryptography/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Reading Lists for the Exam&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Lecture Notes&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.tutorialspoint.com/cryptography/&quot;&gt;http://www.tutorialspoint.com/cryptography/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://page.math.tu-berlin.de/~kant/teaching/hess/krypto-ws2006/des.htm&quot;&gt;The DES Algorithm Illustrated&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.moserware.com/2009/09/stick-figure-guide-to-advanced.html&quot;&gt;A Stick Figure guide to the Advanced Encryption standard (AES)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://hvl.instructure.com/courses/3040/files/174469/download?wrap=1&quot;&gt;Ten Risks of PKI: What You’re not Being Told about Public Key Infrastructure By Carl Ellison and Bruce Schneier (pdf)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://hvl.instructure.com/courses/3040/files/174633/download?wrap=1&quot;&gt;15 reasons not to start using PGP (pdf)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Exam structure&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;No hard calculations!!!&lt;/li&gt;
+&lt;li&gt;Come with your pen, pencil &amp;#x26; erasers&lt;/li&gt;
+&lt;li&gt;3 parts with different weights. Parts 1 and 2 are the most important.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Part 1.Definitions and concepts&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Show understanding of the different crypto algorithms and concepts under:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Symmetric, Asymmetric, Hashing, Digital Signature, + PKI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Basics of crypto&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;e.g. substitution, permutation, diffusion, confusion, mono- and poly-alphabetic, gcd, Finding inverse, etc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Security properties&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Confidentiality, Integrity, Availability, Authentication, Authorization, Non-repudiation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Part 2.Practical applications of cryptography&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Real scenarios of crypto application (blockchain excluded!). You will be given an application scenario that requires crypto solution. You will then describe how you can use crypto systems to provide relevant security solutions to the problem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Part 3.Bonus Questions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;You should be able to give examples of different crypto algorithms&lt;/li&gt;
+&lt;li&gt;You might get names of crypto algorithms and you should be able to fit them into the appropriate category (symmetric, Asymmetric, Hash functions, etc)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;You are allowed to illustrate on the board but NO MATERIAL is allowed for this module!!!&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Cryptography Questions]]></title><description><![CDATA[Classical Cryptography 1.An example of a monoalphabetic cipher is:
+a) Shiftcipher
+b) Hill cipher
+c) Vigenere cipher Two conditions must hold…]]></description><link>https://181192.github.io/expr-site/questions/cryptography/</link><guid isPermaLink="false">https://181192.github.io/expr-site/questions/cryptography/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Classical Cryptography&lt;/h2&gt;
+&lt;p&gt;1.An example of a monoalphabetic cipher is:
+a) Shiftcipher
+b) Hill cipher
+c) Vigenere cipher&lt;/p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;Two conditions must hold to find the multiplicative inverse of an integer modulo another integer:
+a) The gcd of the integer and the modulo integer must be invertible
+b) The gcd of the integer and the modulo integer must be equal to one
+c) The gcd of the integer and the modulo integer must be equal to zero&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The main purpose of using a poly alphabetic cipher is to:
+a) Hide the statistical property of the plaintext letters
+b) Increase the number of letters in the ciphertext
+c) Defeat brute force attack&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hill cipheris:
+a) An Asymmetric cipher
+b) A Symmetric cipher
+c) A Hash function&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Cyptography can be directly linked to all of these core security properties except:
+a) Confidentiality
+b) Integrity
+c) Availability
+d) Authenticity&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Symmetric Cryptography&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;The basic elements of a sound cryptography are:
+a) Diffusion, Key secrecy and Confusion
+b) Encryption, Key secrecy and confusion
+c) Encryption, decryption and keysecrecy&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In a blockcipher:
+a) Messages are encryptedat once
+b) Messages are split into blocks before encryption
+c) Messages are split into two before encryption&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Symmetric encryption can provide:
+a) Non-repudiation
+b) Confidentiality&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The following are challenges with symmetric encryption except:
+a) Key distribution
+b) Key management
+c) Speed of execution&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In stream ciphers:
+a) Successive keys are used to encrypt plaintext message
+b) The same key is used to encrypt plaintext message&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The security of cryptography must rely on:
+a) Keeping the cryptography algorithm secret
+b) Keeping both the crypto algorithm and the key secret
+c) Keeping only the key secret&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Asymmetric Cryptography&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Asymmetric cryptography uses:
+a) Public and private keys
+b) A secret key known to two parties
+c) Public keys&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The security level of 128-bit asymmetrickey is the same as 128-bit symmetric key:
+a) True
+b) False&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The security of RSA is based on the difficulty of:
+a) Solving the logarithm problem
+b) Factoring large prime numbers
+c) Solving quadratic problem&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A 4-bit (11012) messagein an Elliptic curve can be expressed in polynomial form as:
+a) x^4+x^2+1
+b) x^3+x^2+x+1
+c) x^3+x^2+1&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Hashing and Digital Signature&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;In digital signature:
+a) The publickeyis used to signthemessageand theprivate keyused to verifythesignature
+b) The publickeyis used to encryptthemessageand theprivate keyis used to decryptit
+c) The private keyis used to signthemessageand thepublickeyto verify&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hash functions should be collision resistant because:
+a) Authentication can only be achieved if there is no collision
+b) Integrity can only be preserved if there is no collision
+c) Confidentiality can only be achieved if there is no collision&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;MAC
+a) Uses asymmetric keys and provide authentication and integrity
+b) Uses symmetric key and provide authentication and integrity
+c) Uses symmetric key and provide authentication, integrity and non-repudiation&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;One-wayness of a hash function means
+a) Two different messages cannot hash to the same hash values
+b) One message cannot produce two different hash values
+c) It is not possible to derive the input from the hash output&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Which hash function has collision been found?
+a) SHAE256
+b) MD5
+c) RIPEMDE160&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;What is the major difference between MAC and Hashing
+a) MAC provides integrity
+b) MAC provides authentication
+c) MAC provides confidentiality&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Whatis themajor differencebetweenMAC and digital signature
+a) MAC hashes the message and encrypt with the private key
+b) MAC hashes the message and the symmetric key
+c) MAC hashes the message&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Why do we need to hash in digital signature?
+a) Because we need irreversible function
+b) Because of speed and size
+c) To avoid message collisions&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Public Key Infrastructure and Overview of crypto in Blockchain&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;What does PKI achieve in publickey systems? (multiple answers)
+a) Binds an identity to a publickey
+b) Verifies users transactions
+c) Provides key management such as key distribution, validation and revocation&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;How is PGP certificate different from X.509 certificatemodel? (multiple answers)
+a) You can create your own certificate
+b) You need a single authority to sign your certificate
+c) A PGP certificate can contain multiple signatures&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;PGP uses:
+a) Symmetric and asymmetric crypto systems
+b) Only symmetric
+c) Only asymmetric&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item></channel></rss>
