@@ -9,29 +9,29 @@ ogKeywords: "cryptography"
 ogDescription: "All about Affice Cypher"
 ---
 
-![alt text](affineCypherEncryption.jpg "Affine encrytion")
+![affineCypherEncryption](affineCypherEncryption.jpg)
 
 ## Think about how to decrypt the Affine Cipher
 
 ## Decryption
 
-![alt text](affineCypherDecryption.jpg "Affine encrytion")
+![affineCypherDecryption](affineCypherDecryption.jpg)
 
 ## Inverse'of'multiplicative'cipher
 
-![alt text](inverse.jpg "Affine encrytion")
+![inverse](inverse.jpg)
 
 ## How to compute the inverse of a key (Trial and Error Approach
 
-![alt text](compute_inverse.jpg "Affine encrytion")
+![compute_inverse](compute_inverse.jpg)
 
 ## Exercise
 
-![alt text](exercise.jpg "Affine encrytion")
+![exercise](exercise.jpg)
 
 ## Decryption
 
-![alt text](full_decryption.jpg "Affine encrytion")
+![full_decryption](full_decryption.jpg)
 
 ## Computational effort to break Affine Cipher
 
