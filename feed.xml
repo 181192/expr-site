@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ExPr 2018]]></title><description><![CDATA[Exam Preparation 2018]]></description><link>https://181192.github.io/expr-site</link><generator>RSS for Node</generator><lastBuildDate>Sat, 24 Nov 2018 14:02:53 GMT</lastBuildDate><item><title><![CDATA[Examination details for the Blockchain module]]></title><description><![CDATA[The list of reading material is the Blockchain: Reading List. In addition, you have the lecture notes and the assignments. In the…]]></description><link>https://181192.github.io/expr-site/exam-details/blockchain/</link><guid isPermaLink="false">https://181192.github.io/expr-site/exam-details/blockchain/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The list of reading material is the Blockchain: Reading List. In addition, you have the lecture notes and the assignments.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ExPr 2018]]></title><description><![CDATA[Exam Preparation 2018]]></description><link>https://181192.github.io/expr-site</link><generator>RSS for Node</generator><lastBuildDate>Sat, 24 Nov 2018 14:26:01 GMT</lastBuildDate><item><title><![CDATA[Examination details for the Blockchain module]]></title><description><![CDATA[The list of reading material is the Blockchain: Reading List. In addition, you have the lecture notes and the assignments. In the…]]></description><link>https://181192.github.io/expr-site/exam-details/blockchain/</link><guid isPermaLink="false">https://181192.github.io/expr-site/exam-details/blockchain/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The list of reading material is the Blockchain: Reading List. In addition, you have the lecture notes and the assignments.&lt;/p&gt;
 &lt;p&gt;In the examination of the Blockchain module, you will draw and answer 2 questions.&lt;/p&gt;
 &lt;h2&gt;The first question&lt;/h2&gt;
 &lt;p&gt;The first question will be about a general blockchain topic (from the lectures / books). You will get one (randomly selected) of these:&lt;/p&gt;
@@ -20,270 +20,7 @@
 &lt;li&gt;The UTXO-set&lt;/li&gt;
 &lt;li&gt;Mining, nonce, “target”&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;It is preferrable that you elaborate on your own. You will probably get follow-up questions. The total examination time for this module is ~10 minutes. You are not allowed to bring notes.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Examination details for the Refactoring module]]></title><description><![CDATA[Reading List As per  Reading List  on Refactoring. Remember to look at the work on refactoring C/C++. Exam Question There will only be time…]]></description><link>https://181192.github.io/expr-site/exam-details/refactoring/</link><guid isPermaLink="false">https://181192.github.io/expr-site/exam-details/refactoring/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Reading List&lt;/h2&gt;
-&lt;p&gt;As per &lt;a href=&quot;https://hvl.instructure.com/courses/3040/pages/reading-list-refactoring&quot;&gt;Reading List&lt;/a&gt; on Refactoring. Remember to look at the work on refactoring C/C++.&lt;/p&gt;
-&lt;h2&gt;Exam Question&lt;/h2&gt;
-&lt;p&gt;There will only be time for 2-3 questions per module. We will discuss a randomly selected refactoring first. After that, we will discuss a secondary topic (on smells or metrics), but depending on the refactoring we discuss in the first part, we may go seamlessly from one topic to the next.&lt;/p&gt;
-&lt;h3&gt;Some possible questions/question-styles&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;which refactoring should we apply here? why?&lt;/li&gt;
-&lt;li&gt;which refactoring has been applied here (source code before/after)?&lt;/li&gt;
-&lt;li&gt;make a small example on paper/the whiteboard that shows what refactoring X does&lt;/li&gt;
-&lt;li&gt;what are smells/the different smells?
-different metrics, advantages/disadvantages&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Blockchain]]></title><description><![CDATA[Not implemented yet :)]]></description><link>https://181192.github.io/expr-site/blockchain/blockchain/</link><guid isPermaLink="false">https://181192.github.io/expr-site/blockchain/blockchain/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Not implemented yet :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Refactoring]]></title><description><![CDATA[Not implemented yet :)]]></description><link>https://181192.github.io/expr-site/refactoring/refactoring/</link><guid isPermaLink="false">https://181192.github.io/expr-site/refactoring/refactoring/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Not implemented yet :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Blockchain Questions]]></title><description><![CDATA[How is a payment carried out in the Bitcoin network? What is distributed consensus? What is a blockchain? What is scripts and smart…]]></description><link>https://181192.github.io/expr-site/questions/blockchain/</link><guid isPermaLink="false">https://181192.github.io/expr-site/questions/blockchain/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;How is a payment carried out in the Bitcoin network?&lt;/h2&gt;
-&lt;h2&gt;What is distributed consensus?&lt;/h2&gt;
-&lt;h2&gt;What is a blockchain?&lt;/h2&gt;
-&lt;h2&gt;What is scripts and smart contracts?&lt;/h2&gt;
-&lt;h2&gt;How does blockchain scale and how fast is it?&lt;/h2&gt;
-&lt;h2&gt;What applications / use cases is there for blockchain?&lt;/h2&gt;
-&lt;h2&gt;What are inputs and outputs?&lt;/h2&gt;
-&lt;h2&gt;What are transactions, signing, validation?&lt;/h2&gt;
-&lt;h2&gt;What is private key, public key, address and signature?&lt;/h2&gt;
-&lt;h2&gt;What is hashing used for?&lt;/h2&gt;
-&lt;h2&gt;What is the UTXO-set?&lt;/h2&gt;
-&lt;h2&gt;What is mining, nonce and “target”?&lt;/h2&gt;</content:encoded></item><item><title><![CDATA[Affine Cypher]]></title><description><![CDATA[Think about how to decrypt the Affine Cipher Decryption Inverse’of’multiplicative’cipher How to compute the inverse of a key (Trial and…]]></description><link>https://181192.github.io/expr-site/cryptography/affine-cypher/</link><guid isPermaLink="false">https://181192.github.io/expr-site/cryptography/affine-cypher/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/expr-site/static/23caa89c66e6c93812508814c8d16df4/f2eef/affineCypherEncryption.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 51.91193511008111%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB7TVUwUD/xAAaEAACAgMAAAAAAAAAAAAAAAAAEQECECJC/9oACAEBAAEFAlJsKx1j/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGBAAAwEBAAAAAAAAAAAAAAAAADGhIOH/2gAIAQEABj8C4ODmP//EABsQAAIBBQAAAAAAAAAAAAAAAAABMRARIUFh/9oACAEBAAE/Ic0i0A4Qm9q//9oADAMBAAIAAwAAABCfP//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/EIj/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPxCq/8QAHBAAAgICAwAAAAAAAAAAAAAAAREAIXHwEFHR/9oACAEBAAE/ECUitnp7AJAOswIvRmFCGV04rfH/2Q==&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;alt text&quot;
-        title=&quot;Affine encrytion&quot;
-        src=&quot;/expr-site/static/23caa89c66e6c93812508814c8d16df4/7fd8e/affineCypherEncryption.jpg&quot;
-        srcset=&quot;/expr-site/static/23caa89c66e6c93812508814c8d16df4/815e2/affineCypherEncryption.jpg 148w,
-/expr-site/static/23caa89c66e6c93812508814c8d16df4/58ff1/affineCypherEncryption.jpg 295w,
-/expr-site/static/23caa89c66e6c93812508814c8d16df4/7fd8e/affineCypherEncryption.jpg 590w,
-/expr-site/static/23caa89c66e6c93812508814c8d16df4/bf67d/affineCypherEncryption.jpg 885w,
-/expr-site/static/23caa89c66e6c93812508814c8d16df4/305a1/affineCypherEncryption.jpg 1180w,
-/expr-site/static/23caa89c66e6c93812508814c8d16df4/f2eef/affineCypherEncryption.jpg 1726w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;h2&gt;Think about how to decrypt the Affine Cipher&lt;/h2&gt;
-&lt;h2&gt;Decryption&lt;/h2&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/expr-site/static/3bce410b97d90131587e8e4190386da0/cf47b/affineCypherDecryption.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 53.40699815837937%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdxo0HAP/8QAFhAAAwAAAAAAAAAAAAAAAAAAARAg/9oACAEBAAEFAoC//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGRAAAwEBAQAAAAAAAAAAAAAAAAERIRBh/9oACAEBAAE/IVKX3l2GmRH/2gAMAwEAAgADAAAAELMP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGxABAAMBAAMAAAAAAAAAAAAAAQARITFBUWH/2gAIAQEAAT8QosUfSAzewzzcEVcGEoQ56gHAJ//Z&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;alt text&quot;
-        title=&quot;Affine encrytion&quot;
-        src=&quot;/expr-site/static/3bce410b97d90131587e8e4190386da0/7fd8e/affineCypherDecryption.jpg&quot;
-        srcset=&quot;/expr-site/static/3bce410b97d90131587e8e4190386da0/815e2/affineCypherDecryption.jpg 148w,
-/expr-site/static/3bce410b97d90131587e8e4190386da0/58ff1/affineCypherDecryption.jpg 295w,
-/expr-site/static/3bce410b97d90131587e8e4190386da0/7fd8e/affineCypherDecryption.jpg 590w,
-/expr-site/static/3bce410b97d90131587e8e4190386da0/bf67d/affineCypherDecryption.jpg 885w,
-/expr-site/static/3bce410b97d90131587e8e4190386da0/305a1/affineCypherDecryption.jpg 1180w,
-/expr-site/static/3bce410b97d90131587e8e4190386da0/cf47b/affineCypherDecryption.jpg 1629w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;h2&gt;Inverse’of’multiplicative’cipher&lt;/h2&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/expr-site/static/0a17650e4d7a1054fe9760bed8acfb7a/e4288/inverse.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 45.534407027818446%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHuY8yggf/EABcQAQEBAQAAAAAAAAAAAAAAAAEAEDH/2gAIAQEAAQUCdeRf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGRABAQEAAwAAAAAAAAAAAAAAAQAxEVFh/9oACAEBAAE/IRxAdkPttNi//9oADAMBAAIAAwAAABDzz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABoQAQACAwEAAAAAAAAAAAAAAAEAMREhcaH/2gAIAQEAAT8QEK4xyJC26gBss8Uocl3Z/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;alt text&quot;
-        title=&quot;Affine encrytion&quot;
-        src=&quot;/expr-site/static/0a17650e4d7a1054fe9760bed8acfb7a/7fd8e/inverse.jpg&quot;
-        srcset=&quot;/expr-site/static/0a17650e4d7a1054fe9760bed8acfb7a/815e2/inverse.jpg 148w,
-/expr-site/static/0a17650e4d7a1054fe9760bed8acfb7a/58ff1/inverse.jpg 295w,
-/expr-site/static/0a17650e4d7a1054fe9760bed8acfb7a/7fd8e/inverse.jpg 590w,
-/expr-site/static/0a17650e4d7a1054fe9760bed8acfb7a/bf67d/inverse.jpg 885w,
-/expr-site/static/0a17650e4d7a1054fe9760bed8acfb7a/305a1/inverse.jpg 1180w,
-/expr-site/static/0a17650e4d7a1054fe9760bed8acfb7a/e4288/inverse.jpg 1366w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;h2&gt;How to compute the inverse of a key (Trial and Error Approach&lt;/h2&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/expr-site/static/49e35f9c90cb1cbdbd76bec792486eca/f850e/compute_inverse.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 57.03073904512755%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIBAwX/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAdxZUoAm/wD/xAAaEAACAgMAAAAAAAAAAAAAAAAAAgERAyEy/9oACAEBAAEFAqH0i5GqxuViD//EABYRAQEBAAAAAAAAAAAAAAAAAAACEv/aAAgBAwEBPwFqX//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPwFlf//EABYQAQEBAAAAAAAAAAAAAAAAAAEAIP/aAAgBAQAGPwKXP//EABsQAAMAAgMAAAAAAAAAAAAAAAABESExQVGR/9oACAEBAAE/IYphCWF0McPBtdj10yLR/9oADAMBAAIAAwAAABBH/wD/xAAXEQEBAQEAAAAAAAAAAAAAAAABABEh/9oACAEDAQE/EBB1l3hf/8QAFhEBAQEAAAAAAAAAAAAAAAAAABFh/9oACAECAQE/EJWz/8QAGRABAQEBAQEAAAAAAAAAAAAAAREAIUEx/9oACAEBAAE/EFFQ++ZdLULjqhjOYFz1m7QeJMBwnd//2Q==&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;alt text&quot;
-        title=&quot;Affine encrytion&quot;
-        src=&quot;/expr-site/static/49e35f9c90cb1cbdbd76bec792486eca/7fd8e/compute_inverse.jpg&quot;
-        srcset=&quot;/expr-site/static/49e35f9c90cb1cbdbd76bec792486eca/815e2/compute_inverse.jpg 148w,
-/expr-site/static/49e35f9c90cb1cbdbd76bec792486eca/58ff1/compute_inverse.jpg 295w,
-/expr-site/static/49e35f9c90cb1cbdbd76bec792486eca/7fd8e/compute_inverse.jpg 590w,
-/expr-site/static/49e35f9c90cb1cbdbd76bec792486eca/bf67d/compute_inverse.jpg 885w,
-/expr-site/static/49e35f9c90cb1cbdbd76bec792486eca/305a1/compute_inverse.jpg 1180w,
-/expr-site/static/49e35f9c90cb1cbdbd76bec792486eca/f850e/compute_inverse.jpg 1529w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;h2&gt;Exercise&lt;/h2&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/expr-site/static/68d01f0c2921ab57a200967ff59d6780/8c38d/exercise.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 57.06332637439109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdynBYg//8QAFhAAAwAAAAAAAAAAAAAAAAAAACBB/9oACAEBAAEFAkp//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGhAAAgIDAAAAAAAAAAAAAAAAAREAICExUf/aAAgBAQABPyFZ0Ix2r//aAAwDAQACAAMAAAAQ8w//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAdEAABAwUBAAAAAAAAAAAAAAABABExECFBUYGR/9oACAEBAAE/ECAZNCasQeumF0+r/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;alt text&quot;
-        title=&quot;Affine encrytion&quot;
-        src=&quot;/expr-site/static/68d01f0c2921ab57a200967ff59d6780/7fd8e/exercise.jpg&quot;
-        srcset=&quot;/expr-site/static/68d01f0c2921ab57a200967ff59d6780/815e2/exercise.jpg 148w,
-/expr-site/static/68d01f0c2921ab57a200967ff59d6780/58ff1/exercise.jpg 295w,
-/expr-site/static/68d01f0c2921ab57a200967ff59d6780/7fd8e/exercise.jpg 590w,
-/expr-site/static/68d01f0c2921ab57a200967ff59d6780/bf67d/exercise.jpg 885w,
-/expr-site/static/68d01f0c2921ab57a200967ff59d6780/305a1/exercise.jpg 1180w,
-/expr-site/static/68d01f0c2921ab57a200967ff59d6780/8c38d/exercise.jpg 1437w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;h2&gt;Decryption&lt;/h2&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/expr-site/static/12f9b92c5dea88b7601598b071ac5880/29b9a/full_decryption.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 52.97583971714791%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAgX/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAH/2gAMAwEAAhADEAAAAdu6UIviJl//xAAYEAADAQEAAAAAAAAAAAAAAAAAARIQEf/aAAgBAQABBQLesplM/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8Bqv/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/AYj/xAAWEAEBAQAAAAAAAAAAAAAAAAAAMRD/2gAIAQEABj8C2qr/xAAZEAACAwEAAAAAAAAAAAAAAAAAYQEQETH/2gAIAQEAAT8hyERnKeGh4//aAAwDAQACAAMAAAAQt/8A/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQIBAT8Qs//EABwQAAICAgMAAAAAAAAAAAAAAAERACEQwTFh0f/aAAgBAQABPxBdMu6EMAhFcI4KtkX7QJ3z/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;alt text&quot;
-        title=&quot;Affine encrytion&quot;
-        src=&quot;/expr-site/static/12f9b92c5dea88b7601598b071ac5880/7fd8e/full_decryption.jpg&quot;
-        srcset=&quot;/expr-site/static/12f9b92c5dea88b7601598b071ac5880/815e2/full_decryption.jpg 148w,
-/expr-site/static/12f9b92c5dea88b7601598b071ac5880/58ff1/full_decryption.jpg 295w,
-/expr-site/static/12f9b92c5dea88b7601598b071ac5880/7fd8e/full_decryption.jpg 590w,
-/expr-site/static/12f9b92c5dea88b7601598b071ac5880/bf67d/full_decryption.jpg 885w,
-/expr-site/static/12f9b92c5dea88b7601598b071ac5880/305a1/full_decryption.jpg 1180w,
-/expr-site/static/12f9b92c5dea88b7601598b071ac5880/29b9a/full_decryption.jpg 1697w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;h2&gt;Computational effort to break Affine Cipher&lt;/h2&gt;
-&lt;p&gt;$$12 * 26 = 312$$&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Brute-force 312 keys.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Cryptoanalysis o Affine Cipher&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;The Affine cipher incresed the key space over shift cipher&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;However, it is still susceptible to:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Brute-Force and Frequency analysis attacks&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Ciphertext: $y = {VKZIBEVCCH}$&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Refactoring Questions]]></title><description><![CDATA[Not implemented yet :)]]></description><link>https://181192.github.io/expr-site/questions/refactoring/</link><guid isPermaLink="false">https://181192.github.io/expr-site/questions/refactoring/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Not implemented yet :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hill Cypher]]></title><description><![CDATA[Polyalphabetic cipher Requires at least 2 keys Uses a linear combination of the key with the plaintext to form the ciphertext.]]></description><link>https://181192.github.io/expr-site/cryptography/hill-cypher/</link><guid isPermaLink="false">https://181192.github.io/expr-site/cryptography/hill-cypher/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;ul&gt;
-&lt;li&gt;Polyalphabetic cipher&lt;/li&gt;
-&lt;li&gt;Requires at least 2 keys&lt;/li&gt;
-&lt;li&gt;Uses a linear combination of the key with the plaintext to form the ciphertext.&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Examination details for Basic Cryptography Module]]></title><description><![CDATA[Reading Lists for the Exam Lecture Notes http://www.tutorialspoint.com/cryptography/ The DES Algorithm Illustrated A Stick Figure guide to…]]></description><link>https://181192.github.io/expr-site/exam-details/cryptography/</link><guid isPermaLink="false">https://181192.github.io/expr-site/exam-details/cryptography/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Reading Lists for the Exam&lt;/h2&gt;
+&lt;p&gt;It is preferrable that you elaborate on your own. You will probably get follow-up questions. The total examination time for this module is ~10 minutes. You are not allowed to bring notes.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Examination details for Basic Cryptography Module]]></title><description><![CDATA[Reading Lists for the Exam Lecture Notes http://www.tutorialspoint.com/cryptography/ The DES Algorithm Illustrated A Stick Figure guide to…]]></description><link>https://181192.github.io/expr-site/exam-details/cryptography/</link><guid isPermaLink="false">https://181192.github.io/expr-site/exam-details/cryptography/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Reading Lists for the Exam&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Lecture Notes&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.tutorialspoint.com/cryptography/&quot;&gt;http://www.tutorialspoint.com/cryptography/&lt;/a&gt;&lt;/li&gt;
@@ -328,7 +65,29 @@ different metrics, advantages/disadvantages&lt;/li&gt;
 &lt;li&gt;You should be able to give examples of different crypto algorithms&lt;/li&gt;
 &lt;li&gt;You might get names of crypto algorithms and you should be able to fit them into the appropriate category (symmetric, Asymmetric, Hash functions, etc)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;You are allowed to illustrate on the board but NO MATERIAL is allowed for this module!!!&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Cryptography Questions]]></title><description><![CDATA[Classical Cryptography An example of a monoalphabetic cipher is: Shiftcipher Hill cipher Vigenere cipher Two conditions must hold to find…]]></description><link>https://181192.github.io/expr-site/questions/cryptography/</link><guid isPermaLink="false">https://181192.github.io/expr-site/questions/cryptography/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Classical Cryptography&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;You are allowed to illustrate on the board but NO MATERIAL is allowed for this module!!!&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Examination details for the Refactoring module]]></title><description><![CDATA[Reading List As per  Reading List  on Refactoring. Remember to look at the work on refactoring C/C++. Exam Question There will only be time…]]></description><link>https://181192.github.io/expr-site/exam-details/refactoring/</link><guid isPermaLink="false">https://181192.github.io/expr-site/exam-details/refactoring/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Reading List&lt;/h2&gt;
+&lt;p&gt;As per &lt;a href=&quot;https://hvl.instructure.com/courses/3040/pages/reading-list-refactoring&quot;&gt;Reading List&lt;/a&gt; on Refactoring. Remember to look at the work on refactoring C/C++.&lt;/p&gt;
+&lt;h2&gt;Exam Question&lt;/h2&gt;
+&lt;p&gt;There will only be time for 2-3 questions per module. We will discuss a randomly selected refactoring first. After that, we will discuss a secondary topic (on smells or metrics), but depending on the refactoring we discuss in the first part, we may go seamlessly from one topic to the next.&lt;/p&gt;
+&lt;h3&gt;Some possible questions/question-styles&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;which refactoring should we apply here? why?&lt;/li&gt;
+&lt;li&gt;which refactoring has been applied here (source code before/after)?&lt;/li&gt;
+&lt;li&gt;make a small example on paper/the whiteboard that shows what refactoring X does&lt;/li&gt;
+&lt;li&gt;what are smells/the different smells?
+different metrics, advantages/disadvantages&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Refactoring]]></title><description><![CDATA[Not implemented yet :)]]></description><link>https://181192.github.io/expr-site/refactoring/refactoring/</link><guid isPermaLink="false">https://181192.github.io/expr-site/refactoring/refactoring/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Not implemented yet :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Blockchain Questions]]></title><description><![CDATA[How is a payment carried out in the Bitcoin network? What is distributed consensus? What is a blockchain? What is scripts and smart…]]></description><link>https://181192.github.io/expr-site/questions/blockchain/</link><guid isPermaLink="false">https://181192.github.io/expr-site/questions/blockchain/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;How is a payment carried out in the Bitcoin network?&lt;/h2&gt;
+&lt;h2&gt;What is distributed consensus?&lt;/h2&gt;
+&lt;h2&gt;What is a blockchain?&lt;/h2&gt;
+&lt;h2&gt;What is scripts and smart contracts?&lt;/h2&gt;
+&lt;h2&gt;How does blockchain scale and how fast is it?&lt;/h2&gt;
+&lt;h2&gt;What applications / use cases is there for blockchain?&lt;/h2&gt;
+&lt;h2&gt;What are inputs and outputs?&lt;/h2&gt;
+&lt;h2&gt;What are transactions, signing, validation?&lt;/h2&gt;
+&lt;h2&gt;What is private key, public key, address and signature?&lt;/h2&gt;
+&lt;h2&gt;What is hashing used for?&lt;/h2&gt;
+&lt;h2&gt;What is the UTXO-set?&lt;/h2&gt;
+&lt;h2&gt;What is mining, nonce and “target”?&lt;/h2&gt;</content:encoded></item><item><title><![CDATA[Blockchain]]></title><description><![CDATA[Not implemented yet :)]]></description><link>https://181192.github.io/expr-site/blockchain/blockchain/</link><guid isPermaLink="false">https://181192.github.io/expr-site/blockchain/blockchain/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Not implemented yet :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Cryptography Questions]]></title><description><![CDATA[Classical Cryptography An example of a monoalphabetic cipher is: Shiftcipher Hill cipher Vigenere cipher Two conditions must hold to find…]]></description><link>https://181192.github.io/expr-site/questions/cryptography/</link><guid isPermaLink="false">https://181192.github.io/expr-site/questions/cryptography/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Classical Cryptography&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;An example of a monoalphabetic cipher is:&lt;/li&gt;
 &lt;/ol&gt;
@@ -590,4 +349,245 @@ different metrics, advantages/disadvantages&lt;/li&gt;
 &lt;li&gt;Only symmetric&lt;/li&gt;
 &lt;li&gt;Only asymmetric&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/blockquote&gt;</content:encoded></item></channel></rss>
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Refactoring Questions]]></title><description><![CDATA[Not implemented yet :)]]></description><link>https://181192.github.io/expr-site/questions/refactoring/</link><guid isPermaLink="false">https://181192.github.io/expr-site/questions/refactoring/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Not implemented yet :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Affine Cypher]]></title><description><![CDATA[Think about how to decrypt the Affine Cipher Decryption Inverse’of’multiplicative’cipher How to compute the inverse of a key (Trial and…]]></description><link>https://181192.github.io/expr-site/cryptography/affine-cypher/</link><guid isPermaLink="false">https://181192.github.io/expr-site/cryptography/affine-cypher/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/expr-site/static/23caa89c66e6c93812508814c8d16df4/f2eef/affineCypherEncryption.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 51.91193511008111%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB7TVUwUD/xAAaEAACAgMAAAAAAAAAAAAAAAAAEQECECJC/9oACAEBAAEFAlJsKx1j/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGBAAAwEBAAAAAAAAAAAAAAAAADGhIOH/2gAIAQEABj8C4ODmP//EABsQAAIBBQAAAAAAAAAAAAAAAAABMRARIUFh/9oACAEBAAE/Ic0i0A4Qm9q//9oADAMBAAIAAwAAABCfP//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/EIj/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPxCq/8QAHBAAAgICAwAAAAAAAAAAAAAAAREAIXHwEFHR/9oACAEBAAE/ECUitnp7AJAOswIvRmFCGV04rfH/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;affineCypherEncryption&quot;
+        title=&quot;&quot;
+        src=&quot;/expr-site/static/23caa89c66e6c93812508814c8d16df4/7fd8e/affineCypherEncryption.jpg&quot;
+        srcset=&quot;/expr-site/static/23caa89c66e6c93812508814c8d16df4/815e2/affineCypherEncryption.jpg 148w,
+/expr-site/static/23caa89c66e6c93812508814c8d16df4/58ff1/affineCypherEncryption.jpg 295w,
+/expr-site/static/23caa89c66e6c93812508814c8d16df4/7fd8e/affineCypherEncryption.jpg 590w,
+/expr-site/static/23caa89c66e6c93812508814c8d16df4/bf67d/affineCypherEncryption.jpg 885w,
+/expr-site/static/23caa89c66e6c93812508814c8d16df4/305a1/affineCypherEncryption.jpg 1180w,
+/expr-site/static/23caa89c66e6c93812508814c8d16df4/f2eef/affineCypherEncryption.jpg 1726w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;Think about how to decrypt the Affine Cipher&lt;/h2&gt;
+&lt;h2&gt;Decryption&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/expr-site/static/3bce410b97d90131587e8e4190386da0/cf47b/affineCypherDecryption.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 53.40699815837937%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdxo0HAP/8QAFhAAAwAAAAAAAAAAAAAAAAAAARAg/9oACAEBAAEFAoC//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGRAAAwEBAQAAAAAAAAAAAAAAAAERIRBh/9oACAEBAAE/IVKX3l2GmRH/2gAMAwEAAgADAAAAELMP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGxABAAMBAAMAAAAAAAAAAAAAAQARITFBUWH/2gAIAQEAAT8QosUfSAzewzzcEVcGEoQ56gHAJ//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;affineCypherDecryption&quot;
+        title=&quot;&quot;
+        src=&quot;/expr-site/static/3bce410b97d90131587e8e4190386da0/7fd8e/affineCypherDecryption.jpg&quot;
+        srcset=&quot;/expr-site/static/3bce410b97d90131587e8e4190386da0/815e2/affineCypherDecryption.jpg 148w,
+/expr-site/static/3bce410b97d90131587e8e4190386da0/58ff1/affineCypherDecryption.jpg 295w,
+/expr-site/static/3bce410b97d90131587e8e4190386da0/7fd8e/affineCypherDecryption.jpg 590w,
+/expr-site/static/3bce410b97d90131587e8e4190386da0/bf67d/affineCypherDecryption.jpg 885w,
+/expr-site/static/3bce410b97d90131587e8e4190386da0/305a1/affineCypherDecryption.jpg 1180w,
+/expr-site/static/3bce410b97d90131587e8e4190386da0/cf47b/affineCypherDecryption.jpg 1629w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;Inverse’of’multiplicative’cipher&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/expr-site/static/0a17650e4d7a1054fe9760bed8acfb7a/e4288/inverse.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 45.534407027818446%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHuY8yggf/EABcQAQEBAQAAAAAAAAAAAAAAAAEAEDH/2gAIAQEAAQUCdeRf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGRABAQEAAwAAAAAAAAAAAAAAAQAxEVFh/9oACAEBAAE/IRxAdkPttNi//9oADAMBAAIAAwAAABDzz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABoQAQACAwEAAAAAAAAAAAAAAAEAMREhcaH/2gAIAQEAAT8QEK4xyJC26gBss8Uocl3Z/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;inverse&quot;
+        title=&quot;&quot;
+        src=&quot;/expr-site/static/0a17650e4d7a1054fe9760bed8acfb7a/7fd8e/inverse.jpg&quot;
+        srcset=&quot;/expr-site/static/0a17650e4d7a1054fe9760bed8acfb7a/815e2/inverse.jpg 148w,
+/expr-site/static/0a17650e4d7a1054fe9760bed8acfb7a/58ff1/inverse.jpg 295w,
+/expr-site/static/0a17650e4d7a1054fe9760bed8acfb7a/7fd8e/inverse.jpg 590w,
+/expr-site/static/0a17650e4d7a1054fe9760bed8acfb7a/bf67d/inverse.jpg 885w,
+/expr-site/static/0a17650e4d7a1054fe9760bed8acfb7a/305a1/inverse.jpg 1180w,
+/expr-site/static/0a17650e4d7a1054fe9760bed8acfb7a/e4288/inverse.jpg 1366w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;How to compute the inverse of a key (Trial and Error Approach&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/expr-site/static/49e35f9c90cb1cbdbd76bec792486eca/f850e/compute_inverse.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 57.03073904512755%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIBAwX/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAdxZUoAm/wD/xAAaEAACAgMAAAAAAAAAAAAAAAAAAgERAyEy/9oACAEBAAEFAqH0i5GqxuViD//EABYRAQEBAAAAAAAAAAAAAAAAAAACEv/aAAgBAwEBPwFqX//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPwFlf//EABYQAQEBAAAAAAAAAAAAAAAAAAEAIP/aAAgBAQAGPwKXP//EABsQAAMAAgMAAAAAAAAAAAAAAAABESExQVGR/9oACAEBAAE/IYphCWF0McPBtdj10yLR/9oADAMBAAIAAwAAABBH/wD/xAAXEQEBAQEAAAAAAAAAAAAAAAABABEh/9oACAEDAQE/EBB1l3hf/8QAFhEBAQEAAAAAAAAAAAAAAAAAABFh/9oACAECAQE/EJWz/8QAGRABAQEBAQEAAAAAAAAAAAAAAREAIUEx/9oACAEBAAE/EFFQ++ZdLULjqhjOYFz1m7QeJMBwnd//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;compute_inverse&quot;
+        title=&quot;&quot;
+        src=&quot;/expr-site/static/49e35f9c90cb1cbdbd76bec792486eca/7fd8e/compute_inverse.jpg&quot;
+        srcset=&quot;/expr-site/static/49e35f9c90cb1cbdbd76bec792486eca/815e2/compute_inverse.jpg 148w,
+/expr-site/static/49e35f9c90cb1cbdbd76bec792486eca/58ff1/compute_inverse.jpg 295w,
+/expr-site/static/49e35f9c90cb1cbdbd76bec792486eca/7fd8e/compute_inverse.jpg 590w,
+/expr-site/static/49e35f9c90cb1cbdbd76bec792486eca/bf67d/compute_inverse.jpg 885w,
+/expr-site/static/49e35f9c90cb1cbdbd76bec792486eca/305a1/compute_inverse.jpg 1180w,
+/expr-site/static/49e35f9c90cb1cbdbd76bec792486eca/f850e/compute_inverse.jpg 1529w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;Exercise&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/expr-site/static/68d01f0c2921ab57a200967ff59d6780/8c38d/exercise.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 57.06332637439109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdynBYg//8QAFhAAAwAAAAAAAAAAAAAAAAAAACBB/9oACAEBAAEFAkp//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGhAAAgIDAAAAAAAAAAAAAAAAAREAICExUf/aAAgBAQABPyFZ0Ix2r//aAAwDAQACAAMAAAAQ8w//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAdEAABAwUBAAAAAAAAAAAAAAABABExECFBUYGR/9oACAEBAAE/ECAZNCasQeumF0+r/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;exercise&quot;
+        title=&quot;&quot;
+        src=&quot;/expr-site/static/68d01f0c2921ab57a200967ff59d6780/7fd8e/exercise.jpg&quot;
+        srcset=&quot;/expr-site/static/68d01f0c2921ab57a200967ff59d6780/815e2/exercise.jpg 148w,
+/expr-site/static/68d01f0c2921ab57a200967ff59d6780/58ff1/exercise.jpg 295w,
+/expr-site/static/68d01f0c2921ab57a200967ff59d6780/7fd8e/exercise.jpg 590w,
+/expr-site/static/68d01f0c2921ab57a200967ff59d6780/bf67d/exercise.jpg 885w,
+/expr-site/static/68d01f0c2921ab57a200967ff59d6780/305a1/exercise.jpg 1180w,
+/expr-site/static/68d01f0c2921ab57a200967ff59d6780/8c38d/exercise.jpg 1437w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;Decryption&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/expr-site/static/12f9b92c5dea88b7601598b071ac5880/29b9a/full_decryption.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 52.97583971714791%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAgX/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAH/2gAMAwEAAhADEAAAAdu6UIviJl//xAAYEAADAQEAAAAAAAAAAAAAAAAAARIQEf/aAAgBAQABBQLesplM/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8Bqv/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/AYj/xAAWEAEBAQAAAAAAAAAAAAAAAAAAMRD/2gAIAQEABj8C2qr/xAAZEAACAwEAAAAAAAAAAAAAAAAAYQEQETH/2gAIAQEAAT8hyERnKeGh4//aAAwDAQACAAMAAAAQt/8A/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQIBAT8Qs//EABwQAAICAgMAAAAAAAAAAAAAAAERACEQwTFh0f/aAAgBAQABPxBdMu6EMAhFcI4KtkX7QJ3z/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;full_decryption&quot;
+        title=&quot;&quot;
+        src=&quot;/expr-site/static/12f9b92c5dea88b7601598b071ac5880/7fd8e/full_decryption.jpg&quot;
+        srcset=&quot;/expr-site/static/12f9b92c5dea88b7601598b071ac5880/815e2/full_decryption.jpg 148w,
+/expr-site/static/12f9b92c5dea88b7601598b071ac5880/58ff1/full_decryption.jpg 295w,
+/expr-site/static/12f9b92c5dea88b7601598b071ac5880/7fd8e/full_decryption.jpg 590w,
+/expr-site/static/12f9b92c5dea88b7601598b071ac5880/bf67d/full_decryption.jpg 885w,
+/expr-site/static/12f9b92c5dea88b7601598b071ac5880/305a1/full_decryption.jpg 1180w,
+/expr-site/static/12f9b92c5dea88b7601598b071ac5880/29b9a/full_decryption.jpg 1697w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;Computational effort to break Affine Cipher&lt;/h2&gt;
+&lt;p&gt;$$12 * 26 = 312$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Brute-force 312 keys.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Cryptoanalysis o Affine Cipher&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The Affine cipher incresed the key space over shift cipher&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;However, it is still susceptible to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Brute-Force and Frequency analysis attacks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ciphertext: $y = {VKZIBEVCCH}$&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hill Cypher]]></title><description><![CDATA[Polyalphabetic cipher Requires at least 2 keys Uses a linear combination of the key with the plaintext to form the ciphertext.]]></description><link>https://181192.github.io/expr-site/cryptography/hill-cypher/</link><guid isPermaLink="false">https://181192.github.io/expr-site/cryptography/hill-cypher/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;ul&gt;
+&lt;li&gt;Polyalphabetic cipher&lt;/li&gt;
+&lt;li&gt;Requires at least 2 keys&lt;/li&gt;
+&lt;li&gt;Uses a linear combination of the key with the plaintext to form the ciphertext.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item></channel></rss>
