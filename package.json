@@ -39,6 +39,7 @@
     "build": "gatsby build --paths-prefix",
     "dev": "gatsby develop --paths-prefix",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\"",
     "clean": "rm -rf ./public && rm -rf .cache",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },

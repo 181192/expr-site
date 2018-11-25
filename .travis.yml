@@ -16,5 +16,7 @@ deploy:
 before_script:
   - "yarn global add gatsby"
   - "yarn install"
+script:
+  - "yarn run test"
 after_success:
   - "yarn run deploy"
