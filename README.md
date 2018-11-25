@@ -1,5 +1,7 @@
 # Exam Preperation Site
 
+[![Build Status](https://travis-ci.com/181192/expr-site.svg?branch=master)](https://travis-ci.com/181192/expr-site)
+
 This page is build to provide all curriculum for the DAT159 subject at HVL.
 
 This page is build with Gatsby 💜 (a React based static site generator) and is hosted on Github Pages.
@@ -8,7 +10,10 @@ This page is build with Gatsby 💜 (a React based static site generator) and is
 
 - Build with Gatsby.js
 - Running with Node.js
+- CI/CD by Travis-CI
 - Hosted on Github Pages
+
+Travis-CI is continuously building the project and deploting it to Github Pages from the master branch to the gh-pages branch.
 
 ## Requirements
 
