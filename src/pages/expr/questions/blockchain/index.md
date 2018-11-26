@@ -13,6 +13,8 @@ ogDescription: "Blockchain Questions"
 
 ## What is distributed consensus?
 
+## What is known as the biggest risk of distributed consensus?
+
 ## What is a blockchain?
 
 ## What is scripts and smart contracts?
@@ -32,3 +34,7 @@ ogDescription: "Blockchain Questions"
 ## What is the UTXO-set?
 
 ## What is mining, nonce and "target"?
+
+## What is the difference between PoW and PoS?
+
+## What is the consequence if a block on the chain is altered after it's been added?
