@@ -9,13 +9,12 @@ ogKeywords: "refactoring questions"
 ogDescription: "Refactoring Questions"
 ---
 
-- Give the "cooking recipe" for the 
-	"Move method" refactoring
-	"Pull Up Field" refactoring
-	"Extract Method" refactoring
-	"Pull Up Method" refactoring
-	"Extract Variable" refactoring
-
+- Give the "cooking recipe" for the
+	- "Move method" refactoring
+	- "Pull Up Field" refactoring
+	- "Extract Method" refactoring
+	- "Pull Up Method" refactoring
+	- "Extract Variable" refactoring
 - Give some examples of simple refactorings
 - Give some examples of OO refactorings
 - Make a small example where you show what the different refactorings do.
