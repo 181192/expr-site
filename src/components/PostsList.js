@@ -29,7 +29,8 @@ export default class PostsList extends Component {
     questions: [],
     blockchain: [],
     refactoring: [],
-    cryptography: []
+    cryptography: [],
+    iot: []
   };
 
   filter(pages) {
@@ -38,6 +39,7 @@ export default class PostsList extends Component {
     let blockchain = [];
     let refactoring = [];
     let cryptography = [];
+    let iot = [];
 
     // Filter the data
     pages.map(page => {
@@ -57,6 +59,9 @@ export default class PostsList extends Component {
         case "refactoring":
           refactoring.push(page);
           break;
+        case "iot":
+          iot.push(page);
+          break;
       }
     });
 
@@ -65,7 +70,8 @@ export default class PostsList extends Component {
       questions,
       blockchain,
       refactoring,
-      cryptography
+      cryptography,
+      iot
     });
   }
 
@@ -177,6 +183,16 @@ export default class PostsList extends Component {
                 onClick={this.handleFilterClick}
               >
                 Refactoring
+              </button>
+            )}
+            {this.state.refactoring.length > 0 && (
+              <button
+                className={`category iot ${currentFilter === "iot" &&
+                  "active"}`}
+                data-filter="iot"
+                onClick={this.handleFilterClick}
+              >
+                IoT
               </button>
             )}
           </div>
