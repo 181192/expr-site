@@ -15,7 +15,8 @@ export default class SideBar extends React.Component {
       questions: [],
       blockchain: [],
       cryptography: [],
-      refactoring: []
+      refactoring: [],
+      iot: []
     };
   }
 
@@ -25,6 +26,7 @@ export default class SideBar extends React.Component {
     let blockchain = [];
     let cryptography = [];
     let refactoring = [];
+    let iot = [];
 
     // Filter the data
     pages.map(page => {
@@ -44,6 +46,9 @@ export default class SideBar extends React.Component {
         case "refactoring":
           refactoring.push(page);
           break;
+        case "iot":
+          iot.push(page);
+          break;
       }
     });
 
@@ -52,7 +57,8 @@ export default class SideBar extends React.Component {
       questions,
       blockchain,
       cryptography,
-      refactoring
+      refactoring,
+      iot
     });
   }
 
@@ -110,6 +116,16 @@ export default class SideBar extends React.Component {
               📝 <em>Refactoring</em>
             </li>
             {this.state.refactoring.map((page, index) => (
+              <li key={page.node.id}>
+                <Link to={page.node.frontmatter.path} activeStyle={activeStyle}>
+                  {page.node.frontmatter.title}
+                </Link>
+              </li>
+            ))}
+            <li>
+              📝 <em>IoT</em>
+            </li>
+            {this.state.iot.map((page, index) => (
               <li key={page.node.id}>
                 <Link to={page.node.frontmatter.path} activeStyle={activeStyle}>
                   {page.node.frontmatter.title}
