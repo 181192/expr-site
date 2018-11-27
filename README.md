@@ -6,6 +6,8 @@ This page is build to provide all curriculum for the DAT159 subject at HVL.
 
 This page is build with Gatsby 💜 (a React based static site generator) and is hosted on Github Pages.
 
+![mockup](https://raw.githubusercontent.com/181192/expr-site/master/mockup.png)
+
 ## About the project
 
 - Build with Gatsby.js
