@@ -88,28 +88,27 @@ module.exports = {
         ]
       }
     },
-
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "Exam Preparation 2018",
-        short_name: "ExPr",
-        start_url: "/expr-site",
-        background_color: "#f7f0eb",
-        theme_color: "#0275d8",
-        display: "standalone",
+        name: "EXRE",
+        short_name: "EXRE",
         icons: [
           {
             src: "favicons/android-chrome-192x192.png",
-            sizes: `192x192`,
-            type: `image/png`
+            sizes: "192x192",
+            type: "image/png"
           },
           {
-            src: "favicons/android-chrome-512x512.png",
-            sizes: `512x512`,
-            type: `image/png`
+            src: "favicons/android-chrome-384x384.png",
+            sizes: "384x384",
+            type: "image/png"
           }
-        ]
+        ],
+        theme_color: "#1a263d",
+        background_color: "#1a263d",
+        start_url: "https://181192.github.io/expr-site/",
+        display: "standalone"
       }
     },
     `gatsby-plugin-offline`
