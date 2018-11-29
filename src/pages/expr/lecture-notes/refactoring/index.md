@@ -37,6 +37,7 @@ ogDescription: "All about Refactoring"
 - Speculative Generality
 - Oddball Solution
 - Temporary Field
+- Switch statements
 
 ## Bad smells between classes
 
@@ -57,4 +58,8 @@ ogDescription: "All about Refactoring"
 - Solution Sprawl
 
 [Grouping of smells](http://mikamantyla.eu/BadCodeSmellsTaxonomy.html)
+
+## Cooking recepies
+
+[Cooking recepies](http://www.industriallogic.com/wp-content/uploads/2005/09/smellstorefactorings.pdf)
 
