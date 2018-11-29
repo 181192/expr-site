@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ExPr 2018]]></title><description><![CDATA[Exam Preparation 2018]]></description><link>https://181192.github.io/expr-site</link><generator>RSS for Node</generator><lastBuildDate>Thu, 29 Nov 2018 12:55:16 GMT</lastBuildDate><item><title><![CDATA[Examination details for IoT Module]]></title><description><![CDATA[Reading Lists for the Exam Chapter 1: Bagha and Madisetti: Internet of Things - A Hands-On Approach. (hardcopy handed out) Mattern and…]]></description><link>https://181192.github.io/expr-site/exam-details/iot/</link><guid isPermaLink="false">https://181192.github.io/expr-site/exam-details/iot/</guid><pubDate>Mon, 26 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Reading Lists for the Exam&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ExPr 2018]]></title><description><![CDATA[Exam Preparation 2018]]></description><link>https://181192.github.io/expr-site</link><generator>RSS for Node</generator><lastBuildDate>Thu, 29 Nov 2018 17:09:14 GMT</lastBuildDate><item><title><![CDATA[Examination details for IoT Module]]></title><description><![CDATA[Reading Lists for the Exam Chapter 1: Bagha and Madisetti: Internet of Things - A Hands-On Approach. (hardcopy handed out) Mattern and…]]></description><link>https://181192.github.io/expr-site/exam-details/iot/</link><guid isPermaLink="false">https://181192.github.io/expr-site/exam-details/iot/</guid><pubDate>Mon, 26 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Reading Lists for the Exam&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Chapter 1: Bagha and Madisetti: Internet of Things - A Hands-On Approach. (hardcopy handed out)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://vs.inf.ethz.ch/publ/papers/Internet-of-things.pdfLinks&quot;&gt;Mattern and Floerkemeier: From the Internet of Computers to the Internet of Things&lt;/a&gt;&lt;/li&gt;
@@ -246,7 +246,90 @@ So if you create a truly random private key, there is ~ zero chance that someone
 But the format is not human understandable &lt;br&gt;
 There are a lot of applications that shows / visualizes / gives read-access to the data in the blockchain &lt;br&gt;
 These are called block explorers &lt;br&gt;
-&lt;a href=&quot;https://live.blockcypher.com/&quot;&gt;Example&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Cryptography Questions]]></title><description><![CDATA[Classical Cryptography An example of a monoalphabetic cipher is: Shiftcipher Hill cipher Vigenere cipher Two conditions must hold to find…]]></description><link>https://181192.github.io/expr-site/questions/cryptography/</link><guid isPermaLink="false">https://181192.github.io/expr-site/questions/cryptography/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Classical Cryptography&lt;/h2&gt;
+&lt;a href=&quot;https://live.blockcypher.com/&quot;&gt;Example&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Refactoring]]></title><description><![CDATA[Goals The ultimate goal of performing refactoring on your code is to make it clearer to understand and thereby more effecient to maintain…]]></description><link>https://181192.github.io/expr-site/refactoring/refactoring/</link><guid isPermaLink="false">https://181192.github.io/expr-site/refactoring/refactoring/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Goals&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The ultimate goal of performing refactoring on your code is to make it clearer to understand and thereby more effecient to maintain&lt;/li&gt;
+&lt;li&gt;Refactoring changes the code internally by altering its structure, but it does not under any circumstances create change to the external behaviour of the code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Way of working&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Refactoring is heavily based on test driven development.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/expr-site/static/0bb965deaf94160743f557e10daed46f/9417b/TDD.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 57.14285714285714%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAB2U2lyuJKP//EABkQAQEAAwEAAAAAAAAAAAAAAAECAAMREP/aAAgBAQABBQLa8k6XlAknn//EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAwEBPwEcn//EABYRAAMAAAAAAAAAAAAAAAAAAAEQYf/aAAgBAgEBPwExf//EABkQAAIDAQAAAAAAAAAAAAAAAAEhABAREv/aAAgBAQAGPwJHID0qc2v/xAAaEAEBAAMBAQAAAAAAAAAAAAABEQAQUSEx/9oACAEBAAE/IXtR3CQpnzuoMXBUR7Nf/9oADAMBAAIAAwAAABA7D//EABcRAAMBAAAAAAAAAAAAAAAAAAEQEUH/2gAIAQMBAT8QJU1f/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8QaEf/xAAdEAEBAAEEAwAAAAAAAAAAAAABESEAEDFBUWFx/9oACAEBAAE/EA9WgIodtPmoVsiWjtTOfeNnAAZL5ONWsZKvd2//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Test driven development&quot;
+        title=&quot;&quot;
+        src=&quot;/expr-site/static/0bb965deaf94160743f557e10daed46f/7fd8e/TDD.jpg&quot;
+        srcset=&quot;/expr-site/static/0bb965deaf94160743f557e10daed46f/815e2/TDD.jpg 148w,
+/expr-site/static/0bb965deaf94160743f557e10daed46f/58ff1/TDD.jpg 295w,
+/expr-site/static/0bb965deaf94160743f557e10daed46f/7fd8e/TDD.jpg 590w,
+/expr-site/static/0bb965deaf94160743f557e10daed46f/bf67d/TDD.jpg 885w,
+/expr-site/static/0bb965deaf94160743f557e10daed46f/305a1/TDD.jpg 1180w,
+/expr-site/static/0bb965deaf94160743f557e10daed46f/9417b/TDD.jpg 1190w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;Bad smells within classes&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.codinghorror.com/code-smells/&quot;&gt;Overview of smells&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Long Methods&lt;/li&gt;
+&lt;li&gt;Long Parameter List&lt;/li&gt;
+&lt;li&gt;Duplicated code&lt;/li&gt;
+&lt;li&gt;Conditional Complexity&lt;/li&gt;
+&lt;li&gt;Combinitorial Explosion&lt;/li&gt;
+&lt;li&gt;Large Class&lt;/li&gt;
+&lt;li&gt;Type Embedded in Name&lt;/li&gt;
+&lt;li&gt;Uncommunicative Name&lt;/li&gt;
+&lt;li&gt;Inconsistent Names&lt;/li&gt;
+&lt;li&gt;Dead Code&lt;/li&gt;
+&lt;li&gt;Speculative Generality&lt;/li&gt;
+&lt;li&gt;Oddball Solution&lt;/li&gt;
+&lt;li&gt;Temporary Field&lt;/li&gt;
+&lt;li&gt;Switch statements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Bad smells between classes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Alternative Classes with Different Interfaces&lt;/li&gt;
+&lt;li&gt;Primitive Obsession&lt;/li&gt;
+&lt;li&gt;Data Clumps&lt;/li&gt;
+&lt;li&gt;Refused Bequest&lt;/li&gt;
+&lt;li&gt;Inappropriate Intimacy&lt;/li&gt;
+&lt;li&gt;Indecent Exposure&lt;/li&gt;
+&lt;li&gt;Feature Envy&lt;/li&gt;
+&lt;li&gt;Lazy Class&lt;/li&gt;
+&lt;li&gt;Message Chains&lt;/li&gt;
+&lt;li&gt;Middle Man&lt;/li&gt;
+&lt;li&gt;Divergent Change&lt;/li&gt;
+&lt;li&gt;Shotgun Surgery&lt;/li&gt;
+&lt;li&gt;Parallel Inheritance Hierarchies&lt;/li&gt;
+&lt;li&gt;Incomplete Library Class&lt;/li&gt;
+&lt;li&gt;Solution Sprawl&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;http://mikamantyla.eu/BadCodeSmellsTaxonomy.html&quot;&gt;Grouping of smells&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Cooking recepies&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.industriallogic.com/wp-content/uploads/2005/09/smellstorefactorings.pdf&quot;&gt;Cooking recepies&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Cryptography Questions]]></title><description><![CDATA[Classical Cryptography An example of a monoalphabetic cipher is: Shiftcipher Hill cipher Vigenere cipher Two conditions must hold to find…]]></description><link>https://181192.github.io/expr-site/questions/cryptography/</link><guid isPermaLink="false">https://181192.github.io/expr-site/questions/cryptography/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Classical Cryptography&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;An example of a monoalphabetic cipher is:&lt;/li&gt;
 &lt;/ol&gt;
@@ -508,90 +591,7 @@ These are called block explorers &lt;br&gt;
 &lt;li&gt;Only symmetric&lt;/li&gt;
 &lt;li&gt;Only asymmetric&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Refactoring]]></title><description><![CDATA[Goals The ultimate goal of performing refactoring on your code is to make it clearer to understand and thereby more effecient to maintain…]]></description><link>https://181192.github.io/expr-site/refactoring/refactoring/</link><guid isPermaLink="false">https://181192.github.io/expr-site/refactoring/refactoring/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Goals&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;The ultimate goal of performing refactoring on your code is to make it clearer to understand and thereby more effecient to maintain&lt;/li&gt;
-&lt;li&gt;Refactoring changes the code internally by altering its structure, but it does not under any circumstances create change to the external behaviour of the code&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Way of working&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Refactoring is heavily based on test driven development.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/expr-site/static/0bb965deaf94160743f557e10daed46f/9417b/TDD.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 57.14285714285714%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAB2U2lyuJKP//EABkQAQEAAwEAAAAAAAAAAAAAAAECAAMREP/aAAgBAQABBQLa8k6XlAknn//EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAwEBPwEcn//EABYRAAMAAAAAAAAAAAAAAAAAAAEQYf/aAAgBAgEBPwExf//EABkQAAIDAQAAAAAAAAAAAAAAAAEhABAREv/aAAgBAQAGPwJHID0qc2v/xAAaEAEBAAMBAQAAAAAAAAAAAAABEQAQUSEx/9oACAEBAAE/IXtR3CQpnzuoMXBUR7Nf/9oADAMBAAIAAwAAABA7D//EABcRAAMBAAAAAAAAAAAAAAAAAAEQEUH/2gAIAQMBAT8QJU1f/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8QaEf/xAAdEAEBAAEEAwAAAAAAAAAAAAABESEAEDFBUWFx/9oACAEBAAE/EA9WgIodtPmoVsiWjtTOfeNnAAZL5ONWsZKvd2//2Q==&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Test driven development&quot;
-        title=&quot;&quot;
-        src=&quot;/expr-site/static/0bb965deaf94160743f557e10daed46f/7fd8e/TDD.jpg&quot;
-        srcset=&quot;/expr-site/static/0bb965deaf94160743f557e10daed46f/815e2/TDD.jpg 148w,
-/expr-site/static/0bb965deaf94160743f557e10daed46f/58ff1/TDD.jpg 295w,
-/expr-site/static/0bb965deaf94160743f557e10daed46f/7fd8e/TDD.jpg 590w,
-/expr-site/static/0bb965deaf94160743f557e10daed46f/bf67d/TDD.jpg 885w,
-/expr-site/static/0bb965deaf94160743f557e10daed46f/305a1/TDD.jpg 1180w,
-/expr-site/static/0bb965deaf94160743f557e10daed46f/9417b/TDD.jpg 1190w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;h2&gt;Bad smells within classes&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://blog.codinghorror.com/code-smells/&quot;&gt;Overview of smells&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Long Methods&lt;/li&gt;
-&lt;li&gt;Long Parameter List&lt;/li&gt;
-&lt;li&gt;Duplicated code&lt;/li&gt;
-&lt;li&gt;Conditional Complexity&lt;/li&gt;
-&lt;li&gt;Combinitorial Explosion&lt;/li&gt;
-&lt;li&gt;Large Class&lt;/li&gt;
-&lt;li&gt;Type Embedded in Name&lt;/li&gt;
-&lt;li&gt;Uncommunicative Name&lt;/li&gt;
-&lt;li&gt;Inconsistent Names&lt;/li&gt;
-&lt;li&gt;Dead Code&lt;/li&gt;
-&lt;li&gt;Speculative Generality&lt;/li&gt;
-&lt;li&gt;Oddball Solution&lt;/li&gt;
-&lt;li&gt;Temporary Field&lt;/li&gt;
-&lt;li&gt;Switch statements&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Bad smells between classes&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Alternative Classes with Different Interfaces&lt;/li&gt;
-&lt;li&gt;Primitive Obsession&lt;/li&gt;
-&lt;li&gt;Data Clumps&lt;/li&gt;
-&lt;li&gt;Refused Bequest&lt;/li&gt;
-&lt;li&gt;Inappropriate Intimacy&lt;/li&gt;
-&lt;li&gt;Indecent Exposure&lt;/li&gt;
-&lt;li&gt;Feature Envy&lt;/li&gt;
-&lt;li&gt;Lazy Class&lt;/li&gt;
-&lt;li&gt;Message Chains&lt;/li&gt;
-&lt;li&gt;Middle Man&lt;/li&gt;
-&lt;li&gt;Divergent Change&lt;/li&gt;
-&lt;li&gt;Shotgun Surgery&lt;/li&gt;
-&lt;li&gt;Parallel Inheritance Hierarchies&lt;/li&gt;
-&lt;li&gt;Incomplete Library Class&lt;/li&gt;
-&lt;li&gt;Solution Sprawl&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href=&quot;http://mikamantyla.eu/BadCodeSmellsTaxonomy.html&quot;&gt;Grouping of smells&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Cooking recepies&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.industriallogic.com/wp-content/uploads/2005/09/smellstorefactorings.pdf&quot;&gt;Cooking recepies&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Blockchain Questions]]></title><description><![CDATA[How is a payment carried out in the Bitcoin network? What is distributed consensus? What is known as the biggest risk of distributed…]]></description><link>https://181192.github.io/expr-site/questions/blockchain/</link><guid isPermaLink="false">https://181192.github.io/expr-site/questions/blockchain/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;How is a payment carried out in the Bitcoin network?&lt;/h2&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Blockchain Questions]]></title><description><![CDATA[How is a payment carried out in the Bitcoin network? What is distributed consensus? What is known as the biggest risk of distributed…]]></description><link>https://181192.github.io/expr-site/questions/blockchain/</link><guid isPermaLink="false">https://181192.github.io/expr-site/questions/blockchain/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;How is a payment carried out in the Bitcoin network?&lt;/h2&gt;
 &lt;h2&gt;What is distributed consensus?&lt;/h2&gt;
 &lt;h2&gt;What is known as the biggest risk of distributed consensus?&lt;/h2&gt;
 &lt;h2&gt;What is a blockchain?&lt;/h2&gt;
@@ -620,6 +620,10 @@ These are called block explorers &lt;br&gt;
 &lt;li&gt;Give some examples of OO refactorings&lt;/li&gt;
 &lt;li&gt;Make a small example where you show what the different refactorings do.&lt;/li&gt;
 &lt;li&gt;“Feature Envy” is an example of a “bad smell”. Explain what it is and what types of refactoring you can do on it.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Hill Cypher]]></title><description><![CDATA[Polyalphabetic cipher Requires at least 2 keys Uses a linear combination of the key with the plaintext to form the ciphertext.]]></description><link>https://181192.github.io/expr-site/cryptography/hill-cypher/</link><guid isPermaLink="false">https://181192.github.io/expr-site/cryptography/hill-cypher/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;ul&gt;
+&lt;li&gt;Polyalphabetic cipher&lt;/li&gt;
+&lt;li&gt;Requires at least 2 keys&lt;/li&gt;
+&lt;li&gt;Uses a linear combination of the key with the plaintext to form the ciphertext.&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Affine Cypher]]></title><description><![CDATA[Think about how to decrypt the Affine Cipher Decryption Inverse’of’multiplicative’cipher How to compute the inverse of a key (Trial and…]]></description><link>https://181192.github.io/expr-site/cryptography/affine-cypher/</link><guid isPermaLink="false">https://181192.github.io/expr-site/cryptography/affine-cypher/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -857,8 +861,4 @@ These are called block explorers &lt;br&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Ciphertext: $y = {VKZIBEVCCH}$&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hill Cypher]]></title><description><![CDATA[Polyalphabetic cipher Requires at least 2 keys Uses a linear combination of the key with the plaintext to form the ciphertext.]]></description><link>https://181192.github.io/expr-site/cryptography/hill-cypher/</link><guid isPermaLink="false">https://181192.github.io/expr-site/cryptography/hill-cypher/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;ul&gt;
-&lt;li&gt;Polyalphabetic cipher&lt;/li&gt;
-&lt;li&gt;Requires at least 2 keys&lt;/li&gt;
-&lt;li&gt;Uses a linear combination of the key with the plaintext to form the ciphertext.&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;Ciphertext: $y = {VKZIBEVCCH}$&lt;/p&gt;</content:encoded></item></channel></rss>
