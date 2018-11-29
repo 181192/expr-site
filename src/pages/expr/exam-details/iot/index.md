@@ -12,10 +12,10 @@ ogDescription: "Examination details for IoT Module"
 ## Reading Lists for the Exam
 
 - Chapter 1: Bagha and Madisetti: Internet of Things - A Hands-On Approach. (hardcopy handed out)
-- [Mattern and Floerkemeier: From the Internet of Computers to the Internet of Things] (https://vs.inf.ethz.ch/publ/papers/Internet-of-things.pdfLinks)
-- [Chapter 1: Programming Embedded Systems in C and C++] (http://cs2.ist.unomaha.edu/~stanw/161/csci4500/embedded.pdfLinks)
+- [Mattern and Floerkemeier: From the Internet of Computers to the Internet of Things](https://vs.inf.ethz.ch/publ/papers/Internet-of-things.pdfLinks)
+- [Chapter 1: Programming Embedded Systems in C and C++](http://cs2.ist.unomaha.edu/~stanw/161/csci4500/embedded.pdfLinks)
 - Chapter 5 and 6 in Guinard and Trifa: Building the Web of Things (hardcopy handed out)
-- [NIST Cloud Computing] (https://csrc.nist.gov/projects/cloud-computingLinks)
+- [NIST Cloud Computing](https://csrc.nist.gov/projects/cloud-computingLinks)
 - Arshdeep Bahga and Vijay Madisetti. Cloud Computing: A Hands-On-Approach. (Chapters 1 and 2) – (Hardcopy handed out)
 - Fink, G. A. et al.(2015). Security and privacy grand challenges for the Internet of Things. In IEEE International Conference on Collaboration Technologies and Systems (CTS), (pp. 27-34).
 - Lectures notes, practice questions, and hands-on assignments A,B, and C
