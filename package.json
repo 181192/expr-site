@@ -36,12 +36,13 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "build": "gatsby build --paths-prefix",
-    "dev": "gatsby develop --paths-prefix",
+    "build": "gatsby build --prefix-paths",
+    "dev": "gatsby develop --prefix-paths",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\"",
     "clean": "rm -rf ./public && rm -rf .cache",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "serve": "gatsby build --prefix-paths && gatsby serve --prefix-paths"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",
