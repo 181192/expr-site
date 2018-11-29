@@ -883,6 +883,7 @@ div > pre {
 
 @media (max-width: 991px) {
   .main {
+    margin: 0;
     padding-left: 15rem;
   }
 }
