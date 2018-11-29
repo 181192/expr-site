@@ -91,8 +91,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "EXRE",
-        short_name: "EXRE",
+        name: "EXPR",
+        short_name: "EXPR",
         icons: [
           {
             src: "favicons/android-chrome-192x192.png",
@@ -105,9 +105,9 @@ module.exports = {
             type: "image/png"
           }
         ],
-        theme_color: "#1a263d",
-        background_color: "#1a263d",
-        start_url: "https://181192.github.io/expr-site/",
+        theme_color: "#5271ff",
+        background_color: "#5271ff",
+        start_url: "https://181192.github.io/exre-site/",
         display: "standalone"
       }
     },
