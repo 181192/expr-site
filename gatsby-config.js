@@ -107,7 +107,7 @@ module.exports = {
         ],
         theme_color: "#5271ff",
         background_color: "#5271ff",
-        start_url: "https://181192.github.io/exre-site/",
+        start_url: "https://181192.github.io/expr-site/",
         display: "standalone"
       }
     },
