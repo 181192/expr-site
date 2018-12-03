@@ -113,26 +113,3 @@ Other: Patient information, electrical market
 ## What is the consequence if a block on the chain is altered after it's been added?
 
 - - - -
-
-
-# Answers to Bitcoin questions
-
-## How is a payment carried out in the bitcoin network?
-
-
-## Distributed consensus 
-
-
-## What is a blockchain 
-
-
-## Scripts 
-
-
-## Scaling and speed 
-
-
-## Applications / use cases
-
-
-- - - -
