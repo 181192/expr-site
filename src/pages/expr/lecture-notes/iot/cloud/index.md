@@ -184,6 +184,30 @@ Cloud resources can be monitored by monitoring services provided by the cloud se
 
 ### Software Defined Networking (SDN)
 
+A SDN is a networking architecture that separates the control plane from the data plane and centralies the network controller. In the conventional network architecture the control plane and data plane are coupled. Control plane is the part of the network that carries the payload data traffic. The limitations of the conventional network architecture are as follows:
+
+> **Complex Network Devices**  
+> The conventional networks were well suited for static traffic pattern and had a large number of protocols designed for specific applications. With the emergence of cloud computing and proliferation of internet access devices, the traffic patterns are becoming more and more dynamic. Due to the complexity of conventional network devices, making changes in the networks to meet the dynamic traffic pattern has become increasingly difficult.
+
+> **Managment Overhead**  
+> Conventional networks involce significant management overhead. Upgradation of network requires configuration changes in multiple devices and interfaces from multiple vendors. (switches, routers, firewalls, etc.).
+
+> **Limited Scalability**  
+> The virtualization technologies used in cloud computing environments has increased the number of virtual hosts requiring network access (Big data application generate a lot of data between VM's). Such computing environments require highly scalable and easy to manage network architectures with minimal configurations, which is becoming increasingly difficult with conventional networks.
+
+SDN attempts to create network architectures that are simpler, inexpensive, scalable, agile and easy to manage. Software-based SDB controllers maintain a unified view of the network and make configuration, managment and provisioning simpler. The underlying network infrastructure is abstracted from the applications. Network devices become simple with SDN as they do not require implementations of a large number of protocols. Network devices recieve instructions from the SDN controller on how to forward the packets. These devices can be simpler and cost less as they can be built from standard hardware and software components.
+
+Key elements of SDN as as follows:
+
+> **Centralized Network Controller**  
+> With decoupled the control and data planes and centralized network controller, the network administrators can rapidly configure the network.
+
+> **Programmable Open API's**  
+> SDN supports programmable open API's for interface between the SDN application and control layers. These open API's allow impementing various network services such as routing, quality of service (QoS), access control, etc.
+
+> **Standard Communication Interface (OpenFlow)**  
+> SDN uses a standard communication interface between the control and infrastructure layers that is called OpenFlow. OpenFlow uses the concept of flows to identify network traffic based in pre-defined match rules.
+
 ### MapReduce
 
 ### Identity and Access Managment
