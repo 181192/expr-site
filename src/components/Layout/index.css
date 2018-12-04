@@ -1008,24 +1008,34 @@ iframe {
   background-color: #86777b;
 }
 
-.category.fpv {
+.category.exam-details {
   color: #fff;
-  background-color: #0057e7;
+  background-color: #75bba7;
 }
 
-.category.smart.home {
-  color: #000;
+.category.questions {
+  color: #fff;
   background-color: #ffa700;
 }
 
-.category.software {
+.category.blockchain {
   color: #fff;
   background-color: #d62d20;
 }
 
-.category.general {
+.category.cryptography {
   color: #fff;
-  background-color: #008744;
+  background-color: #53c6eb;
+}
+
+.category.refactoring {
+  color: #fff;
+  background-color: #dabfff;
+}
+
+.category.iot {
+  color: #fff;
+  background-color: #4f518c;
 }
 
 .post-preview:hover {
