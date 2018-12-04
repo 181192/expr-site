@@ -158,9 +158,18 @@ For session based applications, an important issue to handle during load balanci
 | Session Database | All the session information is stored externally in a seperate session database, which is often replicated to avoid single point of failure. But the approach involves additional overhead storing the session information, however this approach allows automatic failover. |
 | Browser cookies  | The session information is stored on the client side in form of a cookie. The benefit of this approach is that it makes session managment east and has the least amount of overhead for the load balancer.                                                                   |
 
-### Scalability and elasticity
+### Replication
 
-### Deployment
+Replication is used to create and maintain multiple copies of the data in the cloud. Replication of data is important for practical reasins such as business continuity and disaster recovery. Cloud based data replication approaches provide replication of data in multiple locations, automated recovery, low recovery point objective (RPO) and low recovery tume objective (RTO). Cloud provides affordable replication solutions with pay-per-use/pay-as-you-go pricing models.
+
+> **Array-based Replication**  
+> Array-based replication uses compatible storage arrays to automatically copy data from a local storage array to a remote storage array. Arrays replicate data at the disk sub-system level, therefore the type of hosts accessing the data and the type of data is not important. Array-based replication usese Network Attached Storage (NAS) or Storage Area Network (SAN), to replicate. A drawback of this approach is that it requires similar arrays at local and remote locations. Therefore the cost for setting up array-based replication are higher that the other approaches.
+
+> **Network-based Replication**  
+> Network-based replication uses an appliance that sits on the network and interceots packets that are send from hosts and storage arrays. The inercepted packets are replicated to a secondary location. The benefits of this approach is that it supports heterogeneous environments and require a single point of managment. However, this approach involves higher initial costs due to replication hardware and software.
+
+> **Host-based Replication**  
+> Host-based replication runs on standard servers and uses software to transfer data from a local to remote location. The host acts the replication control mechanism. An agent is installed on the hosts that communicate with the agents on the other hosts. Host-based replication can either be block-based or file-based. Host-based replication with cloud-infrastructure provides affordable replication solutions. With host-based replication, entire virtual machines can be replicated in real-time.
 
 ### Monitoring
 
