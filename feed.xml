@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ExPr 2018]]></title><description><![CDATA[Exam Preparation 2018]]></description><link>https://181192.github.io/expr-site</link><generator>RSS for Node</generator><lastBuildDate>Tue, 04 Dec 2018 13:42:20 GMT</lastBuildDate><item><title><![CDATA[Cloud Computing]]></title><description><![CDATA[Characteristics of Cloud Computing On-demand self service Cloud computing resources can be provisioned on-demand by the users, without…]]></description><link>https://181192.github.io/expr-site/iot/cloud-computing/</link><guid isPermaLink="false">https://181192.github.io/expr-site/iot/cloud-computing/</guid><pubDate>Tue, 04 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Characteristics of Cloud Computing&lt;/h2&gt;
+&lt;h3&gt;On-demand self service&lt;/h3&gt;
+&lt;p&gt;Cloud computing resources can be provisioned on-demand by the users, without requiring interactons with the cloud service provider. The process of provisioning resources is automated.&lt;/p&gt;
+&lt;h3&gt;Broad network access&lt;/h3&gt;
+&lt;p&gt;Cloud computing resources can be accessed over the network using standard access mechanisms that provide platform-independent access through the use of heterogeneous client platforms such as workstations, laptops, tablets and smartphones.&lt;/p&gt;
+&lt;h3&gt;Resource pooling&lt;/h3&gt;
+&lt;p&gt;The computing and storage resources provided by cloud service providers are pooled to serve multiple users using multi-tenancy. Multi-tenancy aspects of the cloud allow multiple users to be served by the same physical hardware. Users are assigned virtual resources that run on top of the physical resources.&lt;/p&gt;
+&lt;h3&gt;Rapid elasticity&lt;/h3&gt;
+&lt;p&gt;Cloud resources ca be rapidly scaled up or down based on demand. Two types of scaling options exists:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Horizontal Scaling (scaling out)&lt;/strong&gt;&lt;br&gt;
+Horizontal scaling or scaling-out involves launching and provisioning additional server resources.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Vertical Scaling (scaling up)&lt;/strong&gt;&lt;br&gt;
+Vertical scaling or scaling-up involves changing the computing capacity assigned to the server resources while keeping the number of servers resources constant&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Meaured service&lt;/h3&gt;
+&lt;p&gt;Cloud computing resources are provided to users on a pay-per-use model. Metrics such as amount of CPU cycles used, amount of storage space used, number of network I/O requests, etc. are used to calculate the usage charges of the cloud resources.&lt;/p&gt;
+&lt;h3&gt;Performance&lt;/h3&gt;
+&lt;p&gt;Cloud computing provides improved performance for applications since the resources available to the application can be scaled up or down based on the dynamic application workloads.&lt;/p&gt;
+&lt;h3&gt;Reduced costs&lt;/h3&gt;
+&lt;p&gt;Cloud computing provides cost benefits for applications as only as much computing and storage resources as required can be provisioned dynamically, and upfront investment in purchase of computing assets to cover worst case requirements is avoid.&lt;/p&gt;
+&lt;h3&gt;Outsorced Managment&lt;/h3&gt;
+&lt;p&gt;Cloud computing allows the users to outsource the IT infrastructure requirements to external cloud providers.&lt;/p&gt;
+&lt;h3&gt;Reliability&lt;/h3&gt;
+&lt;p&gt;Applications deployed in cloud computing environments generally have a higher reliability since the underlying IT infrastructure is professionally managed by the cloud service. Most cloud providers delivers a SLA (service level agreements) with promise of 99.99% uptime guarantee for the cloud resources, witch may often be expensive to achieve with in-house IT infrastructure.&lt;/p&gt;
+&lt;h3&gt;Multi-tenancy&lt;/h3&gt;
+&lt;p&gt;The multi-tenanted approach of the cloud allows multiple users to make use of the same shared resources. Multi-tenanct can be of different forms:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Virtual multi-tenancy&lt;/strong&gt;&lt;br&gt;
+In virtual multi-tenancy, computing and storage resources are shared among multiple users. Multiple tentant are served from virtual machines (VMs) that execute concurrently on top of the same computing and storage resources.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Organic multi-tenancy&lt;/strong&gt;&lt;br&gt;
+In a organic multi-tenancy every component in the system architecture is shared among multiple tentants, including hardware, OS, database servers, application servers, load balances, etc. Organic multi-tenancy exists when explicit multi-tenant design patterns are coded into the application.&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Blockchain Questions]]></title><description><![CDATA[How is a payment carried out in the Bitcoin network? The bitcoin network is based on blocks. Blocks are discovered by attempting to solve…]]></description><link>https://181192.github.io/expr-site/questions/blockchain/</link><guid isPermaLink="false">https://181192.github.io/expr-site/questions/blockchain/</guid><pubDate>Mon, 03 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;How is a payment carried out in the Bitcoin network?&lt;/h2&gt;
+&lt;p&gt;The bitcoin network is based on blocks. Blocks are discovered by attempting to solve complex mathematical problems using huge computational resources.&lt;/p&gt;
+&lt;p&gt;Once a block is “discovered”, the block is validated by consensus of peers in the network. They will adopt the new block.&lt;/p&gt;
+&lt;p&gt;The node that discovers the block will get a reward, but it will also be allowed to fill the block with transactions. All transactions will need to be validated by tracing the origin of all the earlier bitcoin transactions.&lt;/p&gt;
+&lt;p&gt;The discoverer will stand to gain to have a valid block, if it gets rejected, it will not get the block reward from the blockchain. Once a block is signed and adopted, it will be “set in stone”. &lt;/p&gt;
+&lt;p&gt;If you want to do a transaction, you have to decide which amount to
+send, and who to send it to. &lt;/p&gt;
+&lt;p&gt;You must have a unspent transaction of at least that size, or you might need to make two transactions. It’s possible to get change.&lt;/p&gt;
+&lt;p&gt;You must input the address of the wallet you want to send the Bitcoin to, and sign it with your private key.&lt;/p&gt;
+&lt;p&gt;It might take a long time before the transaction will be carried out, as you need to wait to get your transaction included in a discovered block.&lt;/p&gt;
+&lt;h2&gt;What is distributed consensus?&lt;/h2&gt;
+&lt;p&gt;Bitcoin is completely ground breaking in the way that it has an effective system of distributed consensus.&lt;/p&gt;
+&lt;p&gt;In order to poison the blockchain, you must control at least 50% of the nodes. &lt;/p&gt;
+&lt;p&gt;This represents a huge amount of computational power, but it will be easily possible to attain with smaller currencies, if big organisations would switch to mining that coin for a small while.&lt;/p&gt;
+&lt;p&gt;However, you stand to gain from being honest. &lt;/p&gt;
+&lt;p&gt;If you discover a new valid block, if you attempt to fill it with malicious transactions, it will get rejected from the rest of the network, and you will be financially disincentivized to do so. &lt;/p&gt;
+&lt;p&gt;In comparison, with other types of verification, you need a trusted party, an intermediate who vouches for the validity of something. &lt;/p&gt;
+&lt;p&gt;In example a CA validating an SSL cert, your bank approving your transactions, or the Norwegian government vouching for the authenticity of a passport.&lt;/p&gt;
+&lt;p&gt;Now a big group of people have to attain a consensus. &lt;/p&gt;
+&lt;p&gt;This is not new, and by itself having a financial incentive for being honest will not guarantee you from dishonest behaviour, but it works in practice.&lt;/p&gt;
+&lt;h2&gt;What is known as the biggest risk of distributed consensus?&lt;/h2&gt;
+&lt;h2&gt;What is a blockchain?&lt;/h2&gt;
+&lt;p&gt;A blockchain is a chain of blocks. &lt;/p&gt;
+&lt;p&gt;You can perhaps think of it as a linked list of data.
+A block is an array of transactions. &lt;/p&gt;
+&lt;p&gt;The first transaction has no proper sender, it is awarded from the blockchain to whatever wallet you like, if you discovered the block.
+The rest are transactions you wish to include. &lt;/p&gt;
+&lt;p&gt;The transactions must be properly signed by the respective senders and can thus not be made up. The authenticity of this is verified by by consensus of peers in the network. &lt;/p&gt;
+&lt;p&gt;Bitcoin is anonymous, yes, but at the same time completely transparent. In order to verify that a transaction is valid you must follow pointers to an older block and location where the bitcoin was earlier transacted.&lt;/p&gt;
+&lt;p&gt;This list is huge. Therefore a simplified “UTXO”, unspent transactions outputs list is provided by the network. If the transaction is in this list, it can be spent in a new transaction.
+The blocks are of course distributed by a P2P protocol and are completely decentralised.&lt;/p&gt;
+&lt;h2&gt;What is scripts and smart contracts?&lt;/h2&gt;
+&lt;p&gt;Bitcoin has it’s own simple scripting language, simply called Script. It’s a stack based language with no loops.
+It’s used for transactions, and must contain at minimum a pub key that leads to the wallet ID of the recipient,
+and must be signed by ta private key that proves that you are the one who generated this pub key. &lt;/p&gt;
+&lt;p&gt;Smart contracts are variations of scripts, that can be used to do stuff other than to perform transactions.
+Think “If this, then that”, with the final result being the bitcoin becoming available for the recipient.
+If a smart contract is signed, the transaction will be carried out whenever the parameters are met. It can be anything, at a certain time or when other parameters are met.&lt;/p&gt;
+&lt;p&gt;There are examples in the material provided that gives ideas of selling things like cars and houses without the need for a broker such as a bank.&lt;/p&gt;
+&lt;h2&gt;How does blockchain scale and how fast is it?&lt;/h2&gt;
+&lt;p&gt;Bitcoin has in total 21M discoverable coins, and the network is made so that the more coins are discovered, the more effort is needed in order to discover a new block. The algorithm gets harder.&lt;/p&gt;
+&lt;p&gt;Thus, at some point, the capital cost of hardware and electricity will surpass the market value of what is generated. &lt;/p&gt;
+&lt;p&gt;As we are now at under 4k USD per coin, this point is probably already here, at the very least for home miners.
+Power needed in order to carry out one transaction will dramatically increase, and also the transaction time will increase if computational power is not added to the network proportionally.&lt;/p&gt;
+&lt;h2&gt;What applications / use cases is there for blockchain?&lt;/h2&gt;
+&lt;p&gt;As a fiat digital currency (Cons, bad scaling, pros no intermediate, web of trust that works, anonymous, not controllable by any actor).
+With smart contracts, facilitating agreements where all the nodes are witnesses, and will be fulfilled if the requirements are met.&lt;/p&gt;
+&lt;h2&gt;Supply chain management:&lt;/h2&gt;
+&lt;p&gt;Blockchain coins can easily be traced, and thus can be traced back to it’s origins easily. This can aid to combat corruption and bad ethics.&lt;/p&gt;
+&lt;h2&gt;Digital identity&lt;/h2&gt;
+&lt;p&gt;You can have a digitally signed identity that is verified by consensus. &lt;/p&gt;
+&lt;p&gt;Other: Patient information, electrical market&lt;/p&gt;
+&lt;h2&gt;What are inputs and outputs?&lt;/h2&gt;
+&lt;h2&gt;What are transactions, signing, validation?&lt;/h2&gt;
+&lt;h2&gt;What is private key, public key, address and signature?&lt;/h2&gt;
+&lt;h2&gt;What is hashing used for?&lt;/h2&gt;
+&lt;h2&gt;What is the UTXO-set?&lt;/h2&gt;
+&lt;h2&gt;What is mining, nonce and “target”?&lt;/h2&gt;
+&lt;h2&gt;What is the difference between PoW and PoS?&lt;/h2&gt;
+&lt;h2&gt;What is the consequence if a block on the chain is altered after it’s been added?&lt;/h2&gt;
+&lt;hr&gt;</content:encoded></item><item><title><![CDATA[Internet of Things]]></title><description><![CDATA[Concepts IoT (Internet of Things) The Internet of Things (IoT) is a system of interrelated computing devices, mechanical and digital…]]></description><link>https://181192.github.io/expr-site/iot/iot/</link><guid isPermaLink="false">https://181192.github.io/expr-site/iot/iot/</guid><pubDate>Sat, 01 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Concepts&lt;/h1&gt;
+&lt;h2&gt;IoT (Internet of Things)&lt;/h2&gt;
+&lt;p&gt;The Internet of Things (IoT) is a system of interrelated computing devices, mechanical and digital machines, objects, animals or people that are provided with unique identifiers and the ability to transfer data over a network without requiring human-to-human or human-to-computer interaction.&lt;/p&gt;
+&lt;p&gt;In the Internet of Things, all the things that are being connected to the internet can be put into three categories:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Things that collect information and then send it.&lt;/li&gt;
+&lt;li&gt;Things that receive information and then act on it.&lt;/li&gt;
+&lt;li&gt;Things that do both.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Things&lt;/h2&gt;
+&lt;p&gt;A “thing” is an object equipped with sensors that gather data which will be transferred over a network and actuators that allow things to act (for example, to switch on or off the light, to open or close a door, to increase or decrease engine rotation speed and more). This concept includes fridges, street lamps, buildings, vehicles, production machinery, rehabilitation equipment and everything else imaginable. Sensors are not in all cases physically attached to the things: sensors may need to monitor, for example, what happens in the closest environment to a thing.&lt;/p&gt;
+&lt;h2&gt;Gateways&lt;/h2&gt;
+&lt;p&gt;Data goes from things to the cloud and vice versa through the gateways. A gateway provides connectivity between things and the cloud part of the IoT solution, enables data preprocessing and filtering before moving it to the cloud (to reduce the volume of data for detailed processing and storing) and transmits control commands going from the cloud to things. Things then execute commands using their actuators.&lt;/p&gt;
+&lt;h2&gt;Cloud gateway&lt;/h2&gt;
+&lt;p&gt;Cloud gateway facilitates data compression and secure data transmission between field gateways and cloud IoT servers. It also ensures compatibility with various protocols and communicates with field gateways using different protocols depending on what protocol is supported by gateways.&lt;/p&gt;
+&lt;h2&gt;RESTful API&lt;/h2&gt;
+&lt;p&gt;A RESTful API is an application program interface (API) that uses HTTP requests to GET, PUT, POST and DELETE data.&lt;/p&gt;
+&lt;p&gt;A RESTful API, also referred to as a RESTful web service, is based on representational state transfer (REST) technology, an architectural style and approach to communications often used in web services development.&lt;/p&gt;
+&lt;p&gt;The REST used by browsers can be thought of as the language of the internet. With cloud use on the rise, APIs are emerging to expose web services.&lt;/p&gt;
+&lt;h3&gt;How RESTful APIs work&lt;/h3&gt;
+&lt;p&gt;A RESTful API breaks down a transaction to create a series of small modules. Each module addresses a particular underlying part of the transaction. This modularity provides developers with a lot of flexibility, but it can be challenging for developers to design from scratch. Currently, the models provided by Amazon Simple Storage Service, Cloud Data Management Interface and OpenStack Swift are the most popular.&lt;/p&gt;
+&lt;p&gt;A RESTful API explicitly takes advantage of HTTP methodologies. They use GET to retrieve a resource; PUT to change the state of or update a resource, which can be an object, file or block; POST to create that resource; and DELETE to remove it.&lt;/p&gt;
+&lt;p&gt;With REST, networked components are a resource you request access to — a black box whose implementation details are unclear. The presumption is that all calls are stateless; nothing can be retained by the RESTful service between executions.&lt;/p&gt;
+&lt;p&gt;Because the calls are stateless, REST is useful in cloud applications. Stateless components can be freely redeployed if something fails, and they can scale to accommodate load changes. This is because any request can be directed to any instance of a component; there can be nothing saved that has to be remembered by the next transaction. That makes REST preferred for web use, but the RESTful model is also helpful in cloud services because binding to a service through an API is a matter of controlling how the URL is decoded. Cloud computing and microservices are almost certain to make RESTful API design the rule in the future.&lt;/p&gt;
+&lt;h1&gt;Protocols&lt;/h1&gt;
+&lt;h2&gt;CoAP&lt;/h2&gt;
+&lt;p&gt;Constrained Application Protocol (CoAP) is a protocol that specifies how low-power compute-constrained devices can operate in the internet of things (IoT).&lt;/p&gt;
+&lt;p&gt;CoAP is designed to enable simple, constrained devices to join the IoT even through constrained networks with low bandwidth and low availability. The protocol is generally used for machine-to-machine (M2M) communication.&lt;/p&gt;
+&lt;p&gt;CoAP functions as a sort of HTTP for constrained devices, enabling such component level equipment as sensors or actuators to communicate on the IoT, being controlled and passing along their data as part of a system. The protocol is designed for reliability in low bandwidth and high congestion through its low power draw and low network overhead.&lt;/p&gt;
+&lt;h2&gt;IP (Internet Protocol)&lt;/h2&gt;
+&lt;p&gt;The Internet Protocol (IP) is the method or protocol by which data is sent from one computer to another on the Internet. Each computer (known as a host) on the Internet has at least one IP address that uniquely identifies it from all other computers on the Internet.&lt;/p&gt;
+&lt;p&gt;Because a message is divided into a number of packets, each packet can, if necessary, be sent by a different route across the Internet. Packets can arrive in a different order than the order they were sent in. The Internet Protocol just delivers them. It’s up to another protocol, the Transmission Control Protocol (TCP) to put them back in the right order.&lt;/p&gt;
+&lt;p&gt;IP is a connectionless protocol, which means that there is no continuing connection between the end points that are communicating. Each packet that travels through the Internet is treated as an independent unit of data without any relation to any other unit of data. (The reason the packets do get put in the right order is because of TCP, the connection-oriented protocol that keeps track of the packet sequence in a message.) In the Open Systems Interconnection (OSI) communication model, IP is in layer 3, the Networking Layer.&lt;/p&gt;
+&lt;p&gt;The most widely used version of IP today is Internet Protocol Version 4 (IPv4). However, IP Version 6 (IPv6) is also beginning to be supported. IPv6 provides for much longer addresses and therefore for the possibility of many more Internet users. IPv6 includes the capabilities of IPv4 and any server that can support IPv6 packets can also support IPv4 packets.&lt;/p&gt;
+&lt;h2&gt;TCP (Transmission Control Protocol)&lt;/h2&gt;
+&lt;p&gt;TCP (Transmission Control Protocol) is a standard that defines how to establish and maintain a network conversation via which application programs can exchange data. TCP works with the Internet Protocol (IP), which defines how computers send packets of data to each other. Together, TCP and IP are the basic rules defining the Internet.&lt;/p&gt;
+&lt;p&gt;TCP is a connection-oriented protocol, which means a connection is established and maintained until the application programs at each end have finished exchanging messages. It determines how to break application data into packets that networks can deliver, sends packets to and accepts packets from the network layer, manages flow control, and—because it is meant to provide error-free data transmission—handles retransmission of dropped or garbled packets as well as acknowledgement of all packets that arrive. In the Open Systems Interconnection (OSI) communication model, TCP covers parts of Layer 4, the Transport Layer, and parts of Layer 5, the Session Layer.&lt;/p&gt;
+&lt;p&gt;For example, when a Web server sends an HTML file to a client, it uses the HTTP protocol to do so. The HTTP program layer asks the TCP layer to set up the connection and send the file. The TCP stack divides the file into packets, numbers them and then forwards them individually to the IP layer for delivery. Although each packet in the transmission will have the same source and destination IP addresses, packets may be sent along multiple routes. The TCP program layer in the client computer waits until all of the packets have arrived, then acknowledges those it receives and asks for the retransmission on any it does not (based on missing packet numbers), then assembles them into a file and delivers the file to the receiving application.&lt;/p&gt;
+&lt;p&gt;Retransmissions and the need to reorder packets after they arrive can introduce latency in a TCP stream. Highly time-sensitive applications like voice over IP (VoIP) and streaming video generally rely on a transport like User Datagram Protocol (UDP) that reduces latency and jitter (variation in latency) by not worrying about reordering packets or getting missing data retransmitted.&lt;/p&gt;
+&lt;h2&gt;UDP (User Datagram Protocol)&lt;/h2&gt;
+&lt;p&gt;UDP (User Datagram Protocol) is an alternative communications protocol to Transmission Control Protocol (TCP) used primarily for establishing low-latency and loss-tolerating connections between applications on the internet.&lt;/p&gt;
+&lt;p&gt;Both UDP and TCP run on top of the Internet Protocol (IP) and are sometimes referred to as UDP/IP or TCP/IP. But there are important differences between the two.&lt;/p&gt;
+&lt;p&gt;Where UDP enables process-to-process communication, TCP supports host-to-host communication. TCP sends individual packets and is considered a reliable transport medium; UDP sends messages, called datagrams, and is considered a best-effort mode of communications.&lt;/p&gt;
+&lt;p&gt;In addition, where TCP provides error and flow control, no such mechanisms are supported in UDP. UDP is considered a connectionless protocol because it doesn’t require a virtual circuit to be established before any data transfer occurs.&lt;/p&gt;
+&lt;p&gt;UDP provides two services not provided by the IP layer. It provides port numbers to help distinguish different user requests and, optionally, a checksum capability to verify that the data arrived intact.&lt;/p&gt;
+&lt;p&gt;TCP has emerged as the dominant protocol used for the bulk of internet connectivity due to its ability to break large data sets into individual packets, check for and resend lost packets, and reassemble packets in the correct sequence. But these additional services come at a cost in terms of additional data overhead and delays called latency.&lt;/p&gt;
+&lt;p&gt;In contrast, UDP just sends the packets, which means that it has much lower bandwidth overhead and latency. With UDP, packets may take different paths between sender and receiver and, as a result, some packets may be lost or received out of order.&lt;/p&gt;
+&lt;h3&gt;Applications of UDP&lt;/h3&gt;
+&lt;p&gt;UDP is an ideal protocol for network applications in which perceived latency is critical, such as in gaming and voice and video communications, which can suffer some data loss without adversely affecting perceived quality. In some cases, forward error correction techniques are used to improve audio and video quality in spite of some loss.&lt;/p&gt;
+&lt;p&gt;UDP can also be used in applications that require lossless data transmission when the application is configured to manage the process of retransmitting lost packets and correctly arranging received packets. This approach can help to improve the data transfer rate of large files compared to TCP.&lt;/p&gt;
+&lt;p&gt;In the Open Systems Interconnection (OSI) communication model, UDP, like TCP, is in Layer 4, the transport layer. UDP works in conjunction with higher level protocols to help manage data transmission services including Trivial File Transfer Protocol (TFTP), Real Time Streaming Protocol (RTSP), Simple Network Protocol (SNP) and domain name system (DNS) lookups.&lt;/p&gt;
+&lt;h3&gt;User datagram protocol features&lt;/h3&gt;
+&lt;p&gt;The user datagram protocol has attributes that make it advantageous for use with applications that can tolerate lost data.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It allows packets to be dropped and received in a different order than they were transmitted, making it suitable for real-time applications where latency might be a concern.&lt;/li&gt;
+&lt;li&gt;It can be used for transaction-based protocols, such as DNS or Network Time Protocol.&lt;/li&gt;
+&lt;li&gt;It can be used where a large number of clients are connected and where real-time error correction isn’t necessary, such as gaming, voice or video conferencing, and streaming media.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;UDP header composition&lt;/h3&gt;
+&lt;p&gt;The User Datagram Protocol header has four fields, each of which is 2 bytes. They are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;source port number, which is the number of the sender;&lt;/li&gt;
+&lt;li&gt;destination port number, the port the datagram is addressed to;&lt;/li&gt;
+&lt;li&gt;length, the length in bytes of the UDP header and any encapsulated data; and&lt;/li&gt;
+&lt;li&gt;checksum, which is used in error checking. Its use is required in IPv6 and optional in IPv4.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;WebSocket&lt;/h2&gt;
+&lt;p&gt;WebSocket is a communications protocol for a persistent, bi-directional, full duplex TCP connection from a user’s web browser to a server.&lt;/p&gt;
+&lt;p&gt;A WebSocket connection is initiated by sending a WebSocket handshake request from a browser’s HTTP connection to a server to upgrade the connection. Along with the upgrade request header, the handshake request includes a 64-bit Sec-WebSocket-Key header. The server responds with a hash of the key in a Sec-Websocket-Auth header. This header exchange prevents a caching proxy from resending previous WebSocket exchanges.&lt;/p&gt;
+&lt;p&gt;From that point, the connection is binary and does not conform to HTTP protocol. A server application is aware of all WebSocket connections and can communicate with each one individually. As WebSocket remains open, either the server or the user can send messages at any time until one of them closes the session. The communication can be initiated at either end, which makes event-driven web programming possible. In contrast, standard HTTP allows only users to request new data.&lt;/p&gt;
+&lt;h2&gt;MQTT&lt;/h2&gt;
+&lt;p&gt;MQTT (MQ Telemetry Transport) is a lightweight messaging protocol that provides resource-constrained network clients with a simple way to distribute telemetry information. The protocol, which uses a publish/subscribe communication pattern, is used for machine-to-machine (M2M) communication and plays an important role in the internet of things (IoT).&lt;/p&gt;
+&lt;p&gt;MQTT enables resource-constrained IoT devices to send, or publish, information about a given topic to a server that functions as an MQTT message broker. The broker then pushes the information out to those clients that have previously subscribed to the client’s topic. To a human, a topic looks like a hierarchical file path. Clients can subscribe to a specific level of a topic’s hierarchy or use a wild-card character to subscribe to multiple levels.&lt;/p&gt;
+&lt;p&gt;The MQTT protocol is a good choice for wireless networks that experience varying levels of latency due to occasional bandwidth constraints or unreliable connections. Should the connection from a subscribing client to a broker get broken, the broker will buffer messages and push them out to the subscriber when it is back online. Should the connection from the publishing client to the broker be disconnected without notice, the broker can close the connection and send subscribers a cached message with instructions from the publisher.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Examination details for IoT Module]]></title><description><![CDATA[Reading Lists for the Exam Chapter 1: Bagha and Madisetti: Internet of Things - A Hands-On Approach. (hardcopy handed out) Mattern and…]]></description><link>https://181192.github.io/expr-site/exam-details/iot/</link><guid isPermaLink="false">https://181192.github.io/expr-site/exam-details/iot/</guid><pubDate>Mon, 26 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Reading Lists for the Exam&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Chapter 1: Bagha and Madisetti: Internet of Things - A Hands-On Approach. (hardcopy handed out)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://vs.inf.ethz.ch/publ/papers/Internet-of-things.pdf&quot;&gt;Mattern and Floerkemeier: From the Internet of Computers to the Internet of Things&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://cs2.ist.unomaha.edu/~stanw/161/csci4500/embedded.pdf&quot;&gt;Chapter 1: Programming Embedded Systems in C and C++&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Chapter 5 and 6 in Guinard and Trifa: Building the Web of Things (hardcopy handed out)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://csrc.nist.gov/projects/cloud-computing&quot;&gt;NIST Cloud Computing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Arshdeep Bahga and Vijay Madisetti. Cloud Computing: A Hands-On-Approach. (Chapters 1 and 2) – (Hardcopy handed out)&lt;/li&gt;
+&lt;li&gt;Fink, G. A. et al.(2015). Security and privacy grand challenges for the Internet of Things. In IEEE International Conference on Collaboration Technologies and Systems (CTS), (pp. 27-34).&lt;/li&gt;
+&lt;li&gt;Lectures notes, practice questions, and hands-on assignments A,B, and C&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Exam structure&lt;/h2&gt;
+&lt;p&gt;In the examination of the IoT module, you will draw 1 topic and be expected to present the most important points within 4-5 minutes. &lt;/p&gt;
+&lt;p&gt;In addition, you will be given a few questions on other topics related to IoT and Cloud. Here only relatively short answers are expected. &lt;/p&gt;
+&lt;h2&gt;The topics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;IoT, IoT system architecture, IoT devices, characteristics&lt;/li&gt;
+&lt;li&gt;Embedded systems, sensors, actuators, microcontrollers, digital and analog input/output&lt;/li&gt;
+&lt;li&gt;Embedded system/software development, hardware/software co-design, programming model&lt;/li&gt;
+&lt;li&gt;IoT protocols: IP, UDP/TCP, HTTP, CoAP, WebSockets&lt;/li&gt;
+&lt;li&gt;Web-of-things: REST APIs, publish-subscribe messaging and MQTT&lt;/li&gt;
+&lt;li&gt;Cloud computing: Characteristics, service models, deployment models, storage/compute and relevant technologies&lt;/li&gt;
+&lt;li&gt;Security in IoT: Design challenges and threats of IoT systems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;The total examination time for this module is ~10 minutes. You are allowed to have 1-2 sheets of paper sheets with notes and consult these occasionally&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[IoT Questions]]></title><description><![CDATA[Not implemented yet :)]]></description><link>https://181192.github.io/expr-site/questions/iot/</link><guid isPermaLink="false">https://181192.github.io/expr-site/questions/iot/</guid><pubDate>Mon, 26 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Not implemented yet :)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Examination details for Basic Cryptography Module]]></title><description><![CDATA[Reading Lists for the Exam Lecture Notes http://www.tutorialspoint.com/cryptography/ The DES Algorithm Illustrated A Stick Figure guide to…]]></description><link>https://181192.github.io/expr-site/exam-details/cryptography/</link><guid isPermaLink="false">https://181192.github.io/expr-site/exam-details/cryptography/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Reading Lists for the Exam&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Lecture Notes&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.tutorialspoint.com/cryptography/&quot;&gt;http://www.tutorialspoint.com/cryptography/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://page.math.tu-berlin.de/~kant/teaching/hess/krypto-ws2006/des.htm&quot;&gt;The DES Algorithm Illustrated&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.moserware.com/2009/09/stick-figure-guide-to-advanced.html&quot;&gt;A Stick Figure guide to the Advanced Encryption standard (AES)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://hvl.instructure.com/courses/3040/files/174469/download?wrap=1&quot;&gt;Ten Risks of PKI: What You’re not Being Told about Public Key Infrastructure By Carl Ellison and Bruce Schneier (pdf)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://hvl.instructure.com/courses/3040/files/174633/download?wrap=1&quot;&gt;15 reasons not to start using PGP (pdf)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Exam structure&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;No hard calculations!!!&lt;/li&gt;
+&lt;li&gt;Come with your pen, pencil &amp;#x26; erasers&lt;/li&gt;
+&lt;li&gt;3 parts with different weights. Parts 1 and 2 are the most important.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Part 1.Definitions and concepts&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Show understanding of the different crypto algorithms and concepts under:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Symmetric, Asymmetric, Hashing, Digital Signature, + PKI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Basics of crypto&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;e.g. substitution, permutation, diffusion, confusion, mono- and poly-alphabetic, gcd, Finding inverse, etc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Security properties&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Confidentiality, Integrity, Availability, Authentication, Authorization, Non-repudiation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Part 2.Practical applications of cryptography&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Real scenarios of crypto application (blockchain excluded!). You will be given an application scenario that requires crypto solution. You will then describe how you can use crypto systems to provide relevant security solutions to the problem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Part 3.Bonus Questions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;You should be able to give examples of different crypto algorithms&lt;/li&gt;
+&lt;li&gt;You might get names of crypto algorithms and you should be able to fit them into the appropriate category (symmetric, Asymmetric, Hash functions, etc)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;You are allowed to illustrate on the board but NO MATERIAL is allowed for this module!!!&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Examination details for the Blockchain module]]></title><description><![CDATA[The list of reading material is the Blockchain: Reading List. In addition, you have the lecture notes and the assignments. In the…]]></description><link>https://181192.github.io/expr-site/exam-details/blockchain/</link><guid isPermaLink="false">https://181192.github.io/expr-site/exam-details/blockchain/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The list of reading material is the Blockchain: Reading List. In addition, you have the lecture notes and the assignments.&lt;/p&gt;
+&lt;p&gt;In the examination of the Blockchain module, you will draw and answer 2 questions.&lt;/p&gt;
+&lt;h2&gt;The first question&lt;/h2&gt;
+&lt;p&gt;The first question will be about a general blockchain topic (from the lectures / books). You will get one (randomly selected) of these:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How is a payment carried out in the Bitcoin network?&lt;/li&gt;
+&lt;li&gt;Distributed consensus&lt;/li&gt;
+&lt;li&gt;What is a blockchain?&lt;/li&gt;
+&lt;li&gt;Scripts and Smart contracts&lt;/li&gt;
+&lt;li&gt;Scaling and speed&lt;/li&gt;
+&lt;li&gt;Applications / use cases&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;The second question&lt;/h2&gt;
+&lt;p&gt;The second question will be more about technical details (from the assignments). You will get one (randomly selected) of these:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Inputs and outputs&lt;/li&gt;
+&lt;li&gt;Transactions, signing, validation&lt;/li&gt;
+&lt;li&gt;Private key, public key, address, signature&lt;/li&gt;
+&lt;li&gt;What is hashing used for?&lt;/li&gt;
+&lt;li&gt;The UTXO-set&lt;/li&gt;
+&lt;li&gt;Mining, nonce, “target”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It is preferrable that you elaborate on your own. You will probably get follow-up questions. The total examination time for this module is ~10 minutes. You are not allowed to bring notes.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Examination details for the Refactoring module]]></title><description><![CDATA[Reading List As per  Reading List  on Refactoring. Remember to look at the work on refactoring C/C++. Exam Question There will only be time…]]></description><link>https://181192.github.io/expr-site/exam-details/refactoring/</link><guid isPermaLink="false">https://181192.github.io/expr-site/exam-details/refactoring/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Reading List&lt;/h2&gt;
+&lt;p&gt;As per &lt;a href=&quot;https://hvl.instructure.com/courses/3040/pages/reading-list-refactoring&quot;&gt;Reading List&lt;/a&gt; on Refactoring. Remember to look at the work on refactoring C/C++.&lt;/p&gt;
+&lt;h2&gt;Exam Question&lt;/h2&gt;
+&lt;p&gt;There will only be time for 2-3 questions per module. We will discuss a randomly selected refactoring first. After that, we will discuss a secondary topic (on smells or metrics), but depending on the refactoring we discuss in the first part, we may go seamlessly from one topic to the next.&lt;/p&gt;
+&lt;h3&gt;Some possible questions/question-styles&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;which refactoring should we apply here? why?&lt;/li&gt;
+&lt;li&gt;which refactoring has been applied here (source code before/after)?&lt;/li&gt;
+&lt;li&gt;make a small example on paper/the whiteboard that shows what refactoring X does&lt;/li&gt;
+&lt;li&gt;what are smells/the different smells?
+different metrics, advantages/disadvantages&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Blockchain]]></title><description><![CDATA[L14 -Introduction to Blockchain and Bitcoin Module content Construction and structure of blockchains Distributed trust and consensus Proof…]]></description><link>https://181192.github.io/expr-site/blockchain/blockchain/</link><guid isPermaLink="false">https://181192.github.io/expr-site/blockchain/blockchain/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;L14 -Introduction to Blockchain and Bitcoin&lt;/h3&gt;
+&lt;h2&gt;Module content&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Construction and structure of blockchains&lt;/li&gt;
+&lt;li&gt;Distributed trust and consensus&lt;/li&gt;
+&lt;li&gt;Proof of Work›Block content and transactions&lt;/li&gt;
+&lt;li&gt;Examples of blockchains (e.g. Bitcoin and Ethereum)&lt;/li&gt;
+&lt;li&gt;Smart contracts›Ecosystems and infrastructure&lt;/li&gt;
+&lt;li&gt;Application areas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Learning resources, I&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://bitcoinbook.cs.princeton.edu/&quot;&gt;Website for Bitcoin and Cryptocurrency Technologies&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Free draft of the book&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf&quot;&gt;Bitcoin and Cryptocurrency Technologies, The book&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Learning resources, II&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://bitcoin.org/bitcoin.pdf&quot;&gt;The Bicoinwhitepaper&lt;/a&gt; by Satoshi Nakamotocan&lt;/p&gt;
+&lt;h2&gt;Learning resources, III (cursory)&lt;/h2&gt;
+&lt;h3&gt;&lt;a href=&quot;https://github.com/bitcoinbook/bitcoinbook&quot;&gt;Mastering Bitcoin&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Mastering Bitcoin is a book for developers, although the first two chapters cover bitcoin at a level that is also approachable to non-programmers. Anyone with a basic understanding of technology can read the first two chapters to get a great understanding of bitcoin.&lt;/p&gt;
+&lt;p&gt;This repository contains the complete &lt;a href=&quot;https://github.com/bitcoinbook/bitcoinbook/releases/tag/Edition1Print2&quot;&gt;first edition, second print&lt;/a&gt;, published in December 2014, and the complete &lt;a href=&quot;https://github.com/bitcoinbook/bitcoinbook/releases/tag/second_edition_print2&quot;&gt;second edition, second print&lt;/a&gt;, published in July 2017, as published by O’Reilly Media in paperback and ebook formats.&lt;/p&gt;
+&lt;h3&gt;Free draft of the book&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/bitcoinbook/bitcoinbook/releases/tag/second_edition_print2&quot;&gt;Bitcoin book&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1&gt;Lecture Notes&lt;/h1&gt;
+&lt;p&gt;A bitcoin amount is always associated with a bitcoin address. Think of the address as an account number. The address is a hash of a public key. &lt;br&gt;
+When we transfer (spend) bitcoin, it “moves” from one address to another. &lt;br&gt;
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/expr-site/static/95e4f5695f9159b19918f1294690ffbe/f1b03/key.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 55.76131687242799%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAAB2klEQVQoz41Sv2/TUBD2X1bxt7AwsEHLwoKEWCqxIAYmhhJVAiGRBakDFWpVEG3TkjLwI0kbJ44S27X9nMh2nGc/f727xKgDBU46ved7d5+/++6s1+c2LlQMNlNVqMiNMSiKAmVpoHWOqixQ8Tv5Ml5KPufWxneOW3eP2jj2A8o2SNIUKXme55whidnZNnZ3n2Kz8RC6P5IYF45GIwRBgMlkAsdx4Pu+vFkPTr7haxBhMZvBoSRO8H1PHsPzz5j9+IiD7/t48mId7943JM7FnW4XXXLbtjEYDNDpdDCfz2GtE+AJM/yDlYsMZd0VnfkikdbrtuuzdpbqRsCqMnIWOgXRh1e4UFrjXyaAp0EI6AWCMMR0OkWaJMKIIZPD59hp7eHWpybubL2RIpck4Tb7/b7ox3qOx2MkVCeArGE1z+CRNnEcI1aRFEYXXzDtHeAXfa49bmD7w1uJa2IaRZHox86APEye9F81NKa8LgL+x6yNGzVcAiR0KMeFTjOBrPeU/fqdByQM77UI8DIUBq7niRY8/nq6m8cKa7df4VnzbMWa8lwXw+EQvV6PdLR/a5hlGaz7rTaOvEtZ5EgpKHJebLNi2B4oPHrZxOHP8QpwyWxGe8ugvJP8g5rtFb4jO0AEias5AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Private-Public-key&quot;
+        title=&quot;&quot;
+        src=&quot;/expr-site/static/95e4f5695f9159b19918f1294690ffbe/1b588/key.png&quot;
+        srcset=&quot;/expr-site/static/95e4f5695f9159b19918f1294690ffbe/dabf4/key.png 148w,
+/expr-site/static/95e4f5695f9159b19918f1294690ffbe/6888f/key.png 295w,
+/expr-site/static/95e4f5695f9159b19918f1294690ffbe/1b588/key.png 590w,
+/expr-site/static/95e4f5695f9159b19918f1294690ffbe/5ad62/key.png 885w,
+/expr-site/static/95e4f5695f9159b19918f1294690ffbe/f1b03/key.png 972w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+To spend bitcoin, you have to provide the private key for the sender address to prove that you “own” this address. &lt;br&gt;
+Think of the private key as a password. &lt;br&gt;
+A key-pair is created, from a random number, according to the Elliptic Curve Digital Signature Algorithm (ECDSA). &lt;br&gt;&lt;/p&gt;
+&lt;h2&gt;Key creation&lt;/h2&gt;
+&lt;p&gt;In Bitcoin, a private key is a 256-bit number &lt;br&gt;
+Nearly every 256-bit number is a valid ECDSA private key &lt;br&gt;
+=&gt; The number of keys is 2&lt;sup&gt;256&lt;/sup&gt; ~ 10&lt;sup&gt;77&lt;/sup&gt;~ number of atoms in the universe &lt;br&gt;
+So if you create a truly random private key, there is ~ zero chance that someone else can guess or create the same key. Even with much computing power, it is really hard to brute force a guess of your key. (In practice, there are more private keys than addresses (2&lt;sup&gt;160&lt;/sup&gt;), but still …)&lt;/p&gt;
+&lt;h2&gt;Bitcoin Network&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/expr-site/static/2d298af38e4548479b6a5a11cb845b34/2aab9/bitcoinNet.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 87.78004073319757%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAsSAAALEgHS3X78AAADKUlEQVQ4y4VUaVPTUBTtDxdHQFlcxm1Q2cQBQVHRD4DIViiVTWjT1rK0LLK0aZOGNmmaNPvxvrRlKDD6Zl5e+17uybnn3PsCnueBTdd1cdtg+/86b8Q3ZqCxyYasKNhPpZBOp2ndhyCKtaB6sKbrSB8cIOWfp5DJZnE1no1AA5mN80wGT549R0trG9o7uxDjONp1YBsaUTUhSSJ6B9/izr1WtD7oQPjn6g2WTYCCIGLs4ye86u3D4LthpPf3AFuFqRXhGjJKxQK+TU6hp7cXA0PvEIslbmFY14mNnd09fJ/5gSgXw+zCIjY2N5pSPjk5xRSdR7goFpeCWAqFL8EaaxNDpchDzPO4KGSRyx5BLhVgaQWYah62LkFXZQj8KYpSHnn+D6QC73/MqxvnA166Zan0MOq/K3CtEiw1Q+kyUAlmOQ9TOYdHEsDRa0G2wh5NjgdkWUE8nkA0sgUuFkcmk4VFgRbpZhIr2yj7LzOmNn3IKPNwNAFZPo/t7W1wXITiYlArlRrDHJ/Dm/4BtHV04fHTZ6QfB6dagGMbfjqWXiSQLBxLq5EyGEMV8cRvtFPM/a6HeNHT45ecDygIAsa/TJBzfRgaHkEymaRMzmBWBAqWYchn0PO/YWsXpCOxVnjAkLC3n8Lr/n6fzMjYGMpqLZMAK9Rp5lw0ivngElbX12ATI4tStS0dVlWBS9owCVzPhVURqZJyWN/cxEIwiF9bW5iZncPh0VEN0DRNKERXlXNQ5CL0quGzYWYYxWPYVRkupc8YG6UT3yC7WoJmmChJGVTKF1BV0tYwml0m7+EYJXLKIf2qZAilZ1bIXd4HYqVjEZBFGnqORVVQgWMqN/o6cLXxRTGPcHiFWmoNoZUwFfLxlcL2KBOZiv0XVsKrCIWWqecPm1rvRmFnyfHnL3twt60dHd2PkEjE/dpkOnq2hgupgAFqyRbq5fud3Vhb3/gPIN0enye+YmR0DKMfx7G7k6wBslIhwIIoYHJ6BsPvRzH6YRyRCHc7oFv/w66khcUgkjs7CC4vYysSqd2J9fOz83PMzs375+ymYfOfvdzQ8+qKaxfojfNrDP8C21w3BOWWN0EAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Bitcoin Network&quot;
+        title=&quot;&quot;
+        src=&quot;/expr-site/static/2d298af38e4548479b6a5a11cb845b34/1b588/bitcoinNet.png&quot;
+        srcset=&quot;/expr-site/static/2d298af38e4548479b6a5a11cb845b34/dabf4/bitcoinNet.png 148w,
+/expr-site/static/2d298af38e4548479b6a5a11cb845b34/6888f/bitcoinNet.png 295w,
+/expr-site/static/2d298af38e4548479b6a5a11cb845b34/1b588/bitcoinNet.png 590w,
+/expr-site/static/2d298af38e4548479b6a5a11cb845b34/5ad62/bitcoinNet.png 885w,
+/expr-site/static/2d298af38e4548479b6a5a11cb845b34/2aab9/bitcoinNet.png 982w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;Bitcoin Network With a distributed ledger&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/expr-site/static/3e97be5128dbf2de27de1001d4825a31/0d330/bitcoinNetWithLedger.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 87.39999999999999%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsSAAALEgHS3X78AAADO0lEQVQ4y3WU+W8bVRDH82/zAwVFRaioEPUIAVFoIa2qNFehLYU0jRKROLEd24mPeH0l9vqi9np923v6w+w6TgElI43e7ntvPnpvvjNvbjKZ4Nls1HSdo1CI2MkJp4k4nW6Xf1u5ViUYDvvriWQSy7Ku4j2fm4Ecx2Wgd1BOkzz98Wfmv/iSB98uUS2dgz1g3NPpNnWihyEeLf3Ap5/P8/jJL5jmTUDbIReKogT3SeejvHi+xsraBtVKWVZd2o0Gyn6Q7OkRJ/Egy8vPePnqNePx+CagTTYYI7G3RzR8wHEwzPbODoV8zl/v6T2ygSCpo32OQwfEjo/Zer+NprWuB3rDoNOlXS8z1PuMek1G/QbmuIPZqzBqFWlVy+iVCt16HdMYSho+SKrsq/xeAWdQ7L43Pf0c6Zj9OkanhGMNxcdYvTL2uIFjaP6+iWsxsXr+ftd1p0Dvp9HU+PW3N6xtbLL58hWl0gXOoIZtGdhmX2AjH2qbA1w5kdWt0GlrvP59i1XJ87rE5QsFHzxXyxfJRU/YffsHd+7c5bP526ilIlg6tuEBLMZySlMg3olcOWlTVcnH4gTevePh/UU+uXWLTDY7BRYiMZTDPdJqlPdb27xY30RRUjg9FUvy5/m4o8rVVbluW/67qKkU+cMDlGKYwME+K6vrJM9SU+DFqUJG1FUEnEnGSZydkctlJZ01jEFTBKn7uXHFzf4HgXYoy57MUZR0OEJWiv9MUUinlSnQsV2mLkGWJ4oxVcwZ4ho61lCU7lYxfK/gjKVMrIGoMBF4V2KG/1P5UtWZ6VqNklqkJi1WlrEvHeIKwBPHtUe0tAYVKZ16rUJFLWA7nrruR5X9kvGuJBMeu5C/YPHhd9xduMejn55cdspE6s3yAyIi4D0R4quvF3j2fAXDMG5uvUIkTjoQIB49ZGnxex4vP+XvakmKske3UeP8JEE6dERgd4dvFu6zur6Bbds3A8+PY6RF8UQmRFgegbd/bpHN5a9aT/nrkGRol1giQCQU4Y2UWrPZvB7oXbmWL6OmzymnL2g1WzQ1jeFo5K8bI0PmCxQTGYqpPG29LX2syWtj/hfogWZ+k80Sfp1NLvM/838AnaToBRKjm84AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Bitcoin Network with ledger&quot;
+        title=&quot;&quot;
+        src=&quot;/expr-site/static/3e97be5128dbf2de27de1001d4825a31/1b588/bitcoinNetWithLedger.png&quot;
+        srcset=&quot;/expr-site/static/3e97be5128dbf2de27de1001d4825a31/dabf4/bitcoinNetWithLedger.png 148w,
+/expr-site/static/3e97be5128dbf2de27de1001d4825a31/6888f/bitcoinNetWithLedger.png 295w,
+/expr-site/static/3e97be5128dbf2de27de1001d4825a31/1b588/bitcoinNetWithLedger.png 590w,
+/expr-site/static/3e97be5128dbf2de27de1001d4825a31/5ad62/bitcoinNetWithLedger.png 885w,
+/expr-site/static/3e97be5128dbf2de27de1001d4825a31/0d330/bitcoinNetWithLedger.png 1000w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;Block Explorers&lt;/h2&gt;
+&lt;p&gt;The data in the Bitcoin blockchain is publicly available &lt;br&gt;
+But the format is not human understandable &lt;br&gt;
+There are a lot of applications that shows / visualizes / gives read-access to the data in the blockchain &lt;br&gt;
+These are called block explorers &lt;br&gt;
+&lt;a href=&quot;https://live.blockcypher.com/&quot;&gt;Example&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Refactoring]]></title><description><![CDATA[Goals The ultimate goal of performing refactoring on your code is to make it clearer to understand and thereby more effecient to maintain…]]></description><link>https://181192.github.io/expr-site/refactoring/refactoring/</link><guid isPermaLink="false">https://181192.github.io/expr-site/refactoring/refactoring/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Goals&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The ultimate goal of performing refactoring on your code is to make it clearer to understand and thereby more effecient to maintain&lt;/li&gt;
+&lt;li&gt;Refactoring changes the code internally by altering its structure, but it does not under any circumstances create change to the external behaviour of the code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Way of working&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Refactoring is heavily based on test driven development.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/expr-site/static/0bb965deaf94160743f557e10daed46f/9417b/TDD.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 57.14285714285714%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAB2U2lyuJKP//EABkQAQEAAwEAAAAAAAAAAAAAAAECAAMREP/aAAgBAQABBQLa8k6XlAknn//EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAwEBPwEcn//EABYRAAMAAAAAAAAAAAAAAAAAAAEQYf/aAAgBAgEBPwExf//EABkQAAIDAQAAAAAAAAAAAAAAAAEhABAREv/aAAgBAQAGPwJHID0qc2v/xAAaEAEBAAMBAQAAAAAAAAAAAAABEQAQUSEx/9oACAEBAAE/IXtR3CQpnzuoMXBUR7Nf/9oADAMBAAIAAwAAABA7D//EABcRAAMBAAAAAAAAAAAAAAAAAAEQEUH/2gAIAQMBAT8QJU1f/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8QaEf/xAAdEAEBAAEEAwAAAAAAAAAAAAABESEAEDFBUWFx/9oACAEBAAE/EA9WgIodtPmoVsiWjtTOfeNnAAZL5ONWsZKvd2//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Test driven development&quot;
+        title=&quot;&quot;
+        src=&quot;/expr-site/static/0bb965deaf94160743f557e10daed46f/7fd8e/TDD.jpg&quot;
+        srcset=&quot;/expr-site/static/0bb965deaf94160743f557e10daed46f/815e2/TDD.jpg 148w,
+/expr-site/static/0bb965deaf94160743f557e10daed46f/58ff1/TDD.jpg 295w,
+/expr-site/static/0bb965deaf94160743f557e10daed46f/7fd8e/TDD.jpg 590w,
+/expr-site/static/0bb965deaf94160743f557e10daed46f/bf67d/TDD.jpg 885w,
+/expr-site/static/0bb965deaf94160743f557e10daed46f/305a1/TDD.jpg 1180w,
+/expr-site/static/0bb965deaf94160743f557e10daed46f/9417b/TDD.jpg 1190w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;Bad smells within classes&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.codinghorror.com/code-smells/&quot;&gt;Overview of smells&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Long Methods&lt;/li&gt;
+&lt;li&gt;Long Parameter List&lt;/li&gt;
+&lt;li&gt;Duplicated code&lt;/li&gt;
+&lt;li&gt;Conditional Complexity&lt;/li&gt;
+&lt;li&gt;Combinitorial Explosion&lt;/li&gt;
+&lt;li&gt;Large Class&lt;/li&gt;
+&lt;li&gt;Type Embedded in Name&lt;/li&gt;
+&lt;li&gt;Uncommunicative Name&lt;/li&gt;
+&lt;li&gt;Inconsistent Names&lt;/li&gt;
+&lt;li&gt;Dead Code&lt;/li&gt;
+&lt;li&gt;Speculative Generality&lt;/li&gt;
+&lt;li&gt;Oddball Solution&lt;/li&gt;
+&lt;li&gt;Temporary Field&lt;/li&gt;
+&lt;li&gt;Switch statements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Bad smells between classes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Alternative Classes with Different Interfaces&lt;/li&gt;
+&lt;li&gt;Primitive Obsession&lt;/li&gt;
+&lt;li&gt;Data Clumps&lt;/li&gt;
+&lt;li&gt;Refused Bequest&lt;/li&gt;
+&lt;li&gt;Inappropriate Intimacy&lt;/li&gt;
+&lt;li&gt;Indecent Exposure&lt;/li&gt;
+&lt;li&gt;Feature Envy&lt;/li&gt;
+&lt;li&gt;Lazy Class&lt;/li&gt;
+&lt;li&gt;Message Chains&lt;/li&gt;
+&lt;li&gt;Middle Man&lt;/li&gt;
+&lt;li&gt;Divergent Change&lt;/li&gt;
+&lt;li&gt;Shotgun Surgery&lt;/li&gt;
+&lt;li&gt;Parallel Inheritance Hierarchies&lt;/li&gt;
+&lt;li&gt;Incomplete Library Class&lt;/li&gt;
+&lt;li&gt;Solution Sprawl&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;http://mikamantyla.eu/BadCodeSmellsTaxonomy.html&quot;&gt;Grouping of smells&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Cooking recepies&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.industriallogic.com/wp-content/uploads/2005/09/smellstorefactorings.pdf&quot;&gt;Cooking recepies&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://refactoring.com/catalog/&quot;&gt;Refactor Catalog&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Cryptography Questions]]></title><description><![CDATA[Classical Cryptography An example of a monoalphabetic cipher is: Shiftcipher Hill cipher Vigenere cipher Two conditions must hold to find…]]></description><link>https://181192.github.io/expr-site/questions/cryptography/</link><guid isPermaLink="false">https://181192.github.io/expr-site/questions/cryptography/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Classical Cryptography&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;An example of a monoalphabetic cipher is:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Shiftcipher&lt;/li&gt;
+&lt;li&gt;Hill cipher&lt;/li&gt;
+&lt;li&gt;Vigenere cipher&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;Two conditions must hold to find the multiplicative inverse of an integer modulo another integer:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;The gcd of the integer and the modulo integer must be invertible&lt;/li&gt;
+&lt;li&gt;The gcd of the integer and the modulo integer must be equal to one&lt;/li&gt;
+&lt;li&gt;The gcd of the integer and the modulo integer must be equal to zero&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;The main purpose of using a poly alphabetic cipher is to:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Hide the statistical property of the plaintext letters&lt;/li&gt;
+&lt;li&gt;Increase the number of letters in the ciphertext&lt;/li&gt;
+&lt;li&gt;Defeat brute force attack&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;Hill cipheris:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;An Asymmetric cipher&lt;/li&gt;
+&lt;li&gt;A Symmetric cipher&lt;/li&gt;
+&lt;li&gt;A Hash function&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&quot;5&quot;&gt;
+&lt;li&gt;Cyptography can be directly linked to all of these core security properties except:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Confidentiality&lt;/li&gt;
+&lt;li&gt;Integrity&lt;/li&gt;
+&lt;li&gt;Availability&lt;/li&gt;
+&lt;li&gt;Authenticity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Symmetric Cryptography&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;The basic elements of a sound cryptography are:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Diffusion, Key secrecy and Confusion&lt;/li&gt;
+&lt;li&gt;Encryption, Key secrecy and confusion&lt;/li&gt;
+&lt;li&gt;Encryption, decryption and keysecrecy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;In a blockcipher:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Messages are encryptedat once&lt;/li&gt;
+&lt;li&gt;Messages are split into blocks before encryption&lt;/li&gt;
+&lt;li&gt;Messages are split into two before encryption&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;Symmetric encryption can provide:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Non-repudiation&lt;/li&gt;
+&lt;li&gt;Confidentiality&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;The following are challenges with symmetric encryption except:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Key distribution&lt;/li&gt;
+&lt;li&gt;Key management&lt;/li&gt;
+&lt;li&gt;Speed of execution&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&quot;5&quot;&gt;
+&lt;li&gt;In stream ciphers:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Successive keys are used to encrypt plaintext message&lt;/li&gt;
+&lt;li&gt;The same key is used to encrypt plaintext message&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&quot;6&quot;&gt;
+&lt;li&gt;The security of cryptography must rely on:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Keeping the cryptography algorithm secret&lt;/li&gt;
+&lt;li&gt;Keeping both the crypto algorithm and the key secret&lt;/li&gt;
+&lt;li&gt;Keeping only the key secret&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Asymmetric Cryptography&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Asymmetric cryptography uses:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Public and private keys&lt;/li&gt;
+&lt;li&gt;A secret key known to two parties&lt;/li&gt;
+&lt;li&gt;Public keys&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;The security level of 128-bit asymmetrickey is the same as 128-bit symmetric key:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;True&lt;/li&gt;
+&lt;li&gt;False&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;The security of RSA is based on the difficulty of:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Solving the logarithm problem&lt;/li&gt;
+&lt;li&gt;Factoring large prime numbers&lt;/li&gt;
+&lt;li&gt;Solving quadratic problem&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;A 4-bit (11012) messagein an Elliptic curve can be expressed in polynomial form as:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;x^4+x^2+1&lt;/li&gt;
+&lt;li&gt;x^3+x^2+x+1&lt;/li&gt;
+&lt;li&gt;x^3+x^2+1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Hashing and Digital Signature&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;In digital signature:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;The publickeyis used to signthemessageand theprivate keyused to verifythesignature&lt;/li&gt;
+&lt;li&gt;The publickeyis used to encryptthemessageand theprivate keyis used to decryptit&lt;/li&gt;
+&lt;li&gt;The private keyis used to signthemessageand thepublickeyto verify&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;Hash functions should be collision resistant because:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Authentication can only be achieved if there is no collision&lt;/li&gt;
+&lt;li&gt;Integrity can only be preserved if there is no collision&lt;/li&gt;
+&lt;li&gt;Confidentiality can only be achieved if there is no collision&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;MAC&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Uses asymmetric keys and provide authentication and integrity&lt;/li&gt;
+&lt;li&gt;Uses symmetric key and provide authentication and integrity&lt;/li&gt;
+&lt;li&gt;Uses symmetric key and provide authentication, integrity and non-repudiation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;One-wayness of a hash function means&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Two different messages cannot hash to the same hash values&lt;/li&gt;
+&lt;li&gt;One message cannot produce two different hash values&lt;/li&gt;
+&lt;li&gt;It is not possible to derive the input from the hash output&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&quot;5&quot;&gt;
+&lt;li&gt;Which hash function has collision been found?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;SHAE256&lt;/li&gt;
+&lt;li&gt;MD5&lt;/li&gt;
+&lt;li&gt;RIPEMDE160&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&quot;6&quot;&gt;
+&lt;li&gt;What is the major difference between MAC and Hashing&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;MAC provides integrity&lt;/li&gt;
+&lt;li&gt;MAC provides authentication&lt;/li&gt;
+&lt;li&gt;MAC provides confidentiality&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&quot;7&quot;&gt;
+&lt;li&gt;Whatis themajor differencebetweenMAC and digital signature&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;MAC hashes the message and encrypt with the private key&lt;/li&gt;
+&lt;li&gt;MAC hashes the message and the symmetric key&lt;/li&gt;
+&lt;li&gt;MAC hashes the message&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&quot;8&quot;&gt;
+&lt;li&gt;Why do we need to hash in digital signature?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Because we need irreversible function&lt;/li&gt;
+&lt;li&gt;Because of speed and size&lt;/li&gt;
+&lt;li&gt;To avoid message collisions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Public Key Infrastructure and Overview of crypto in Blockchain&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;What does PKI achieve in publickey systems? (multiple answers)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Binds an identity to a publickey&lt;/li&gt;
+&lt;li&gt;Verifies users transactions&lt;/li&gt;
+&lt;li&gt;Provides key management such as key distribution, validation and revocation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;How is PGP certificate different from X.509 certificatemodel? (multiple answers)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;You can create your own certificate&lt;/li&gt;
+&lt;li&gt;You need a single authority to sign your certificate&lt;/li&gt;
+&lt;li&gt;A PGP certificate can contain multiple signatures&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;PGP uses:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Symmetric and asymmetric crypto systems&lt;/li&gt;
+&lt;li&gt;Only symmetric&lt;/li&gt;
+&lt;li&gt;Only asymmetric&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Refactoring Questions]]></title><description><![CDATA[Give the “cooking recipe” for the “Move method” refactoring “Pull Up Field” refactoring “Extract Method” refactoring “Pull Up Method…]]></description><link>https://181192.github.io/expr-site/questions/refactoring/</link><guid isPermaLink="false">https://181192.github.io/expr-site/questions/refactoring/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Give the “cooking recipe” for the&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;“Move method” refactoring&lt;/li&gt;
+&lt;li&gt;“Pull Up Field” refactoring&lt;/li&gt;
+&lt;li&gt;“Extract Method” refactoring&lt;/li&gt;
+&lt;li&gt;“Pull Up Method” refactoring&lt;/li&gt;
+&lt;li&gt;“Extract Variable” refactoring&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Give some examples of simple refactorings&lt;/li&gt;
+&lt;li&gt;Give some examples of OO refactorings&lt;/li&gt;
+&lt;li&gt;Make a small example where you show what the different refactorings do.&lt;/li&gt;
+&lt;li&gt;“Feature Envy” is an example of a “bad smell”. Explain what it is and what types of refactoring you can do on it.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Hill Cypher]]></title><description><![CDATA[Polyalphabetic cipher Requires at least 2 keys Uses a linear combination of the key with the plaintext to form the ciphertext.]]></description><link>https://181192.github.io/expr-site/cryptography/hill-cypher/</link><guid isPermaLink="false">https://181192.github.io/expr-site/cryptography/hill-cypher/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;ul&gt;
+&lt;li&gt;Polyalphabetic cipher&lt;/li&gt;
+&lt;li&gt;Requires at least 2 keys&lt;/li&gt;
+&lt;li&gt;Uses a linear combination of the key with the plaintext to form the ciphertext.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Affine Cypher]]></title><description><![CDATA[Think about how to decrypt the Affine Cipher Decryption Inverse’of’multiplicative’cipher How to compute the inverse of a key (Trial and…]]></description><link>https://181192.github.io/expr-site/cryptography/affine-cypher/</link><guid isPermaLink="false">https://181192.github.io/expr-site/cryptography/affine-cypher/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/expr-site/static/23caa89c66e6c93812508814c8d16df4/f2eef/affineCypherEncryption.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 51.91193511008111%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB7TVUwUD/xAAaEAACAgMAAAAAAAAAAAAAAAAAEQECECJC/9oACAEBAAEFAlJsKx1j/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGBAAAwEBAAAAAAAAAAAAAAAAADGhIOH/2gAIAQEABj8C4ODmP//EABsQAAIBBQAAAAAAAAAAAAAAAAABMRARIUFh/9oACAEBAAE/Ic0i0A4Qm9q//9oADAMBAAIAAwAAABCfP//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/EIj/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPxCq/8QAHBAAAgICAwAAAAAAAAAAAAAAAREAIXHwEFHR/9oACAEBAAE/ECUitnp7AJAOswIvRmFCGV04rfH/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;affineCypherEncryption&quot;
+        title=&quot;&quot;
+        src=&quot;/expr-site/static/23caa89c66e6c93812508814c8d16df4/7fd8e/affineCypherEncryption.jpg&quot;
+        srcset=&quot;/expr-site/static/23caa89c66e6c93812508814c8d16df4/815e2/affineCypherEncryption.jpg 148w,
+/expr-site/static/23caa89c66e6c93812508814c8d16df4/58ff1/affineCypherEncryption.jpg 295w,
+/expr-site/static/23caa89c66e6c93812508814c8d16df4/7fd8e/affineCypherEncryption.jpg 590w,
+/expr-site/static/23caa89c66e6c93812508814c8d16df4/bf67d/affineCypherEncryption.jpg 885w,
+/expr-site/static/23caa89c66e6c93812508814c8d16df4/305a1/affineCypherEncryption.jpg 1180w,
+/expr-site/static/23caa89c66e6c93812508814c8d16df4/f2eef/affineCypherEncryption.jpg 1726w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;Think about how to decrypt the Affine Cipher&lt;/h2&gt;
+&lt;h2&gt;Decryption&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/expr-site/static/3bce410b97d90131587e8e4190386da0/cf47b/affineCypherDecryption.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 53.40699815837937%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdxo0HAP/8QAFhAAAwAAAAAAAAAAAAAAAAAAARAg/9oACAEBAAEFAoC//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGRAAAwEBAQAAAAAAAAAAAAAAAAERIRBh/9oACAEBAAE/IVKX3l2GmRH/2gAMAwEAAgADAAAAELMP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGxABAAMBAAMAAAAAAAAAAAAAAQARITFBUWH/2gAIAQEAAT8QosUfSAzewzzcEVcGEoQ56gHAJ//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;affineCypherDecryption&quot;
+        title=&quot;&quot;
+        src=&quot;/expr-site/static/3bce410b97d90131587e8e4190386da0/7fd8e/affineCypherDecryption.jpg&quot;
+        srcset=&quot;/expr-site/static/3bce410b97d90131587e8e4190386da0/815e2/affineCypherDecryption.jpg 148w,
+/expr-site/static/3bce410b97d90131587e8e4190386da0/58ff1/affineCypherDecryption.jpg 295w,
+/expr-site/static/3bce410b97d90131587e8e4190386da0/7fd8e/affineCypherDecryption.jpg 590w,
+/expr-site/static/3bce410b97d90131587e8e4190386da0/bf67d/affineCypherDecryption.jpg 885w,
+/expr-site/static/3bce410b97d90131587e8e4190386da0/305a1/affineCypherDecryption.jpg 1180w,
+/expr-site/static/3bce410b97d90131587e8e4190386da0/cf47b/affineCypherDecryption.jpg 1629w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;Inverse’of’multiplicative’cipher&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/expr-site/static/0a17650e4d7a1054fe9760bed8acfb7a/e4288/inverse.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 45.534407027818446%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHuY8yggf/EABcQAQEBAQAAAAAAAAAAAAAAAAEAEDH/2gAIAQEAAQUCdeRf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGRABAQEAAwAAAAAAAAAAAAAAAQAxEVFh/9oACAEBAAE/IRxAdkPttNi//9oADAMBAAIAAwAAABDzz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABoQAQACAwEAAAAAAAAAAAAAAAEAMREhcaH/2gAIAQEAAT8QEK4xyJC26gBss8Uocl3Z/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;inverse&quot;
+        title=&quot;&quot;
+        src=&quot;/expr-site/static/0a17650e4d7a1054fe9760bed8acfb7a/7fd8e/inverse.jpg&quot;
+        srcset=&quot;/expr-site/static/0a17650e4d7a1054fe9760bed8acfb7a/815e2/inverse.jpg 148w,
+/expr-site/static/0a17650e4d7a1054fe9760bed8acfb7a/58ff1/inverse.jpg 295w,
+/expr-site/static/0a17650e4d7a1054fe9760bed8acfb7a/7fd8e/inverse.jpg 590w,
+/expr-site/static/0a17650e4d7a1054fe9760bed8acfb7a/bf67d/inverse.jpg 885w,
+/expr-site/static/0a17650e4d7a1054fe9760bed8acfb7a/305a1/inverse.jpg 1180w,
+/expr-site/static/0a17650e4d7a1054fe9760bed8acfb7a/e4288/inverse.jpg 1366w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;How to compute the inverse of a key (Trial and Error Approach&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/expr-site/static/49e35f9c90cb1cbdbd76bec792486eca/f850e/compute_inverse.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 57.03073904512755%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIBAwX/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAdxZUoAm/wD/xAAaEAACAgMAAAAAAAAAAAAAAAAAAgERAyEy/9oACAEBAAEFAqH0i5GqxuViD//EABYRAQEBAAAAAAAAAAAAAAAAAAACEv/aAAgBAwEBPwFqX//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPwFlf//EABYQAQEBAAAAAAAAAAAAAAAAAAEAIP/aAAgBAQAGPwKXP//EABsQAAMAAgMAAAAAAAAAAAAAAAABESExQVGR/9oACAEBAAE/IYphCWF0McPBtdj10yLR/9oADAMBAAIAAwAAABBH/wD/xAAXEQEBAQEAAAAAAAAAAAAAAAABABEh/9oACAEDAQE/EBB1l3hf/8QAFhEBAQEAAAAAAAAAAAAAAAAAABFh/9oACAECAQE/EJWz/8QAGRABAQEBAQEAAAAAAAAAAAAAAREAIUEx/9oACAEBAAE/EFFQ++ZdLULjqhjOYFz1m7QeJMBwnd//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;compute_inverse&quot;
+        title=&quot;&quot;
+        src=&quot;/expr-site/static/49e35f9c90cb1cbdbd76bec792486eca/7fd8e/compute_inverse.jpg&quot;
+        srcset=&quot;/expr-site/static/49e35f9c90cb1cbdbd76bec792486eca/815e2/compute_inverse.jpg 148w,
+/expr-site/static/49e35f9c90cb1cbdbd76bec792486eca/58ff1/compute_inverse.jpg 295w,
+/expr-site/static/49e35f9c90cb1cbdbd76bec792486eca/7fd8e/compute_inverse.jpg 590w,
+/expr-site/static/49e35f9c90cb1cbdbd76bec792486eca/bf67d/compute_inverse.jpg 885w,
+/expr-site/static/49e35f9c90cb1cbdbd76bec792486eca/305a1/compute_inverse.jpg 1180w,
+/expr-site/static/49e35f9c90cb1cbdbd76bec792486eca/f850e/compute_inverse.jpg 1529w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;Exercise&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/expr-site/static/68d01f0c2921ab57a200967ff59d6780/8c38d/exercise.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 57.06332637439109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdynBYg//8QAFhAAAwAAAAAAAAAAAAAAAAAAACBB/9oACAEBAAEFAkp//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGhAAAgIDAAAAAAAAAAAAAAAAAREAICExUf/aAAgBAQABPyFZ0Ix2r//aAAwDAQACAAMAAAAQ8w//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAdEAABAwUBAAAAAAAAAAAAAAABABExECFBUYGR/9oACAEBAAE/ECAZNCasQeumF0+r/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;exercise&quot;
+        title=&quot;&quot;
+        src=&quot;/expr-site/static/68d01f0c2921ab57a200967ff59d6780/7fd8e/exercise.jpg&quot;
+        srcset=&quot;/expr-site/static/68d01f0c2921ab57a200967ff59d6780/815e2/exercise.jpg 148w,
+/expr-site/static/68d01f0c2921ab57a200967ff59d6780/58ff1/exercise.jpg 295w,
+/expr-site/static/68d01f0c2921ab57a200967ff59d6780/7fd8e/exercise.jpg 590w,
+/expr-site/static/68d01f0c2921ab57a200967ff59d6780/bf67d/exercise.jpg 885w,
+/expr-site/static/68d01f0c2921ab57a200967ff59d6780/305a1/exercise.jpg 1180w,
+/expr-site/static/68d01f0c2921ab57a200967ff59d6780/8c38d/exercise.jpg 1437w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;Decryption&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/expr-site/static/12f9b92c5dea88b7601598b071ac5880/29b9a/full_decryption.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 52.97583971714791%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAgX/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAH/2gAMAwEAAhADEAAAAdu6UIviJl//xAAYEAADAQEAAAAAAAAAAAAAAAAAARIQEf/aAAgBAQABBQLesplM/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8Bqv/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/AYj/xAAWEAEBAQAAAAAAAAAAAAAAAAAAMRD/2gAIAQEABj8C2qr/xAAZEAACAwEAAAAAAAAAAAAAAAAAYQEQETH/2gAIAQEAAT8hyERnKeGh4//aAAwDAQACAAMAAAAQt/8A/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQIBAT8Qs//EABwQAAICAgMAAAAAAAAAAAAAAAERACEQwTFh0f/aAAgBAQABPxBdMu6EMAhFcI4KtkX7QJ3z/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;full_decryption&quot;
+        title=&quot;&quot;
+        src=&quot;/expr-site/static/12f9b92c5dea88b7601598b071ac5880/7fd8e/full_decryption.jpg&quot;
+        srcset=&quot;/expr-site/static/12f9b92c5dea88b7601598b071ac5880/815e2/full_decryption.jpg 148w,
+/expr-site/static/12f9b92c5dea88b7601598b071ac5880/58ff1/full_decryption.jpg 295w,
+/expr-site/static/12f9b92c5dea88b7601598b071ac5880/7fd8e/full_decryption.jpg 590w,
+/expr-site/static/12f9b92c5dea88b7601598b071ac5880/bf67d/full_decryption.jpg 885w,
+/expr-site/static/12f9b92c5dea88b7601598b071ac5880/305a1/full_decryption.jpg 1180w,
+/expr-site/static/12f9b92c5dea88b7601598b071ac5880/29b9a/full_decryption.jpg 1697w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;Computational effort to break Affine Cipher&lt;/h2&gt;
+&lt;p&gt;$$12 * 26 = 312$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Brute-force 312 keys.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Cryptoanalysis o Affine Cipher&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The Affine cipher incresed the key space over shift cipher&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;However, it is still susceptible to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Brute-Force and Frequency analysis attacks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ciphertext: $y = {VKZIBEVCCH}$&lt;/p&gt;</content:encoded></item></channel></rss>
