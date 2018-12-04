@@ -173,6 +173,15 @@ Replication is used to create and maintain multiple copies of the data in the cl
 
 ### Monitoring
 
+Cloud resources can be monitored by monitoring services provided by the cloud service providers. Monitoring services allow cloud users to collect and analyze the data on various monitoring metrics. Monitoring of cloud resources is important because it allows the users to keep track of the health of applications and services deployed in the cloud. With metrics available at run-time users can make operational decisions such as scaling up or scaling down cloud resources.
+
+| Type      | Metrics                                                          |
+| --------- | ---------------------------------------------------------------- |
+| CPU       | CPU-Usage, CPU-Idle                                              |
+| Disk      | Disk-Usage, Bytes/sec (read/write), Operations/sec               |
+| Memory    | Memory-USed, Memory-Free, Page-Cache                             |
+| Interface | Packets/sec (incoming, outgoing), Octets/sec (incoming/outgoing) |
+
 ### Software Defined Networking (SDN)
 
 ### MapReduce
