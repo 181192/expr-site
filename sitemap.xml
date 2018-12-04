@@ -3,17 +3,17 @@
 <url> <loc>https://181192.github.io/expr-site/expr-site/iot/cloud-computing</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://181192.github.io/expr-site/expr-site/questions/blockchain</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://181192.github.io/expr-site/expr-site/iot/iot</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://181192.github.io/expr-site/expr-site/questions/iot</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://181192.github.io/expr-site/expr-site/exam-details/iot</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://181192.github.io/expr-site/expr-site/questions/cryptography</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://181192.github.io/expr-site/expr-site/questions/refactoring</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://181192.github.io/expr-site/expr-site/exam-details/blockchain</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://181192.github.io/expr-site/expr-site/questions/iot</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://181192.github.io/expr-site/expr-site/exam-details/cryptography</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://181192.github.io/expr-site/expr-site/exam-details/blockchain</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://181192.github.io/expr-site/expr-site/exam-details/refactoring</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://181192.github.io/expr-site/expr-site/blockchain/blockchain</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://181192.github.io/expr-site/expr-site/refactoring/refactoring</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://181192.github.io/expr-site/expr-site/cryptography/affine-cypher</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://181192.github.io/expr-site/expr-site/questions/cryptography</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://181192.github.io/expr-site/expr-site/questions/refactoring</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://181192.github.io/expr-site/expr-site/cryptography/hill-cypher</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://181192.github.io/expr-site/expr-site/cryptography/affine-cypher</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://181192.github.io/expr-site/expr-site/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://181192.github.io/expr-site/expr-site/news/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
