@@ -78,3 +78,5 @@ PaaS provides the users the capability to develop and deploy application in the 
 ##### Software-as-a-Service (SaaS)
 
 SaaS provides the users a complete software appliation or the user interface to the application itself. The cloud service provider manages the underlying cloud infrastructure including servers, network, operating systems, storage and application software, and the user is unaware of the underlying architecture of the cloud. Applications are privided to the user through a thin client interface (e.g., a browser)
+
+![cloud-service-models](cloud-sevice-models.png)
