@@ -80,3 +80,25 @@ PaaS provides the users the capability to develop and deploy application in the 
 SaaS provides the users a complete software appliation or the user interface to the application itself. The cloud service provider manages the underlying cloud infrastructure including servers, network, operating systems, storage and application software, and the user is unaware of the underlying architecture of the cloud. Applications are privided to the user through a thin client interface (e.g., a browser)
 
 ![cloud-service-models](cloud-sevice-models.png)
+
+### Deployment Models
+
+![cloud-models-with-services](cloud-models-with-services.jpg)
+
+#### Public cloud
+
+In the public deployment model, cloud services are available to the general public or a large group of companies. The cloud resources are shared among different users. The cloud services are provided by a third.party cloud provider. Public clouds are best suited for users who want to use cloud infrastructure for development and testing of applications and host applications in the cloud toserve large workloads, without upfront investments in IT infrastructure.
+
+#### Private cloud
+
+In the private cloud deployment model cloud infrastructure is operated for exclusive use of a single organization. Private cloud services are dedicated for a single organization. Cloud infrastructure can be setup on premise or off-premise and may be managed internally or by a third-party. Private clouds are best suited for applications where security is very important and organizations that want to have very tight control over their data.
+
+#### Hybrid cloud
+
+The hybrid cloud deployment model compines the services of multiple clouds (private or public). The individuals retain their unique identities but are bound by standarized or proprietary technology that enables data and application portability. Hybrid clouds are best suited for organizations that want to take advantage og secured application nd data hosting on a private cloud, and at the same time benefit from cost savings by hosting shared applications and data in public clouds. 
+
+#### Community cloud
+
+In the community cloud deployment, the cloud services are shared by several organizations that have the same policy and compliance considerations. Community clouds are best suited for organizations that want access to the same applications and data, and want the cloud costs to be shared with the larger group.
+
+![cloud-deployment-models](cloud-deployment-models.png)
