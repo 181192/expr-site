@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ExPr 2018]]></title><description><![CDATA[Exam Preparation 2018]]></description><link>https://181192.github.io/expr-site</link><generator>RSS for Node</generator><lastBuildDate>Tue, 04 Dec 2018 13:57:28 GMT</lastBuildDate><item><title><![CDATA[Cloud Computing]]></title><description><![CDATA[Characteristics of Cloud Computing On-demand self service Cloud computing resources can be provisioned on-demand by the users, without…]]></description><link>https://181192.github.io/expr-site/iot/cloud-computing/</link><guid isPermaLink="false">https://181192.github.io/expr-site/iot/cloud-computing/</guid><pubDate>Tue, 04 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Characteristics of Cloud Computing&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ExPr 2018]]></title><description><![CDATA[Exam Preparation 2018]]></description><link>https://181192.github.io/expr-site</link><generator>RSS for Node</generator><lastBuildDate>Tue, 04 Dec 2018 14:11:34 GMT</lastBuildDate><item><title><![CDATA[Cloud Computing]]></title><description><![CDATA[Characteristics of Cloud Computing On-demand self service Cloud computing resources can be provisioned on-demand by the users, without…]]></description><link>https://181192.github.io/expr-site/iot/cloud-computing/</link><guid isPermaLink="false">https://181192.github.io/expr-site/iot/cloud-computing/</guid><pubDate>Tue, 04 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Characteristics of Cloud Computing&lt;/h2&gt;
 &lt;h3&gt;On-demand self service&lt;/h3&gt;
 &lt;p&gt;Cloud computing resources can be provisioned on-demand by the users, without requiring interactons with the cloud service provider. The process of provisioning resources is automated.&lt;/p&gt;
 &lt;h3&gt;Broad network access&lt;/h3&gt;
@@ -42,7 +42,41 @@ In a organic multi-tenancy every component in the system architecture is shared 
 &lt;h5&gt;Platform-as-a-Service (PaaS)&lt;/h5&gt;
 &lt;p&gt;PaaS provides the users the capability to develop and deploy application in the cloud using the development tools, application programming interfaces (API’s), software libraries and services provided by the cloud service provider. The cloud service provider manages the underlying cloud infrastructures including servers, network, operating systems and storage. The users, themselves, are repsonsible for developing, deploying, configuring and managing applications on the cloud infrastructure.&lt;/p&gt;
 &lt;h5&gt;Software-as-a-Service (SaaS)&lt;/h5&gt;
-&lt;p&gt;SaaS provides the users a complete software appliation or the user interface to the application itself. The cloud service provider manages the underlying cloud infrastructure including servers, network, operating systems, storage and application software, and the user is unaware of the underlying architecture of the cloud. Applications are privided to the user through a thin client interface (e.g., a browser)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Blockchain Questions]]></title><description><![CDATA[How is a payment carried out in the Bitcoin network? The bitcoin network is based on blocks. Blocks are discovered by attempting to solve…]]></description><link>https://181192.github.io/expr-site/questions/blockchain/</link><guid isPermaLink="false">https://181192.github.io/expr-site/questions/blockchain/</guid><pubDate>Mon, 03 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;How is a payment carried out in the Bitcoin network?&lt;/h2&gt;
+&lt;p&gt;SaaS provides the users a complete software appliation or the user interface to the application itself. The cloud service provider manages the underlying cloud infrastructure including servers, network, operating systems, storage and application software, and the user is unaware of the underlying architecture of the cloud. Applications are privided to the user through a thin client interface (e.g., a browser)&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/expr-site/static/aa46de0c5828ea67d21d461ac2445991/8e32e/cloud-sevice-models.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 54.37499999999999%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAACj0lEQVQozzWSy08TURSH+1foQgU1gqgkbjS6kYWRuHSniSHRjWv/JDWaGEUxBXklbBQE7WNoS0tf9MW0MExnpp22TNuh5fPeS7jJnck9Oec7j98JIE7TsdErZYyDGp12ixPfV295D3SdrudJN+rGIflshrbb5PxUKhUKhQLtdlu9A6fiY3t9Dt0ORsvD7fn4w1PKpkOmUqNwaOL5A3pD0K2msFWp2i4DETccDDBNE10kbbVaZ0DHP+XZVpt7C/vc/nnA24THVmPI5KrFo5Uqd1YsPuk+7yp9bi4c8nBRZ3ypzpYjkjRtEjtJdnd3KRaLeKKTgN0f8mTzmDHhPLJgMqN1WTk6YXTVZXJB59JSg/f7Ph8rPcYXTe7PlxhfttiyfQVMpdMkk0lKpdIZsCEqfLrZYSKocz1Y45UArpoDri473A2WubJo8UEf0D/usJnKsa4liGQKNFodGo0GqVSKWCymgLLtgO6dMr3uMvEtz+j3Mm+0DhvOULX34EeOsWCVzzUxsV6HuAjUImGyuylcIUy9Xicajaqbz+exbZtAuj1kes3g1lyRa7MFXv91aHuiylCMtXCM1X/bVOu2cg5HRLCmoW1vKzGkwpFIRAF3dnZwHIfAvqjw8W+XG3NlLs+WeBk5hpMeGdFKQouSTiaw6ibG0ZFqTwLk37IsDMMgHo8rWy6XUyMIOEKUqY1jRoIHXAwavIj2oN8lk8sTTyTICkfTrKv2ZJAE7O3tKeCRSJIWosjq5AzlLp6p/KfD2HxNQWc0AfS7ZMVMZHA2m1Wwc6AUQM6r2WwqqFwZ6SfXptvtCqBQeeqXy8jXPS58KfI8JFr2e2q/QqGQAsj5SYAMlDZZkaxG2uX8wuGwqlQC/wOpsPmtl+fn4AAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;cloud-service-models&quot;
+        title=&quot;&quot;
+        src=&quot;/expr-site/static/aa46de0c5828ea67d21d461ac2445991/1b588/cloud-sevice-models.png&quot;
+        srcset=&quot;/expr-site/static/aa46de0c5828ea67d21d461ac2445991/dabf4/cloud-sevice-models.png 148w,
+/expr-site/static/aa46de0c5828ea67d21d461ac2445991/6888f/cloud-sevice-models.png 295w,
+/expr-site/static/aa46de0c5828ea67d21d461ac2445991/1b588/cloud-sevice-models.png 590w,
+/expr-site/static/aa46de0c5828ea67d21d461ac2445991/8e32e/cloud-sevice-models.png 640w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Blockchain Questions]]></title><description><![CDATA[How is a payment carried out in the Bitcoin network? The bitcoin network is based on blocks. Blocks are discovered by attempting to solve…]]></description><link>https://181192.github.io/expr-site/questions/blockchain/</link><guid isPermaLink="false">https://181192.github.io/expr-site/questions/blockchain/</guid><pubDate>Mon, 03 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;How is a payment carried out in the Bitcoin network?&lt;/h2&gt;
 &lt;p&gt;The bitcoin network is based on blocks. Blocks are discovered by attempting to solve complex mathematical problems using huge computational resources.&lt;/p&gt;
 &lt;p&gt;Once a block is “discovered”, the block is validated by consensus of peers in the network. They will adopt the new block.&lt;/p&gt;
 &lt;p&gt;The node that discovers the block will get a reward, but it will also be allowed to fill the block with transactions. All transactions will need to be validated by tracing the origin of all the earlier bitcoin transactions.&lt;/p&gt;
