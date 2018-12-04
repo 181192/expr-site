@@ -212,6 +212,27 @@ Key elements of SDN as as follows:
 
 ### Identity and Access Managment
 
-### Service Level Agreements
+### Service Level Agreements (SLA)
+
+A Service Level Agreement for cloud specifies the level of service that is formally defined as a part of the service contract with the cloud service provider. SLAs provide a level of service for each service which is specified in the form of minimum level of service guaranteed and a target level. SLAs contain a number of performance metrics and the corresponding service level objectives.
+
+| Criteria                     | Details                                                                |
+| ---------------------------- | ---------------------------------------------------------------------- |
+| Availability                 | Percentage of time the service is guaranteed to be available           |
+| Performance                  | Response time, Throughput                                              |
+| Disaster Recovery            | Mean time to recover                                                   |
+| Problem resolution           | Process to identify problems, support options, resolution expectations |
+| Security and privacy of data | Machanism for security of data in storage and transmission             |
 
 ### Billing
+
+Cloud service providers offer a number of billing models described as follows:
+
+> **Elastic Pricing**  
+> Pay-as-you-use pricing model, the customers are charged based on the usage of cloud resources. Cloud computing provides the benefit of provision resources on-demand. A good model for customers who cannot predict the usage beforehand, or for a short time usage of a cloud resource.
+
+> **Fixed Pricing**  
+> Customers are charged a fixed amount per month for the cloud resource. For example, fixed amount can be charged per month for running a virtual machine instance, irrespactive of the actual usage. Suited for customers who want more control over the cloud expenses.
+
+> **Spot Pricing**  
+> Offer variable pricing for cloud resources which is driven by the marked demand. When the demand for cloud resources is high the prices increase, or when the demand is low the prices decrease.
