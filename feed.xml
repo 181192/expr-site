@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ExPr 2018]]></title><description><![CDATA[Exam Preparation 2018]]></description><link>https://181192.github.io/expr-site</link><generator>RSS for Node</generator><lastBuildDate>Tue, 04 Dec 2018 16:42:23 GMT</lastBuildDate><item><title><![CDATA[Cloud Computing]]></title><description><![CDATA[Characteristics of Cloud Computing On-demand self service Cloud computing resources can be provisioned on-demand by the users, without…]]></description><link>https://181192.github.io/expr-site/iot/cloud-computing/</link><guid isPermaLink="false">https://181192.github.io/expr-site/iot/cloud-computing/</guid><pubDate>Tue, 04 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Characteristics of Cloud Computing&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ExPr 2018]]></title><description><![CDATA[Exam Preparation 2018]]></description><link>https://181192.github.io/expr-site</link><generator>RSS for Node</generator><lastBuildDate>Tue, 04 Dec 2018 17:25:22 GMT</lastBuildDate><item><title><![CDATA[Cloud Computing]]></title><description><![CDATA[Characteristics of Cloud Computing On-demand self service Cloud computing resources can be provisioned on-demand by the users, without…]]></description><link>https://181192.github.io/expr-site/iot/cloud-computing/</link><guid isPermaLink="false">https://181192.github.io/expr-site/iot/cloud-computing/</guid><pubDate>Tue, 04 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Characteristics of Cloud Computing&lt;/h2&gt;
 &lt;h3&gt;On-demand self service&lt;/h3&gt;
 &lt;p&gt;Cloud computing resources can be provisioned on-demand by the users, without requiring interactons with the cloud service provider. The process of provisioning resources is automated.&lt;/p&gt;
 &lt;h3&gt;Broad network access&lt;/h3&gt;
@@ -267,8 +267,20 @@ Type-2 hypervisors or hosted hypervisors run on top of a conventional (main/host
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3&gt;Scalability and elasticity&lt;/h3&gt;
-&lt;h3&gt;Deployment&lt;/h3&gt;
+&lt;h3&gt;Replication&lt;/h3&gt;
+&lt;p&gt;Replication is used to create and maintain multiple copies of the data in the cloud. Replication of data is important for practical reasins such as business continuity and disaster recovery. Cloud based data replication approaches provide replication of data in multiple locations, automated recovery, low recovery point objective (RPO) and low recovery tume objective (RTO). Cloud provides affordable replication solutions with pay-per-use/pay-as-you-go pricing models.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Array-based Replication&lt;/strong&gt;&lt;br&gt;
+Array-based replication uses compatible storage arrays to automatically copy data from a local storage array to a remote storage array. Arrays replicate data at the disk sub-system level, therefore the type of hosts accessing the data and the type of data is not important. Array-based replication usese Network Attached Storage (NAS) or Storage Area Network (SAN), to replicate. A drawback of this approach is that it requires similar arrays at local and remote locations. Therefore the cost for setting up array-based replication are higher that the other approaches.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Network-based Replication&lt;/strong&gt;&lt;br&gt;
+Network-based replication uses an appliance that sits on the network and interceots packets that are send from hosts and storage arrays. The inercepted packets are replicated to a secondary location. The benefits of this approach is that it supports heterogeneous environments and require a single point of managment. However, this approach involves higher initial costs due to replication hardware and software.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Host-based Replication&lt;/strong&gt;&lt;br&gt;
+Host-based replication runs on standard servers and uses software to transfer data from a local to remote location. The host acts the replication control mechanism. An agent is installed on the hosts that communicate with the agents on the other hosts. Host-based replication can either be block-based or file-based. Host-based replication with cloud-infrastructure provides affordable replication solutions. With host-based replication, entire virtual machines can be replicated in real-time.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h3&gt;Monitoring&lt;/h3&gt;
 &lt;h3&gt;Software Defined Networking (SDN)&lt;/h3&gt;
 &lt;h3&gt;MapReduce&lt;/h3&gt;
