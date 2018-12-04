@@ -26,10 +26,10 @@ The computing and storage resources provided by cloud service providers are pool
 ### Rapid elasticity
 
 Cloud resources ca be rapidly scaled up or down based on demand. Two types of scaling options exists:
-
-> **Horizontal Scaling (scaling out)**  
+ 
+>**Horizontal Scaling (scaling out)**  
 > Horizontal scaling or scaling-out involves launching and provisioning additional server resources.
->
+
 > **Vertical Scaling (scaling up)**  
 > Vertical scaling or scaling-up involves changing the computing capacity assigned to the server resources while keeping the number of servers resources constant
 
@@ -59,6 +59,22 @@ The multi-tenanted approach of the cloud allows multiple users to make use of th
 
 > **Virtual multi-tenancy**  
 > In virtual multi-tenancy, computing and storage resources are shared among multiple users. Multiple tentant are served from virtual machines (VMs) that execute concurrently on top of the same computing and storage resources.
->
+
 > **Organic multi-tenancy**  
 > In a organic multi-tenancy every component in the system architecture is shared among multiple tentants, including hardware, OS, database servers, application servers, load balances, etc. Organic multi-tenancy exists when explicit multi-tenant design patterns are coded into the application.
+
+## Cloud Models
+
+### Service Models
+
+#### Infrastructure-as-a-Service (IaaS)
+
+IaaS provides the users the capability to provision computing and storage resources. These resources are provided to the users as virtual machines instances and virtual storage. Users can start, stop, configure and manage the virtual machine instances and virtual storage.Users can deploy operating systems and applications of their choise on the virtual resources provisioned in the cloud. The cloud service provider manages the underlying infrastructure. The users are billed on the pay-per-useparadigm. Common metering used are the number of virtual machines hours used and/or the amount of storage space provisioned.
+
+##### Platform-as-a-Service (PaaS)
+
+PaaS provides the users the capability to develop and deploy application in the cloud using the development tools, application programming interfaces (API's), software libraries and services provided by the cloud service provider. The cloud service provider manages the underlying cloud infrastructures including servers, network, operating systems and storage. The users, themselves, are repsonsible for developing, deploying, configuring and managing applications on the cloud infrastructure.
+
+##### Software-as-a-Service (SaaS)
+
+SaaS provides the users a complete software appliation or the user interface to the application itself. The cloud service provider manages the underlying cloud infrastructure including servers, network, operating systems, storage and application software, and the user is unaware of the underlying architecture of the cloud. Applications are privided to the user through a thin client interface (e.g., a browser)
