@@ -1,7 +1,7 @@
-import React from "react";
-import { graphql } from "gatsby";
-import Layout from "../components/Layout";
-import PostList from "../components/PostsList";
+import React from 'react'
+import { graphql } from 'gatsby'
+import Layout from '../components/Layout'
+import PostList from '../components/PostsList'
 
 const IndexPage = ({ data, location }) => (
   <Layout location={location}>
@@ -13,7 +13,7 @@ const IndexPage = ({ data, location }) => (
         static site generator) and is hosted on <strong>Github Pages</strong>.
       </p>
       <p>The page is under construction.</p>
-      <h4 style={{ marginTop: "2rem" }}>Last 5 recent posts:</h4>
+      <h4 style={{ marginTop: '2rem' }}>Last 5 recent posts:</h4>
       <PostList
         showChevron="yes"
         showImage="yes"
@@ -23,9 +23,9 @@ const IndexPage = ({ data, location }) => (
       />
     </div>
   </Layout>
-);
+)
 
-export default IndexPage;
+export default IndexPage
 
 export const HomePageQuery = graphql`
   query HomePageQuery {
@@ -50,4 +50,4 @@ export const HomePageQuery = graphql`
       }
     }
   }
-`;
+`

@@ -5,7 +5,7 @@ export default class ReadProgressLine extends React.Component {
   constructor() {
     super()
     this.state = {
-      progress: 0
+      progress: 0,
     }
   }
 
@@ -27,7 +27,7 @@ export default class ReadProgressLine extends React.Component {
       top: 0,
       left: 0,
       zIndex: 9,
-      width: `${this.state.progress}%`
+      width: `${this.state.progress}%`,
     }
 
     return <div className="progress-bar" style={style} />

@@ -1,7 +1,7 @@
-import React from "react";
-import { graphql } from "gatsby";
-import PostsList from "../../components/PostsList";
-import Layout from "../../components/Layout";
+import React from 'react'
+import { graphql } from 'gatsby'
+import PostsList from '../../components/PostsList'
+import Layout from '../../components/Layout'
 
 const NewsPage = ({ data, location }) => (
   <Layout location={location}>
@@ -13,9 +13,9 @@ const NewsPage = ({ data, location }) => (
       posts={data.allMarkdownRemark.edges}
     />
   </Layout>
-);
+)
 
-export default NewsPage;
+export default NewsPage
 
 export const NewsPageQuery = graphql`
   query NewsPageQuery {
@@ -39,4 +39,4 @@ export const NewsPageQuery = graphql`
       }
     }
   }
-`;
+`

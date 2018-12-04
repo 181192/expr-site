@@ -1,15 +1,15 @@
-import React from "react";
-import { graphql } from "gatsby";
-import Helmet from "react-helmet";
-import Layout from "../components/Layout";
-import ReadProgressLine from "../components/ReadProgressLine.js";
-import ogImage from "../../static/default-ogimage.png";
-import favicon from "../../static/favicon.ico";
+import React from 'react'
+import { graphql } from 'gatsby'
+import Helmet from 'react-helmet'
+import Layout from '../components/Layout'
+import ReadProgressLine from '../components/ReadProgressLine.js'
+import ogImage from '../../static/default-ogimage.png'
+import favicon from '../../static/favicon.ico'
 
 export default function Template({ data, location }) {
-  const { markdownRemark: post } = data; // data.markdownRemark holds our post data
+  const { markdownRemark: post } = data // data.markdownRemark holds our post data
 
-  const website = `https://https://181192.github.io/expr-site`;
+  const website = `https://https://181192.github.io/expr-site`
 
   return (
     <Layout location={location}>
@@ -18,27 +18,27 @@ export default function Template({ data, location }) {
           title={`ExPr - ${post.frontmatter.title}`}
           meta={[
             {
-              name: "description",
-              content: `${post.frontmatter.ogDescription}`
+              name: 'description',
+              content: `${post.frontmatter.ogDescription}`,
             },
-            { name: "keywords", content: `${post.frontmatter.ogKeywords}` },
-            { property: "og:type", content: "website" },
+            { name: 'keywords', content: `${post.frontmatter.ogKeywords}` },
+            { property: 'og:type', content: 'website' },
             {
-              property: "og:url",
-              content: `${website}${post.frontmatter.path}`
+              property: 'og:url',
+              content: `${website}${post.frontmatter.path}`,
             },
-            { property: "og:image", content: `${ogImage}` },
+            { property: 'og:image', content: `${ogImage}` },
             {
-              property: "og:title",
-              content: `ExPr | ${post.frontmatter.title}`
+              property: 'og:title',
+              content: `ExPr | ${post.frontmatter.title}`,
             },
             {
-              property: "og:description",
-              content: `${post.frontmatter.ogDescription}`
-            }
+              property: 'og:description',
+              content: `${post.frontmatter.ogDescription}`,
+            },
           ]}
           link={[
-            { rel: "shortcut icon", type: "image/png", href: `${favicon}` }
+            { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` },
           ]}
         >
           {/* Google Structured Data */}
@@ -87,7 +87,7 @@ export default function Template({ data, location }) {
         </div>
       </div>
     </Layout>
-  );
+  )
 }
 
 export const pageQuery = graphql`
@@ -106,4 +106,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+`

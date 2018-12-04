@@ -1,67 +1,67 @@
-import React from "react";
-import { graphql, StaticQuery } from "gatsby";
-import Link from "gatsby-link";
-import Helmet from "react-helmet";
+import React from 'react'
+import { graphql, StaticQuery } from 'gatsby'
+import Link from 'gatsby-link'
+import Helmet from 'react-helmet'
 
-import "./index.css";
+import './index.css'
 
-import SideBar from "../Sidebar";
-import MenuFAB from "../MenuFAB";
-import logo from "../../images/logo.png";
-import ogImage from "../../../static/default-ogimage.png";
-import github from "../../../static/github.svg";
+import SideBar from '../Sidebar'
+import MenuFAB from '../MenuFAB'
+import logo from '../../images/logo.png'
+import ogImage from '../../../static/default-ogimage.png'
+import github from '../../../static/github.svg'
 
 // PrismJS dependency
-import "prismjs/themes/prism-okaidia.css";
+import 'prismjs/themes/prism-okaidia.css'
 
-const website = `https://181192.github.io/expr-site`;
+const website = `https://181192.github.io/expr-site`
 
 const Header = () => (
   <div
     style={{
-      position: "fixed",
-      borderBottom: "1px solid #0275d8",
-      backgroundColor: "rgba(255,255,255,0.925)",
-      height: "3.5rem",
-      zIndex: "3",
-      left: "0",
-      right: "0"
+      position: 'fixed',
+      borderBottom: '1px solid #0275d8',
+      backgroundColor: 'rgba(255,255,255,0.925)',
+      height: '3.5rem',
+      zIndex: '3',
+      left: '0',
+      right: '0',
     }}
   >
     <div
       style={{
-        margin: "0 auto",
-        paddingLeft: "1.05rem",
-        paddingRight: "1.05rem",
-        display: "flex",
-        alignItems: "center",
-        width: "100%",
-        height: "100%"
+        margin: '0 auto',
+        paddingLeft: '1.05rem',
+        paddingRight: '1.05rem',
+        display: 'flex',
+        alignItems: 'center',
+        width: '100%',
+        height: '100%',
       }}
     >
       <Link
         to="/"
         style={{
-          color: "#0275d8",
-          textDecoration: "none",
-          marginRight: ".7rem"
+          color: '#0275d8',
+          textDecoration: 'none',
+          marginRight: '.7rem',
         }}
       >
         <h1
           style={{
-            display: "flex",
-            alignItems: "center",
+            display: 'flex',
+            alignItems: 'center',
             margin: 0,
-            fontSize: "1rem"
+            fontSize: '1rem',
           }}
         >
           <img
             src={logo}
             alt="Brand name"
             style={{
-              height: "2.25rem",
-              marginBottom: "0",
-              marginRight: ".5rem"
+              height: '2.25rem',
+              marginBottom: '0',
+              marginRight: '.5rem',
             }}
           />
           ExPr 2018
@@ -86,7 +86,7 @@ const Header = () => (
       </ul>
     </div>
   </div>
-);
+)
 
 const TemplateWrapper = ({ children }) => (
   <StaticQuery
@@ -117,27 +117,27 @@ const TemplateWrapper = ({ children }) => (
             title="Exam Preparation 2018"
             meta={[
               {
-                name: "description",
-                content: ""
+                name: 'description',
+                content: '',
               },
               {
-                name: "keywords",
-                content: ""
+                name: 'keywords',
+                content: '',
               },
               {
-                property: "og:image",
-                content: `${website}${ogImage}`
+                property: 'og:image',
+                content: `${website}${ogImage}`,
               },
-              { property: "og:type", content: "website" },
-              { property: "og:url", content: `${website}` },
+              { property: 'og:type', content: 'website' },
+              { property: 'og:url', content: `${website}` },
               {
-                property: "og:title",
-                content: "Exam Preparation 2018"
+                property: 'og:title',
+                content: 'Exam Preparation 2018',
               },
               {
-                property: "og:description",
-                content: ""
-              }
+                property: 'og:description',
+                content: '',
+              },
             ]}
           />
 
@@ -152,6 +152,6 @@ const TemplateWrapper = ({ children }) => (
       </React.Fragment>
     )}
   />
-);
+)
 
-export default TemplateWrapper;
+export default TemplateWrapper

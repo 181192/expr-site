@@ -1,56 +1,56 @@
-import React from "react";
-import Link from "gatsby-link";
+import React from 'react'
+import Link from 'gatsby-link'
 
 const activeStyle = {
-  color: "#0057e7",
+  color: '#0057e7',
   fontWeight: 600,
-  fontSize: "0.95rem"
-};
+  fontSize: '0.95rem',
+}
 
 export default class SideBar extends React.Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
       exam_details: [],
       questions: [],
       blockchain: [],
       cryptography: [],
       refactoring: [],
-      iot: []
-    };
+      iot: [],
+    }
   }
 
   filter(pages) {
-    let exam_details = [];
-    let questions = [];
-    let blockchain = [];
-    let cryptography = [];
-    let refactoring = [];
-    let iot = [];
+    let exam_details = []
+    let questions = []
+    let blockchain = []
+    let cryptography = []
+    let refactoring = []
+    let iot = []
 
     // Filter the data
     pages.map(page => {
       switch (page.node.frontmatter.tags) {
-        case "exam-details":
-          exam_details.push(page);
-          break;
-        case "questions":
-          questions.push(page);
-          break;
-        case "blockchain":
-          blockchain.push(page);
-          break;
-        case "cryptography":
-          cryptography.push(page);
-          break;
-        case "refactoring":
-          refactoring.push(page);
-          break;
-        case "iot":
-          iot.push(page);
-          break;
+        case 'exam-details':
+          exam_details.push(page)
+          break
+        case 'questions':
+          questions.push(page)
+          break
+        case 'blockchain':
+          blockchain.push(page)
+          break
+        case 'cryptography':
+          cryptography.push(page)
+          break
+        case 'refactoring':
+          refactoring.push(page)
+          break
+        case 'iot':
+          iot.push(page)
+          break
       }
-    });
+    })
 
     this.setState({
       exam_details,
@@ -58,13 +58,13 @@ export default class SideBar extends React.Component {
       blockchain,
       cryptography,
       refactoring,
-      iot
-    });
+      iot,
+    })
   }
 
   componentWillMount() {
     // Filter pages into categories
-    this.filter(this.props.pageList.allMarkdownRemark.edges);
+    this.filter(this.props.pageList.allMarkdownRemark.edges)
   }
 
   render() {
@@ -135,6 +135,6 @@ export default class SideBar extends React.Component {
           </ul>
         </div>
       </div>
-    );
+    )
   }
 }
