@@ -26,8 +26,8 @@ The computing and storage resources provided by cloud service providers are pool
 ### Rapid elasticity
 
 Cloud resources ca be rapidly scaled up or down based on demand. Two types of scaling options exists:
- 
->**Horizontal Scaling (scaling out)**  
+
+> **Horizontal Scaling (scaling out)**  
 > Horizontal scaling or scaling-out involves launching and provisioning additional server resources.
 
 > **Vertical Scaling (scaling up)**  
@@ -95,7 +95,7 @@ In the private cloud deployment model cloud infrastructure is operated for exclu
 
 #### Hybrid cloud
 
-The hybrid cloud deployment model compines the services of multiple clouds (private or public). The individuals retain their unique identities but are bound by standarized or proprietary technology that enables data and application portability. Hybrid clouds are best suited for organizations that want to take advantage og secured application nd data hosting on a private cloud, and at the same time benefit from cost savings by hosting shared applications and data in public clouds. 
+The hybrid cloud deployment model compines the services of multiple clouds (private or public). The individuals retain their unique identities but are bound by standarized or proprietary technology that enables data and application portability. Hybrid clouds are best suited for organizations that want to take advantage og secured application nd data hosting on a private cloud, and at the same time benefit from cost savings by hosting shared applications and data in public clouds.
 
 #### Community cloud
 
@@ -110,6 +110,7 @@ In the community cloud deployment, the cloud services are shared by several orga
 Virtualixation refers to the partitioning the resources of a physical systeminto mulitple virtual resources. Virtualization is the key enabling techology if cloud computing and allows pooling of resources. In cloud computing, resources are pooled to serve mulitple users using multi-tenancy. Multi-tenant aspect of the cloud allow multiple users to be served by the same physical hardware. The virtualization layer allows multiple operating system instances to run currently as virtual machines on the same underlying physical resources.
 
 #### Hypervisor
+
 The virtualization layer consists of a hypervisor or a virtual machine monitor (VMM) The hypervisor presents a virtual operating platform to a guest operating system (OS). There are two types of hypervisors:
 
 > **Type-1 hypervisors**  
@@ -119,6 +120,7 @@ The virtualization layer consists of a hypervisor or a virtual machine monitor (
 > Type-2 hypervisors or hosted hypervisors run on top of a conventional (main/host) operating system and monitor the guest systems.
 
 #### Guest OS
+
 A guest OS is an operating system that is installed in a virtual machine in addition to the host or main OS. In virtualization, the guest OS can be different from the host OS.
 
 #### Full virtualization
@@ -137,7 +139,24 @@ Hardware assisted virtualization is enabled by hardware features such as Intel's
 
 ### Load balancing
 
+Load balancing distribute workloads across mulitple servers to meet the application workloads. The goal if load balancing techinque are to achieve maximum utilization of resources, minimizing he response times, maximizing throughput. Load balancing distribute the incomming user requests aross mulitiple resources. To the end user accessing a cloud-basd application, a load balancer makes the pool of servers under the load balancer appear as a single server with high computing capacity. The routing of user requests is determined based on a load balancing algorithm, Comonly used load balancing algorithms include:
 
+| Algorithm            | Description                                                                                                                                                                                                                                       |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Round Robin          | The servers are selected one by one to serve the incomming requests in a non-hierarchial circular fashion with no priority assigned to a specific server.                                                                                         |
+| Weighted Round Robin | Servers are assigned some weights. The incomming requests are proportionally routed using a static or dynamic ratio of respective weights.                                                                                                        |
+| Low Latency          | The load balancer monitors the latency of each server. Each incoming request is routed to the server whitch has the lowest latency.                                                                                                               |
+| Least Connections    | The incoming requests are routed to the server with the least number of connections.                                                                                                                                                              |
+| Priority             | Each server is assigned a proprity. The incomming traffic is routed to the highest priority server as long as the server is available. When the highest priority server fails, the incomming traffic is routed to a server with a lower priority. |
+| Overflow             | Similar to priority load balancing. When the incomming requests to highest priority server overflow, the requests are routed to a lower priority server.                                                                                          |
+
+For session based applications, an important issue to handle during load balancing is the persistence of multiple requests from a particular user session. ince load balancing can route successive requests from a user session to different servers, maintaining the state or the information of the session is important.
+
+| Approach         | Description                                                                                                                                                                                                                                                                  |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Sticky sessions  | All requests belonging to a user session are routed to the same server. Solution is simple to manage, the drawback of this approach is that if a server fails all the sessions belonging to that server is lost.                                                             |
+| Session Database | All the session information is stored externally in a seperate session database, which is often replicated to avoid single point of failure. But the approach involves additional overhead storing the session information, however this approach allows automatic failover. |
+| Browser cookies  | The session information is stored on the client side in form of a cookie. The benefit of this approach is that it makes session managment east and has the least amount of overhead for the load balancer.                                                                   |
 
 ### Scalability and elasticity
 
