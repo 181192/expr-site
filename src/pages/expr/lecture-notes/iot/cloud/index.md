@@ -102,3 +102,55 @@ The hybrid cloud deployment model compines the services of multiple clouds (priv
 In the community cloud deployment, the cloud services are shared by several organizations that have the same policy and compliance considerations. Community clouds are best suited for organizations that want access to the same applications and data, and want the cloud costs to be shared with the larger group.
 
 ![cloud-deployment-models](cloud-deployment-models.png)
+
+## Cloud Concepts and Technologies
+
+### Virtualization
+
+Virtualixation refers to the partitioning the resources of a physical systeminto mulitple virtual resources. Virtualization is the key enabling techology if cloud computing and allows pooling of resources. In cloud computing, resources are pooled to serve mulitple users using multi-tenancy. Multi-tenant aspect of the cloud allow multiple users to be served by the same physical hardware. The virtualization layer allows multiple operating system instances to run currently as virtual machines on the same underlying physical resources.
+
+#### Hypervisor
+The virtualization layer consists of a hypervisor or a virtual machine monitor (VMM) The hypervisor presents a virtual operating platform to a guest operating system (OS). There are two types of hypervisors:
+
+> **Type-1 hypervisors**  
+> Type-1 hypervisors or native hypervisors run directly on the host hardware and control the hardware and monitor the guest operating systems.
+
+> **Type-2 hypervisors**  
+> Type-2 hypervisors or hosted hypervisors run on top of a conventional (main/host) operating system and monitor the guest systems.
+
+#### Guest OS
+A guest OS is an operating system that is installed in a virtual machine in addition to the host or main OS. In virtualization, the guest OS can be different from the host OS.
+
+#### Full virtualization
+
+In full virtualization, the virtualization layer completley decouples the guest OS from the underlying hardware. The guest OS requires no modification and is not aware that it is being virtualized. Full virtualization is enabled by direct execution of user requests and binary translation of OS requests.
+
+#### Para-virtualization
+
+In para-virtualization the guest OS is modified to enable communication with the hypervisor to improve performance and efficiency. The guest OS kernel is modified to replace non-virtualizable instructions with hypercalls that communicate directly with the virtualization layer hypervisor.
+
+#### Hardware virtualization
+
+Hardware assisted virtualization is enabled by hardware features such as Intel's Virtualization Technology (VT-x) and AMD's AMD-V. In hardware assisted virtualization, privileged and sensitive calls are set to automatically trap to the hypervisor. Thus, there is no need for either inary ranslation or para-virtualization.
+
+![virt-implementations](virt-implementations.png)
+
+### Load balancing
+
+
+
+### Scalability and elasticity
+
+### Deployment
+
+### Monitoring
+
+### Software Defined Networking (SDN)
+
+### MapReduce
+
+### Identity and Access Managment
+
+### Service Level Agreements
+
+### Billing
