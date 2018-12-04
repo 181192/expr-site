@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ExPr 2018]]></title><description><![CDATA[Exam Preparation 2018]]></description><link>https://181192.github.io/expr-site</link><generator>RSS for Node</generator><lastBuildDate>Tue, 04 Dec 2018 17:25:22 GMT</lastBuildDate><item><title><![CDATA[Cloud Computing]]></title><description><![CDATA[Characteristics of Cloud Computing On-demand self service Cloud computing resources can be provisioned on-demand by the users, without…]]></description><link>https://181192.github.io/expr-site/iot/cloud-computing/</link><guid isPermaLink="false">https://181192.github.io/expr-site/iot/cloud-computing/</guid><pubDate>Tue, 04 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Characteristics of Cloud Computing&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ExPr 2018]]></title><description><![CDATA[Exam Preparation 2018]]></description><link>https://181192.github.io/expr-site</link><generator>RSS for Node</generator><lastBuildDate>Tue, 04 Dec 2018 17:37:29 GMT</lastBuildDate><item><title><![CDATA[Cloud Computing]]></title><description><![CDATA[Characteristics of Cloud Computing On-demand self service Cloud computing resources can be provisioned on-demand by the users, without…]]></description><link>https://181192.github.io/expr-site/iot/cloud-computing/</link><guid isPermaLink="false">https://181192.github.io/expr-site/iot/cloud-computing/</guid><pubDate>Tue, 04 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Characteristics of Cloud Computing&lt;/h2&gt;
 &lt;h3&gt;On-demand self service&lt;/h3&gt;
 &lt;p&gt;Cloud computing resources can be provisioned on-demand by the users, without requiring interactons with the cloud service provider. The process of provisioning resources is automated.&lt;/p&gt;
 &lt;h3&gt;Broad network access&lt;/h3&gt;
@@ -282,6 +282,33 @@ Network-based replication uses an appliance that sits on the network and interce
 Host-based replication runs on standard servers and uses software to transfer data from a local to remote location. The host acts the replication control mechanism. An agent is installed on the hosts that communicate with the agents on the other hosts. Host-based replication can either be block-based or file-based. Host-based replication with cloud-infrastructure provides affordable replication solutions. With host-based replication, entire virtual machines can be replicated in real-time.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3&gt;Monitoring&lt;/h3&gt;
+&lt;p&gt;Cloud resources can be monitored by monitoring services provided by the cloud service providers. Monitoring services allow cloud users to collect and analyze the data on various monitoring metrics. Monitoring of cloud resources is important because it allows the users to keep track of the health of applications and services deployed in the cloud. With metrics available at run-time users can make operational decisions such as scaling up or scaling down cloud resources.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Type&lt;/th&gt;
+&lt;th&gt;Metrics&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;CPU&lt;/td&gt;
+&lt;td&gt;CPU-Usage, CPU-Idle&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Disk&lt;/td&gt;
+&lt;td&gt;Disk-Usage, Bytes/sec (read/write), Operations/sec&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Memory&lt;/td&gt;
+&lt;td&gt;Memory-USed, Memory-Free, Page-Cache&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Interface&lt;/td&gt;
+&lt;td&gt;Packets/sec (incoming, outgoing), Octets/sec (incoming/outgoing)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;h3&gt;Software Defined Networking (SDN)&lt;/h3&gt;
 &lt;h3&gt;MapReduce&lt;/h3&gt;
 &lt;h3&gt;Identity and Access Managment&lt;/h3&gt;
@@ -419,7 +446,30 @@ With smart contracts, facilitating agreements where all the nodes are witnesses,
 &lt;h2&gt;MQTT&lt;/h2&gt;
 &lt;p&gt;MQTT (MQ Telemetry Transport) is a lightweight messaging protocol that provides resource-constrained network clients with a simple way to distribute telemetry information. The protocol, which uses a publish/subscribe communication pattern, is used for machine-to-machine (M2M) communication and plays an important role in the internet of things (IoT).&lt;/p&gt;
 &lt;p&gt;MQTT enables resource-constrained IoT devices to send, or publish, information about a given topic to a server that functions as an MQTT message broker. The broker then pushes the information out to those clients that have previously subscribed to the client’s topic. To a human, a topic looks like a hierarchical file path. Clients can subscribe to a specific level of a topic’s hierarchy or use a wild-card character to subscribe to multiple levels.&lt;/p&gt;
-&lt;p&gt;The MQTT protocol is a good choice for wireless networks that experience varying levels of latency due to occasional bandwidth constraints or unreliable connections. Should the connection from a subscribing client to a broker get broken, the broker will buffer messages and push them out to the subscriber when it is back online. Should the connection from the publishing client to the broker be disconnected without notice, the broker can close the connection and send subscribers a cached message with instructions from the publisher.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Examination details for IoT Module]]></title><description><![CDATA[Reading Lists for the Exam Chapter 1: Bagha and Madisetti: Internet of Things - A Hands-On Approach. (hardcopy handed out) Mattern and…]]></description><link>https://181192.github.io/expr-site/exam-details/iot/</link><guid isPermaLink="false">https://181192.github.io/expr-site/exam-details/iot/</guid><pubDate>Mon, 26 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Reading Lists for the Exam&lt;/h2&gt;
+&lt;p&gt;The MQTT protocol is a good choice for wireless networks that experience varying levels of latency due to occasional bandwidth constraints or unreliable connections. Should the connection from a subscribing client to a broker get broken, the broker will buffer messages and push them out to the subscriber when it is back online. Should the connection from the publishing client to the broker be disconnected without notice, the broker can close the connection and send subscribers a cached message with instructions from the publisher.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[IoT Questions]]></title><description><![CDATA[Internet of Things (IoT) / Web of Things (WoT) Cloud computing Cloud computing models and services Define cloud computing List the pros and…]]></description><link>https://181192.github.io/expr-site/questions/iot/</link><guid isPermaLink="false">https://181192.github.io/expr-site/questions/iot/</guid><pubDate>Mon, 26 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Internet of Things (IoT) / Web of Things (WoT)&lt;/h2&gt;
+&lt;h2&gt;Cloud computing&lt;/h2&gt;
+&lt;h3&gt;Cloud computing models and services&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Define cloud computing&lt;/li&gt;
+&lt;li&gt;List the pros and cons of cloud computing.&lt;/li&gt;
+&lt;li&gt;Distinguish between IaaS, PaaS and SaaS.&lt;/li&gt;
+&lt;li&gt;Define mulit-tenancy. What is the difference between virtual and organic multi-tenancy?&lt;/li&gt;
+&lt;li&gt;What is the difference betwwen horizontal scaling and vertical scaling? Describe scenarios in which you will use each type of scaling.&lt;/li&gt;
+&lt;li&gt;Define virtualization. What is the difference between full, para- and hardware-ssisted virtualization? &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Cloud concepts and technologies&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;What are the various layers in a virtualization architecture?&lt;/li&gt;
+&lt;li&gt;What is the difference between full and para-virtualization?&lt;/li&gt;
+&lt;li&gt;What are the benefits of load balancing?&lt;/li&gt;
+&lt;li&gt;What are sticky sessions?&lt;/li&gt;
+&lt;li&gt;What are the difference between traditional and on-demand scaling approaches?&lt;/li&gt;
+&lt;li&gt;What are the various stages in the deployment lifecycle?&lt;/li&gt;
+&lt;li&gt;hat is the difference between array-based and host-based replication?&lt;/li&gt;
+&lt;li&gt;In MapReduce, what are the functions of map, reduce and combine tasks?&lt;/li&gt;
+&lt;li&gt;Describe three applications that can benefit from the MapReduce programming model?&lt;/li&gt;
+&lt;li&gt;What are the various criteria for service level agreements?&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Examination details for IoT Module]]></title><description><![CDATA[Reading Lists for the Exam Chapter 1: Bagha and Madisetti: Internet of Things - A Hands-On Approach. (hardcopy handed out) Mattern and…]]></description><link>https://181192.github.io/expr-site/exam-details/iot/</link><guid isPermaLink="false">https://181192.github.io/expr-site/exam-details/iot/</guid><pubDate>Mon, 26 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Reading Lists for the Exam&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Chapter 1: Bagha and Madisetti: Internet of Things - A Hands-On Approach. (hardcopy handed out)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://vs.inf.ethz.ch/publ/papers/Internet-of-things.pdf&quot;&gt;Mattern and Floerkemeier: From the Internet of Computers to the Internet of Things&lt;/a&gt;&lt;/li&gt;
@@ -443,338 +493,7 @@ With smart contracts, facilitating agreements where all the nodes are witnesses,
 &lt;li&gt;Cloud computing: Characteristics, service models, deployment models, storage/compute and relevant technologies&lt;/li&gt;
 &lt;li&gt;Security in IoT: Design challenges and threats of IoT systems&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;The total examination time for this module is ~10 minutes. You are allowed to have 1-2 sheets of paper sheets with notes and consult these occasionally&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[IoT Questions]]></title><description><![CDATA[Internet of Things (IoT) / Web of Things (WoT) Cloud computing Cloud computing models and services Define cloud computing List the pros and…]]></description><link>https://181192.github.io/expr-site/questions/iot/</link><guid isPermaLink="false">https://181192.github.io/expr-site/questions/iot/</guid><pubDate>Mon, 26 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Internet of Things (IoT) / Web of Things (WoT)&lt;/h2&gt;
-&lt;h2&gt;Cloud computing&lt;/h2&gt;
-&lt;h3&gt;Cloud computing models and services&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Define cloud computing&lt;/li&gt;
-&lt;li&gt;List the pros and cons of cloud computing.&lt;/li&gt;
-&lt;li&gt;Distinguish between IaaS, PaaS and SaaS.&lt;/li&gt;
-&lt;li&gt;Define mulit-tenancy. What is the difference between virtual and organic multi-tenancy?&lt;/li&gt;
-&lt;li&gt;What is the difference betwwen horizontal scaling and vertical scaling? Describe scenarios in which you will use each type of scaling.&lt;/li&gt;
-&lt;li&gt;Define virtualization. What is the difference between full, para- and hardware-ssisted virtualization? &lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3&gt;Cloud concepts and technologies&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;What are the various layers in a virtualization architecture?&lt;/li&gt;
-&lt;li&gt;What is the difference between full and para-virtualization?&lt;/li&gt;
-&lt;li&gt;What are the benefits of load balancing?&lt;/li&gt;
-&lt;li&gt;What are sticky sessions?&lt;/li&gt;
-&lt;li&gt;What are the difference between traditional and on-demand scaling approaches?&lt;/li&gt;
-&lt;li&gt;What are the various stages in the deployment lifecycle?&lt;/li&gt;
-&lt;li&gt;hat is the difference between array-based and host-based replication?&lt;/li&gt;
-&lt;li&gt;In MapReduce, what are the functions of map, reduce and combine tasks?&lt;/li&gt;
-&lt;li&gt;Describe three applications that can benefit from the MapReduce programming model?&lt;/li&gt;
-&lt;li&gt;What are the various criteria for service level agreements?&lt;/li&gt;
-&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Examination details for Basic Cryptography Module]]></title><description><![CDATA[Reading Lists for the Exam Lecture Notes http://www.tutorialspoint.com/cryptography/ The DES Algorithm Illustrated A Stick Figure guide to…]]></description><link>https://181192.github.io/expr-site/exam-details/cryptography/</link><guid isPermaLink="false">https://181192.github.io/expr-site/exam-details/cryptography/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Reading Lists for the Exam&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Lecture Notes&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.tutorialspoint.com/cryptography/&quot;&gt;http://www.tutorialspoint.com/cryptography/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://page.math.tu-berlin.de/~kant/teaching/hess/krypto-ws2006/des.htm&quot;&gt;The DES Algorithm Illustrated&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.moserware.com/2009/09/stick-figure-guide-to-advanced.html&quot;&gt;A Stick Figure guide to the Advanced Encryption standard (AES)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://hvl.instructure.com/courses/3040/files/174469/download?wrap=1&quot;&gt;Ten Risks of PKI: What You’re not Being Told about Public Key Infrastructure By Carl Ellison and Bruce Schneier (pdf)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://hvl.instructure.com/courses/3040/files/174633/download?wrap=1&quot;&gt;15 reasons not to start using PGP (pdf)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Exam structure&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;No hard calculations!!!&lt;/li&gt;
-&lt;li&gt;Come with your pen, pencil &amp;#x26; erasers&lt;/li&gt;
-&lt;li&gt;3 parts with different weights. Parts 1 and 2 are the most important.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Part 1.Definitions and concepts&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Show understanding of the different crypto algorithms and concepts under:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Symmetric, Asymmetric, Hashing, Digital Signature, + PKI&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Basics of crypto&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;e.g. substitution, permutation, diffusion, confusion, mono- and poly-alphabetic, gcd, Finding inverse, etc&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Security properties&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Confidentiality, Integrity, Availability, Authentication, Authorization, Non-repudiation&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Part 2.Practical applications of cryptography&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Real scenarios of crypto application (blockchain excluded!). You will be given an application scenario that requires crypto solution. You will then describe how you can use crypto systems to provide relevant security solutions to the problem.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Part 3.Bonus Questions&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;You should be able to give examples of different crypto algorithms&lt;/li&gt;
-&lt;li&gt;You might get names of crypto algorithms and you should be able to fit them into the appropriate category (symmetric, Asymmetric, Hash functions, etc)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;You are allowed to illustrate on the board but NO MATERIAL is allowed for this module!!!&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Examination details for the Blockchain module]]></title><description><![CDATA[The list of reading material is the Blockchain: Reading List. In addition, you have the lecture notes and the assignments. In the…]]></description><link>https://181192.github.io/expr-site/exam-details/blockchain/</link><guid isPermaLink="false">https://181192.github.io/expr-site/exam-details/blockchain/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The list of reading material is the Blockchain: Reading List. In addition, you have the lecture notes and the assignments.&lt;/p&gt;
-&lt;p&gt;In the examination of the Blockchain module, you will draw and answer 2 questions.&lt;/p&gt;
-&lt;h2&gt;The first question&lt;/h2&gt;
-&lt;p&gt;The first question will be about a general blockchain topic (from the lectures / books). You will get one (randomly selected) of these:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;How is a payment carried out in the Bitcoin network?&lt;/li&gt;
-&lt;li&gt;Distributed consensus&lt;/li&gt;
-&lt;li&gt;What is a blockchain?&lt;/li&gt;
-&lt;li&gt;Scripts and Smart contracts&lt;/li&gt;
-&lt;li&gt;Scaling and speed&lt;/li&gt;
-&lt;li&gt;Applications / use cases&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;The second question&lt;/h2&gt;
-&lt;p&gt;The second question will be more about technical details (from the assignments). You will get one (randomly selected) of these:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Inputs and outputs&lt;/li&gt;
-&lt;li&gt;Transactions, signing, validation&lt;/li&gt;
-&lt;li&gt;Private key, public key, address, signature&lt;/li&gt;
-&lt;li&gt;What is hashing used for?&lt;/li&gt;
-&lt;li&gt;The UTXO-set&lt;/li&gt;
-&lt;li&gt;Mining, nonce, “target”&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;It is preferrable that you elaborate on your own. You will probably get follow-up questions. The total examination time for this module is ~10 minutes. You are not allowed to bring notes.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Examination details for the Refactoring module]]></title><description><![CDATA[Reading List As per  Reading List  on Refactoring. Remember to look at the work on refactoring C/C++. Exam Question There will only be time…]]></description><link>https://181192.github.io/expr-site/exam-details/refactoring/</link><guid isPermaLink="false">https://181192.github.io/expr-site/exam-details/refactoring/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Reading List&lt;/h2&gt;
-&lt;p&gt;As per &lt;a href=&quot;https://hvl.instructure.com/courses/3040/pages/reading-list-refactoring&quot;&gt;Reading List&lt;/a&gt; on Refactoring. Remember to look at the work on refactoring C/C++.&lt;/p&gt;
-&lt;h2&gt;Exam Question&lt;/h2&gt;
-&lt;p&gt;There will only be time for 2-3 questions per module. We will discuss a randomly selected refactoring first. After that, we will discuss a secondary topic (on smells or metrics), but depending on the refactoring we discuss in the first part, we may go seamlessly from one topic to the next.&lt;/p&gt;
-&lt;h3&gt;Some possible questions/question-styles&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;which refactoring should we apply here? why?&lt;/li&gt;
-&lt;li&gt;which refactoring has been applied here (source code before/after)?&lt;/li&gt;
-&lt;li&gt;make a small example on paper/the whiteboard that shows what refactoring X does&lt;/li&gt;
-&lt;li&gt;what are smells/the different smells?
-different metrics, advantages/disadvantages&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Blockchain]]></title><description><![CDATA[L14 -Introduction to Blockchain and Bitcoin Module content Construction and structure of blockchains Distributed trust and consensus Proof…]]></description><link>https://181192.github.io/expr-site/blockchain/blockchain/</link><guid isPermaLink="false">https://181192.github.io/expr-site/blockchain/blockchain/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;L14 -Introduction to Blockchain and Bitcoin&lt;/h3&gt;
-&lt;h2&gt;Module content&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Construction and structure of blockchains&lt;/li&gt;
-&lt;li&gt;Distributed trust and consensus&lt;/li&gt;
-&lt;li&gt;Proof of Work›Block content and transactions&lt;/li&gt;
-&lt;li&gt;Examples of blockchains (e.g. Bitcoin and Ethereum)&lt;/li&gt;
-&lt;li&gt;Smart contracts›Ecosystems and infrastructure&lt;/li&gt;
-&lt;li&gt;Application areas.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Learning resources, I&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;http://bitcoinbook.cs.princeton.edu/&quot;&gt;Website for Bitcoin and Cryptocurrency Technologies&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Free draft of the book&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf&quot;&gt;Bitcoin and Cryptocurrency Technologies, The book&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Learning resources, II&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://bitcoin.org/bitcoin.pdf&quot;&gt;The Bicoinwhitepaper&lt;/a&gt; by Satoshi Nakamotocan&lt;/p&gt;
-&lt;h2&gt;Learning resources, III (cursory)&lt;/h2&gt;
-&lt;h3&gt;&lt;a href=&quot;https://github.com/bitcoinbook/bitcoinbook&quot;&gt;Mastering Bitcoin&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Mastering Bitcoin is a book for developers, although the first two chapters cover bitcoin at a level that is also approachable to non-programmers. Anyone with a basic understanding of technology can read the first two chapters to get a great understanding of bitcoin.&lt;/p&gt;
-&lt;p&gt;This repository contains the complete &lt;a href=&quot;https://github.com/bitcoinbook/bitcoinbook/releases/tag/Edition1Print2&quot;&gt;first edition, second print&lt;/a&gt;, published in December 2014, and the complete &lt;a href=&quot;https://github.com/bitcoinbook/bitcoinbook/releases/tag/second_edition_print2&quot;&gt;second edition, second print&lt;/a&gt;, published in July 2017, as published by O’Reilly Media in paperback and ebook formats.&lt;/p&gt;
-&lt;h3&gt;Free draft of the book&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/bitcoinbook/bitcoinbook/releases/tag/second_edition_print2&quot;&gt;Bitcoin book&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1&gt;Lecture Notes&lt;/h1&gt;
-&lt;p&gt;A bitcoin amount is always associated with a bitcoin address. Think of the address as an account number. The address is a hash of a public key. &lt;br&gt;
-When we transfer (spend) bitcoin, it “moves” from one address to another. &lt;br&gt;
-
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/expr-site/static/95e4f5695f9159b19918f1294690ffbe/f1b03/key.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 55.76131687242799%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAAB2klEQVQoz41Sv2/TUBD2X1bxt7AwsEHLwoKEWCqxIAYmhhJVAiGRBakDFWpVEG3TkjLwI0kbJ44S27X9nMh2nGc/f727xKgDBU46ved7d5+/++6s1+c2LlQMNlNVqMiNMSiKAmVpoHWOqixQ8Tv5Ml5KPufWxneOW3eP2jj2A8o2SNIUKXme55whidnZNnZ3n2Kz8RC6P5IYF45GIwRBgMlkAsdx4Pu+vFkPTr7haxBhMZvBoSRO8H1PHsPzz5j9+IiD7/t48mId7943JM7FnW4XXXLbtjEYDNDpdDCfz2GtE+AJM/yDlYsMZd0VnfkikdbrtuuzdpbqRsCqMnIWOgXRh1e4UFrjXyaAp0EI6AWCMMR0OkWaJMKIIZPD59hp7eHWpybubL2RIpck4Tb7/b7ox3qOx2MkVCeArGE1z+CRNnEcI1aRFEYXXzDtHeAXfa49bmD7w1uJa2IaRZHox86APEye9F81NKa8LgL+x6yNGzVcAiR0KMeFTjOBrPeU/fqdByQM77UI8DIUBq7niRY8/nq6m8cKa7df4VnzbMWa8lwXw+EQvV6PdLR/a5hlGaz7rTaOvEtZ5EgpKHJebLNi2B4oPHrZxOHP8QpwyWxGe8ugvJP8g5rtFb4jO0AEias5AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Private-Public-key&quot;
-        title=&quot;&quot;
-        src=&quot;/expr-site/static/95e4f5695f9159b19918f1294690ffbe/1b588/key.png&quot;
-        srcset=&quot;/expr-site/static/95e4f5695f9159b19918f1294690ffbe/dabf4/key.png 148w,
-/expr-site/static/95e4f5695f9159b19918f1294690ffbe/6888f/key.png 295w,
-/expr-site/static/95e4f5695f9159b19918f1294690ffbe/1b588/key.png 590w,
-/expr-site/static/95e4f5695f9159b19918f1294690ffbe/5ad62/key.png 885w,
-/expr-site/static/95e4f5695f9159b19918f1294690ffbe/f1b03/key.png 972w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    
-To spend bitcoin, you have to provide the private key for the sender address to prove that you “own” this address. &lt;br&gt;
-Think of the private key as a password. &lt;br&gt;
-A key-pair is created, from a random number, according to the Elliptic Curve Digital Signature Algorithm (ECDSA). &lt;br&gt;&lt;/p&gt;
-&lt;h2&gt;Key creation&lt;/h2&gt;
-&lt;p&gt;In Bitcoin, a private key is a 256-bit number &lt;br&gt;
-Nearly every 256-bit number is a valid ECDSA private key &lt;br&gt;
-=&gt; The number of keys is 2&lt;sup&gt;256&lt;/sup&gt; ~ 10&lt;sup&gt;77&lt;/sup&gt;~ number of atoms in the universe &lt;br&gt;
-So if you create a truly random private key, there is ~ zero chance that someone else can guess or create the same key. Even with much computing power, it is really hard to brute force a guess of your key. (In practice, there are more private keys than addresses (2&lt;sup&gt;160&lt;/sup&gt;), but still …)&lt;/p&gt;
-&lt;h2&gt;Bitcoin Network&lt;/h2&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/expr-site/static/2d298af38e4548479b6a5a11cb845b34/2aab9/bitcoinNet.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 87.78004073319757%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAsSAAALEgHS3X78AAADKUlEQVQ4y4VUaVPTUBTtDxdHQFlcxm1Q2cQBQVHRD4DIViiVTWjT1rK0LLK0aZOGNmmaNPvxvrRlKDD6Zl5e+17uybnn3PsCnueBTdd1cdtg+/86b8Q3ZqCxyYasKNhPpZBOp2ndhyCKtaB6sKbrSB8cIOWfp5DJZnE1no1AA5mN80wGT549R0trG9o7uxDjONp1YBsaUTUhSSJ6B9/izr1WtD7oQPjn6g2WTYCCIGLs4ye86u3D4LthpPf3AFuFqRXhGjJKxQK+TU6hp7cXA0PvEIslbmFY14mNnd09fJ/5gSgXw+zCIjY2N5pSPjk5xRSdR7goFpeCWAqFL8EaaxNDpchDzPO4KGSRyx5BLhVgaQWYah62LkFXZQj8KYpSHnn+D6QC73/MqxvnA166Zan0MOq/K3CtEiw1Q+kyUAlmOQ9TOYdHEsDRa0G2wh5NjgdkWUE8nkA0sgUuFkcmk4VFgRbpZhIr2yj7LzOmNn3IKPNwNAFZPo/t7W1wXITiYlArlRrDHJ/Dm/4BtHV04fHTZ6QfB6dagGMbfjqWXiSQLBxLq5EyGEMV8cRvtFPM/a6HeNHT45ecDygIAsa/TJBzfRgaHkEymaRMzmBWBAqWYchn0PO/YWsXpCOxVnjAkLC3n8Lr/n6fzMjYGMpqLZMAK9Rp5lw0ivngElbX12ATI4tStS0dVlWBS9owCVzPhVURqZJyWN/cxEIwiF9bW5iZncPh0VEN0DRNKERXlXNQ5CL0quGzYWYYxWPYVRkupc8YG6UT3yC7WoJmmChJGVTKF1BV0tYwml0m7+EYJXLKIf2qZAilZ1bIXd4HYqVjEZBFGnqORVVQgWMqN/o6cLXxRTGPcHiFWmoNoZUwFfLxlcL2KBOZiv0XVsKrCIWWqecPm1rvRmFnyfHnL3twt60dHd2PkEjE/dpkOnq2hgupgAFqyRbq5fud3Vhb3/gPIN0enye+YmR0DKMfx7G7k6wBslIhwIIoYHJ6BsPvRzH6YRyRCHc7oFv/w66khcUgkjs7CC4vYysSqd2J9fOz83PMzs375+ymYfOfvdzQ8+qKaxfojfNrDP8C21w3BOWWN0EAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Bitcoin Network&quot;
-        title=&quot;&quot;
-        src=&quot;/expr-site/static/2d298af38e4548479b6a5a11cb845b34/1b588/bitcoinNet.png&quot;
-        srcset=&quot;/expr-site/static/2d298af38e4548479b6a5a11cb845b34/dabf4/bitcoinNet.png 148w,
-/expr-site/static/2d298af38e4548479b6a5a11cb845b34/6888f/bitcoinNet.png 295w,
-/expr-site/static/2d298af38e4548479b6a5a11cb845b34/1b588/bitcoinNet.png 590w,
-/expr-site/static/2d298af38e4548479b6a5a11cb845b34/5ad62/bitcoinNet.png 885w,
-/expr-site/static/2d298af38e4548479b6a5a11cb845b34/2aab9/bitcoinNet.png 982w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;h2&gt;Bitcoin Network With a distributed ledger&lt;/h2&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/expr-site/static/3e97be5128dbf2de27de1001d4825a31/0d330/bitcoinNetWithLedger.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 87.39999999999999%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsSAAALEgHS3X78AAADO0lEQVQ4y3WU+W8bVRDH82/zAwVFRaioEPUIAVFoIa2qNFehLYU0jRKROLEd24mPeH0l9vqi9np923v6w+w6TgElI43e7ntvPnpvvjNvbjKZ4Nls1HSdo1CI2MkJp4k4nW6Xf1u5ViUYDvvriWQSy7Ku4j2fm4Ecx2Wgd1BOkzz98Wfmv/iSB98uUS2dgz1g3NPpNnWihyEeLf3Ap5/P8/jJL5jmTUDbIReKogT3SeejvHi+xsraBtVKWVZd2o0Gyn6Q7OkRJ/Egy8vPePnqNePx+CagTTYYI7G3RzR8wHEwzPbODoV8zl/v6T2ygSCpo32OQwfEjo/Zer+NprWuB3rDoNOlXS8z1PuMek1G/QbmuIPZqzBqFWlVy+iVCt16HdMYSho+SKrsq/xeAWdQ7L43Pf0c6Zj9OkanhGMNxcdYvTL2uIFjaP6+iWsxsXr+ftd1p0Dvp9HU+PW3N6xtbLL58hWl0gXOoIZtGdhmX2AjH2qbA1w5kdWt0GlrvP59i1XJ87rE5QsFHzxXyxfJRU/YffsHd+7c5bP526ilIlg6tuEBLMZySlMg3olcOWlTVcnH4gTevePh/UU+uXWLTDY7BRYiMZTDPdJqlPdb27xY30RRUjg9FUvy5/m4o8rVVbluW/67qKkU+cMDlGKYwME+K6vrJM9SU+DFqUJG1FUEnEnGSZydkctlJZ01jEFTBKn7uXHFzf4HgXYoy57MUZR0OEJWiv9MUUinlSnQsV2mLkGWJ4oxVcwZ4ho61lCU7lYxfK/gjKVMrIGoMBF4V2KG/1P5UtWZ6VqNklqkJi1WlrEvHeIKwBPHtUe0tAYVKZ16rUJFLWA7nrruR5X9kvGuJBMeu5C/YPHhd9xduMejn55cdspE6s3yAyIi4D0R4quvF3j2fAXDMG5uvUIkTjoQIB49ZGnxex4vP+XvakmKske3UeP8JEE6dERgd4dvFu6zur6Bbds3A8+PY6RF8UQmRFgegbd/bpHN5a9aT/nrkGRol1giQCQU4Y2UWrPZvB7oXbmWL6OmzymnL2g1WzQ1jeFo5K8bI0PmCxQTGYqpPG29LX2syWtj/hfogWZ+k80Sfp1NLvM/838AnaToBRKjm84AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Bitcoin Network with ledger&quot;
-        title=&quot;&quot;
-        src=&quot;/expr-site/static/3e97be5128dbf2de27de1001d4825a31/1b588/bitcoinNetWithLedger.png&quot;
-        srcset=&quot;/expr-site/static/3e97be5128dbf2de27de1001d4825a31/dabf4/bitcoinNetWithLedger.png 148w,
-/expr-site/static/3e97be5128dbf2de27de1001d4825a31/6888f/bitcoinNetWithLedger.png 295w,
-/expr-site/static/3e97be5128dbf2de27de1001d4825a31/1b588/bitcoinNetWithLedger.png 590w,
-/expr-site/static/3e97be5128dbf2de27de1001d4825a31/5ad62/bitcoinNetWithLedger.png 885w,
-/expr-site/static/3e97be5128dbf2de27de1001d4825a31/0d330/bitcoinNetWithLedger.png 1000w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;h2&gt;Block Explorers&lt;/h2&gt;
-&lt;p&gt;The data in the Bitcoin blockchain is publicly available &lt;br&gt;
-But the format is not human understandable &lt;br&gt;
-There are a lot of applications that shows / visualizes / gives read-access to the data in the blockchain &lt;br&gt;
-These are called block explorers &lt;br&gt;
-&lt;a href=&quot;https://live.blockcypher.com/&quot;&gt;Example&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Refactoring]]></title><description><![CDATA[Goals The ultimate goal of performing refactoring on your code is to make it clearer to understand and thereby more effecient to maintain…]]></description><link>https://181192.github.io/expr-site/refactoring/refactoring/</link><guid isPermaLink="false">https://181192.github.io/expr-site/refactoring/refactoring/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Goals&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;The ultimate goal of performing refactoring on your code is to make it clearer to understand and thereby more effecient to maintain&lt;/li&gt;
-&lt;li&gt;Refactoring changes the code internally by altering its structure, but it does not under any circumstances create change to the external behaviour of the code&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Way of working&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Refactoring is heavily based on test driven development.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/expr-site/static/0bb965deaf94160743f557e10daed46f/9417b/TDD.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 57.14285714285714%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAB2U2lyuJKP//EABkQAQEAAwEAAAAAAAAAAAAAAAECAAMREP/aAAgBAQABBQLa8k6XlAknn//EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAwEBPwEcn//EABYRAAMAAAAAAAAAAAAAAAAAAAEQYf/aAAgBAgEBPwExf//EABkQAAIDAQAAAAAAAAAAAAAAAAEhABAREv/aAAgBAQAGPwJHID0qc2v/xAAaEAEBAAMBAQAAAAAAAAAAAAABEQAQUSEx/9oACAEBAAE/IXtR3CQpnzuoMXBUR7Nf/9oADAMBAAIAAwAAABA7D//EABcRAAMBAAAAAAAAAAAAAAAAAAEQEUH/2gAIAQMBAT8QJU1f/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8QaEf/xAAdEAEBAAEEAwAAAAAAAAAAAAABESEAEDFBUWFx/9oACAEBAAE/EA9WgIodtPmoVsiWjtTOfeNnAAZL5ONWsZKvd2//2Q==&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Test driven development&quot;
-        title=&quot;&quot;
-        src=&quot;/expr-site/static/0bb965deaf94160743f557e10daed46f/7fd8e/TDD.jpg&quot;
-        srcset=&quot;/expr-site/static/0bb965deaf94160743f557e10daed46f/815e2/TDD.jpg 148w,
-/expr-site/static/0bb965deaf94160743f557e10daed46f/58ff1/TDD.jpg 295w,
-/expr-site/static/0bb965deaf94160743f557e10daed46f/7fd8e/TDD.jpg 590w,
-/expr-site/static/0bb965deaf94160743f557e10daed46f/bf67d/TDD.jpg 885w,
-/expr-site/static/0bb965deaf94160743f557e10daed46f/305a1/TDD.jpg 1180w,
-/expr-site/static/0bb965deaf94160743f557e10daed46f/9417b/TDD.jpg 1190w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;h2&gt;Bad smells within classes&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://blog.codinghorror.com/code-smells/&quot;&gt;Overview of smells&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Long Methods&lt;/li&gt;
-&lt;li&gt;Long Parameter List&lt;/li&gt;
-&lt;li&gt;Duplicated code&lt;/li&gt;
-&lt;li&gt;Conditional Complexity&lt;/li&gt;
-&lt;li&gt;Combinitorial Explosion&lt;/li&gt;
-&lt;li&gt;Large Class&lt;/li&gt;
-&lt;li&gt;Type Embedded in Name&lt;/li&gt;
-&lt;li&gt;Uncommunicative Name&lt;/li&gt;
-&lt;li&gt;Inconsistent Names&lt;/li&gt;
-&lt;li&gt;Dead Code&lt;/li&gt;
-&lt;li&gt;Speculative Generality&lt;/li&gt;
-&lt;li&gt;Oddball Solution&lt;/li&gt;
-&lt;li&gt;Temporary Field&lt;/li&gt;
-&lt;li&gt;Switch statements&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Bad smells between classes&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Alternative Classes with Different Interfaces&lt;/li&gt;
-&lt;li&gt;Primitive Obsession&lt;/li&gt;
-&lt;li&gt;Data Clumps&lt;/li&gt;
-&lt;li&gt;Refused Bequest&lt;/li&gt;
-&lt;li&gt;Inappropriate Intimacy&lt;/li&gt;
-&lt;li&gt;Indecent Exposure&lt;/li&gt;
-&lt;li&gt;Feature Envy&lt;/li&gt;
-&lt;li&gt;Lazy Class&lt;/li&gt;
-&lt;li&gt;Message Chains&lt;/li&gt;
-&lt;li&gt;Middle Man&lt;/li&gt;
-&lt;li&gt;Divergent Change&lt;/li&gt;
-&lt;li&gt;Shotgun Surgery&lt;/li&gt;
-&lt;li&gt;Parallel Inheritance Hierarchies&lt;/li&gt;
-&lt;li&gt;Incomplete Library Class&lt;/li&gt;
-&lt;li&gt;Solution Sprawl&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href=&quot;http://mikamantyla.eu/BadCodeSmellsTaxonomy.html&quot;&gt;Grouping of smells&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Cooking recepies&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.industriallogic.com/wp-content/uploads/2005/09/smellstorefactorings.pdf&quot;&gt;Cooking recepies&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://refactoring.com/catalog/&quot;&gt;Refactor Catalog&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Cryptography Questions]]></title><description><![CDATA[Classical Cryptography An example of a monoalphabetic cipher is: Shiftcipher Hill cipher Vigenere cipher Two conditions must hold to find…]]></description><link>https://181192.github.io/expr-site/questions/cryptography/</link><guid isPermaLink="false">https://181192.github.io/expr-site/questions/cryptography/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Classical Cryptography&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;The total examination time for this module is ~10 minutes. You are allowed to have 1-2 sheets of paper sheets with notes and consult these occasionally&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Cryptography Questions]]></title><description><![CDATA[Classical Cryptography An example of a monoalphabetic cipher is: Shiftcipher Hill cipher Vigenere cipher Two conditions must hold to find…]]></description><link>https://181192.github.io/expr-site/questions/cryptography/</link><guid isPermaLink="false">https://181192.github.io/expr-site/questions/cryptography/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Classical Cryptography&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;An example of a monoalphabetic cipher is:&lt;/li&gt;
 &lt;/ol&gt;
@@ -1051,7 +770,315 @@ These are called block explorers &lt;br&gt;
 &lt;li&gt;Give some examples of OO refactorings&lt;/li&gt;
 &lt;li&gt;Make a small example where you show what the different refactorings do.&lt;/li&gt;
 &lt;li&gt;“Feature Envy” is an example of a “bad smell”. Explain what it is and what types of refactoring you can do on it.&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Affine Cypher]]></title><description><![CDATA[Think about how to decrypt the Affine Cipher Decryption Inverse’of’multiplicative’cipher How to compute the inverse of a key (Trial and…]]></description><link>https://181192.github.io/expr-site/cryptography/affine-cypher/</link><guid isPermaLink="false">https://181192.github.io/expr-site/cryptography/affine-cypher/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Examination details for the Blockchain module]]></title><description><![CDATA[The list of reading material is the Blockchain: Reading List. In addition, you have the lecture notes and the assignments. In the…]]></description><link>https://181192.github.io/expr-site/exam-details/blockchain/</link><guid isPermaLink="false">https://181192.github.io/expr-site/exam-details/blockchain/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The list of reading material is the Blockchain: Reading List. In addition, you have the lecture notes and the assignments.&lt;/p&gt;
+&lt;p&gt;In the examination of the Blockchain module, you will draw and answer 2 questions.&lt;/p&gt;
+&lt;h2&gt;The first question&lt;/h2&gt;
+&lt;p&gt;The first question will be about a general blockchain topic (from the lectures / books). You will get one (randomly selected) of these:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How is a payment carried out in the Bitcoin network?&lt;/li&gt;
+&lt;li&gt;Distributed consensus&lt;/li&gt;
+&lt;li&gt;What is a blockchain?&lt;/li&gt;
+&lt;li&gt;Scripts and Smart contracts&lt;/li&gt;
+&lt;li&gt;Scaling and speed&lt;/li&gt;
+&lt;li&gt;Applications / use cases&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;The second question&lt;/h2&gt;
+&lt;p&gt;The second question will be more about technical details (from the assignments). You will get one (randomly selected) of these:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Inputs and outputs&lt;/li&gt;
+&lt;li&gt;Transactions, signing, validation&lt;/li&gt;
+&lt;li&gt;Private key, public key, address, signature&lt;/li&gt;
+&lt;li&gt;What is hashing used for?&lt;/li&gt;
+&lt;li&gt;The UTXO-set&lt;/li&gt;
+&lt;li&gt;Mining, nonce, “target”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It is preferrable that you elaborate on your own. You will probably get follow-up questions. The total examination time for this module is ~10 minutes. You are not allowed to bring notes.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Examination details for Basic Cryptography Module]]></title><description><![CDATA[Reading Lists for the Exam Lecture Notes http://www.tutorialspoint.com/cryptography/ The DES Algorithm Illustrated A Stick Figure guide to…]]></description><link>https://181192.github.io/expr-site/exam-details/cryptography/</link><guid isPermaLink="false">https://181192.github.io/expr-site/exam-details/cryptography/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Reading Lists for the Exam&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Lecture Notes&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.tutorialspoint.com/cryptography/&quot;&gt;http://www.tutorialspoint.com/cryptography/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://page.math.tu-berlin.de/~kant/teaching/hess/krypto-ws2006/des.htm&quot;&gt;The DES Algorithm Illustrated&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.moserware.com/2009/09/stick-figure-guide-to-advanced.html&quot;&gt;A Stick Figure guide to the Advanced Encryption standard (AES)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://hvl.instructure.com/courses/3040/files/174469/download?wrap=1&quot;&gt;Ten Risks of PKI: What You’re not Being Told about Public Key Infrastructure By Carl Ellison and Bruce Schneier (pdf)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://hvl.instructure.com/courses/3040/files/174633/download?wrap=1&quot;&gt;15 reasons not to start using PGP (pdf)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Exam structure&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;No hard calculations!!!&lt;/li&gt;
+&lt;li&gt;Come with your pen, pencil &amp;#x26; erasers&lt;/li&gt;
+&lt;li&gt;3 parts with different weights. Parts 1 and 2 are the most important.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Part 1.Definitions and concepts&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Show understanding of the different crypto algorithms and concepts under:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Symmetric, Asymmetric, Hashing, Digital Signature, + PKI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Basics of crypto&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;e.g. substitution, permutation, diffusion, confusion, mono- and poly-alphabetic, gcd, Finding inverse, etc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Security properties&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Confidentiality, Integrity, Availability, Authentication, Authorization, Non-repudiation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Part 2.Practical applications of cryptography&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Real scenarios of crypto application (blockchain excluded!). You will be given an application scenario that requires crypto solution. You will then describe how you can use crypto systems to provide relevant security solutions to the problem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Part 3.Bonus Questions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;You should be able to give examples of different crypto algorithms&lt;/li&gt;
+&lt;li&gt;You might get names of crypto algorithms and you should be able to fit them into the appropriate category (symmetric, Asymmetric, Hash functions, etc)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;You are allowed to illustrate on the board but NO MATERIAL is allowed for this module!!!&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Examination details for the Refactoring module]]></title><description><![CDATA[Reading List As per  Reading List  on Refactoring. Remember to look at the work on refactoring C/C++. Exam Question There will only be time…]]></description><link>https://181192.github.io/expr-site/exam-details/refactoring/</link><guid isPermaLink="false">https://181192.github.io/expr-site/exam-details/refactoring/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Reading List&lt;/h2&gt;
+&lt;p&gt;As per &lt;a href=&quot;https://hvl.instructure.com/courses/3040/pages/reading-list-refactoring&quot;&gt;Reading List&lt;/a&gt; on Refactoring. Remember to look at the work on refactoring C/C++.&lt;/p&gt;
+&lt;h2&gt;Exam Question&lt;/h2&gt;
+&lt;p&gt;There will only be time for 2-3 questions per module. We will discuss a randomly selected refactoring first. After that, we will discuss a secondary topic (on smells or metrics), but depending on the refactoring we discuss in the first part, we may go seamlessly from one topic to the next.&lt;/p&gt;
+&lt;h3&gt;Some possible questions/question-styles&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;which refactoring should we apply here? why?&lt;/li&gt;
+&lt;li&gt;which refactoring has been applied here (source code before/after)?&lt;/li&gt;
+&lt;li&gt;make a small example on paper/the whiteboard that shows what refactoring X does&lt;/li&gt;
+&lt;li&gt;what are smells/the different smells?
+different metrics, advantages/disadvantages&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Blockchain]]></title><description><![CDATA[L14 -Introduction to Blockchain and Bitcoin Module content Construction and structure of blockchains Distributed trust and consensus Proof…]]></description><link>https://181192.github.io/expr-site/blockchain/blockchain/</link><guid isPermaLink="false">https://181192.github.io/expr-site/blockchain/blockchain/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;L14 -Introduction to Blockchain and Bitcoin&lt;/h3&gt;
+&lt;h2&gt;Module content&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Construction and structure of blockchains&lt;/li&gt;
+&lt;li&gt;Distributed trust and consensus&lt;/li&gt;
+&lt;li&gt;Proof of Work›Block content and transactions&lt;/li&gt;
+&lt;li&gt;Examples of blockchains (e.g. Bitcoin and Ethereum)&lt;/li&gt;
+&lt;li&gt;Smart contracts›Ecosystems and infrastructure&lt;/li&gt;
+&lt;li&gt;Application areas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Learning resources, I&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://bitcoinbook.cs.princeton.edu/&quot;&gt;Website for Bitcoin and Cryptocurrency Technologies&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Free draft of the book&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf&quot;&gt;Bitcoin and Cryptocurrency Technologies, The book&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Learning resources, II&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://bitcoin.org/bitcoin.pdf&quot;&gt;The Bicoinwhitepaper&lt;/a&gt; by Satoshi Nakamotocan&lt;/p&gt;
+&lt;h2&gt;Learning resources, III (cursory)&lt;/h2&gt;
+&lt;h3&gt;&lt;a href=&quot;https://github.com/bitcoinbook/bitcoinbook&quot;&gt;Mastering Bitcoin&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Mastering Bitcoin is a book for developers, although the first two chapters cover bitcoin at a level that is also approachable to non-programmers. Anyone with a basic understanding of technology can read the first two chapters to get a great understanding of bitcoin.&lt;/p&gt;
+&lt;p&gt;This repository contains the complete &lt;a href=&quot;https://github.com/bitcoinbook/bitcoinbook/releases/tag/Edition1Print2&quot;&gt;first edition, second print&lt;/a&gt;, published in December 2014, and the complete &lt;a href=&quot;https://github.com/bitcoinbook/bitcoinbook/releases/tag/second_edition_print2&quot;&gt;second edition, second print&lt;/a&gt;, published in July 2017, as published by O’Reilly Media in paperback and ebook formats.&lt;/p&gt;
+&lt;h3&gt;Free draft of the book&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/bitcoinbook/bitcoinbook/releases/tag/second_edition_print2&quot;&gt;Bitcoin book&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1&gt;Lecture Notes&lt;/h1&gt;
+&lt;p&gt;A bitcoin amount is always associated with a bitcoin address. Think of the address as an account number. The address is a hash of a public key. &lt;br&gt;
+When we transfer (spend) bitcoin, it “moves” from one address to another. &lt;br&gt;
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/expr-site/static/95e4f5695f9159b19918f1294690ffbe/f1b03/key.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 55.76131687242799%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAAB2klEQVQoz41Sv2/TUBD2X1bxt7AwsEHLwoKEWCqxIAYmhhJVAiGRBakDFWpVEG3TkjLwI0kbJ44S27X9nMh2nGc/f727xKgDBU46ved7d5+/++6s1+c2LlQMNlNVqMiNMSiKAmVpoHWOqixQ8Tv5Ml5KPufWxneOW3eP2jj2A8o2SNIUKXme55whidnZNnZ3n2Kz8RC6P5IYF45GIwRBgMlkAsdx4Pu+vFkPTr7haxBhMZvBoSRO8H1PHsPzz5j9+IiD7/t48mId7943JM7FnW4XXXLbtjEYDNDpdDCfz2GtE+AJM/yDlYsMZd0VnfkikdbrtuuzdpbqRsCqMnIWOgXRh1e4UFrjXyaAp0EI6AWCMMR0OkWaJMKIIZPD59hp7eHWpybubL2RIpck4Tb7/b7ox3qOx2MkVCeArGE1z+CRNnEcI1aRFEYXXzDtHeAXfa49bmD7w1uJa2IaRZHox86APEye9F81NKa8LgL+x6yNGzVcAiR0KMeFTjOBrPeU/fqdByQM77UI8DIUBq7niRY8/nq6m8cKa7df4VnzbMWa8lwXw+EQvV6PdLR/a5hlGaz7rTaOvEtZ5EgpKHJebLNi2B4oPHrZxOHP8QpwyWxGe8ugvJP8g5rtFb4jO0AEias5AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Private-Public-key&quot;
+        title=&quot;&quot;
+        src=&quot;/expr-site/static/95e4f5695f9159b19918f1294690ffbe/1b588/key.png&quot;
+        srcset=&quot;/expr-site/static/95e4f5695f9159b19918f1294690ffbe/dabf4/key.png 148w,
+/expr-site/static/95e4f5695f9159b19918f1294690ffbe/6888f/key.png 295w,
+/expr-site/static/95e4f5695f9159b19918f1294690ffbe/1b588/key.png 590w,
+/expr-site/static/95e4f5695f9159b19918f1294690ffbe/5ad62/key.png 885w,
+/expr-site/static/95e4f5695f9159b19918f1294690ffbe/f1b03/key.png 972w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+To spend bitcoin, you have to provide the private key for the sender address to prove that you “own” this address. &lt;br&gt;
+Think of the private key as a password. &lt;br&gt;
+A key-pair is created, from a random number, according to the Elliptic Curve Digital Signature Algorithm (ECDSA). &lt;br&gt;&lt;/p&gt;
+&lt;h2&gt;Key creation&lt;/h2&gt;
+&lt;p&gt;In Bitcoin, a private key is a 256-bit number &lt;br&gt;
+Nearly every 256-bit number is a valid ECDSA private key &lt;br&gt;
+=&gt; The number of keys is 2&lt;sup&gt;256&lt;/sup&gt; ~ 10&lt;sup&gt;77&lt;/sup&gt;~ number of atoms in the universe &lt;br&gt;
+So if you create a truly random private key, there is ~ zero chance that someone else can guess or create the same key. Even with much computing power, it is really hard to brute force a guess of your key. (In practice, there are more private keys than addresses (2&lt;sup&gt;160&lt;/sup&gt;), but still …)&lt;/p&gt;
+&lt;h2&gt;Bitcoin Network&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/expr-site/static/2d298af38e4548479b6a5a11cb845b34/2aab9/bitcoinNet.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 87.78004073319757%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAsSAAALEgHS3X78AAADKUlEQVQ4y4VUaVPTUBTtDxdHQFlcxm1Q2cQBQVHRD4DIViiVTWjT1rK0LLK0aZOGNmmaNPvxvrRlKDD6Zl5e+17uybnn3PsCnueBTdd1cdtg+/86b8Q3ZqCxyYasKNhPpZBOp2ndhyCKtaB6sKbrSB8cIOWfp5DJZnE1no1AA5mN80wGT549R0trG9o7uxDjONp1YBsaUTUhSSJ6B9/izr1WtD7oQPjn6g2WTYCCIGLs4ye86u3D4LthpPf3AFuFqRXhGjJKxQK+TU6hp7cXA0PvEIslbmFY14mNnd09fJ/5gSgXw+zCIjY2N5pSPjk5xRSdR7goFpeCWAqFL8EaaxNDpchDzPO4KGSRyx5BLhVgaQWYah62LkFXZQj8KYpSHnn+D6QC73/MqxvnA166Zan0MOq/K3CtEiw1Q+kyUAlmOQ9TOYdHEsDRa0G2wh5NjgdkWUE8nkA0sgUuFkcmk4VFgRbpZhIr2yj7LzOmNn3IKPNwNAFZPo/t7W1wXITiYlArlRrDHJ/Dm/4BtHV04fHTZ6QfB6dagGMbfjqWXiSQLBxLq5EyGEMV8cRvtFPM/a6HeNHT45ecDygIAsa/TJBzfRgaHkEymaRMzmBWBAqWYchn0PO/YWsXpCOxVnjAkLC3n8Lr/n6fzMjYGMpqLZMAK9Rp5lw0ivngElbX12ATI4tStS0dVlWBS9owCVzPhVURqZJyWN/cxEIwiF9bW5iZncPh0VEN0DRNKERXlXNQ5CL0quGzYWYYxWPYVRkupc8YG6UT3yC7WoJmmChJGVTKF1BV0tYwml0m7+EYJXLKIf2qZAilZ1bIXd4HYqVjEZBFGnqORVVQgWMqN/o6cLXxRTGPcHiFWmoNoZUwFfLxlcL2KBOZiv0XVsKrCIWWqecPm1rvRmFnyfHnL3twt60dHd2PkEjE/dpkOnq2hgupgAFqyRbq5fud3Vhb3/gPIN0enye+YmR0DKMfx7G7k6wBslIhwIIoYHJ6BsPvRzH6YRyRCHc7oFv/w66khcUgkjs7CC4vYysSqd2J9fOz83PMzs375+ymYfOfvdzQ8+qKaxfojfNrDP8C21w3BOWWN0EAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Bitcoin Network&quot;
+        title=&quot;&quot;
+        src=&quot;/expr-site/static/2d298af38e4548479b6a5a11cb845b34/1b588/bitcoinNet.png&quot;
+        srcset=&quot;/expr-site/static/2d298af38e4548479b6a5a11cb845b34/dabf4/bitcoinNet.png 148w,
+/expr-site/static/2d298af38e4548479b6a5a11cb845b34/6888f/bitcoinNet.png 295w,
+/expr-site/static/2d298af38e4548479b6a5a11cb845b34/1b588/bitcoinNet.png 590w,
+/expr-site/static/2d298af38e4548479b6a5a11cb845b34/5ad62/bitcoinNet.png 885w,
+/expr-site/static/2d298af38e4548479b6a5a11cb845b34/2aab9/bitcoinNet.png 982w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;Bitcoin Network With a distributed ledger&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/expr-site/static/3e97be5128dbf2de27de1001d4825a31/0d330/bitcoinNetWithLedger.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 87.39999999999999%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsSAAALEgHS3X78AAADO0lEQVQ4y3WU+W8bVRDH82/zAwVFRaioEPUIAVFoIa2qNFehLYU0jRKROLEd24mPeH0l9vqi9np923v6w+w6TgElI43e7ntvPnpvvjNvbjKZ4Nls1HSdo1CI2MkJp4k4nW6Xf1u5ViUYDvvriWQSy7Ku4j2fm4Ecx2Wgd1BOkzz98Wfmv/iSB98uUS2dgz1g3NPpNnWihyEeLf3Ap5/P8/jJL5jmTUDbIReKogT3SeejvHi+xsraBtVKWVZd2o0Gyn6Q7OkRJ/Egy8vPePnqNePx+CagTTYYI7G3RzR8wHEwzPbODoV8zl/v6T2ygSCpo32OQwfEjo/Zer+NprWuB3rDoNOlXS8z1PuMek1G/QbmuIPZqzBqFWlVy+iVCt16HdMYSho+SKrsq/xeAWdQ7L43Pf0c6Zj9OkanhGMNxcdYvTL2uIFjaP6+iWsxsXr+ftd1p0Dvp9HU+PW3N6xtbLL58hWl0gXOoIZtGdhmX2AjH2qbA1w5kdWt0GlrvP59i1XJ87rE5QsFHzxXyxfJRU/YffsHd+7c5bP526ilIlg6tuEBLMZySlMg3olcOWlTVcnH4gTevePh/UU+uXWLTDY7BRYiMZTDPdJqlPdb27xY30RRUjg9FUvy5/m4o8rVVbluW/67qKkU+cMDlGKYwME+K6vrJM9SU+DFqUJG1FUEnEnGSZydkctlJZ01jEFTBKn7uXHFzf4HgXYoy57MUZR0OEJWiv9MUUinlSnQsV2mLkGWJ4oxVcwZ4ho61lCU7lYxfK/gjKVMrIGoMBF4V2KG/1P5UtWZ6VqNklqkJi1WlrEvHeIKwBPHtUe0tAYVKZ16rUJFLWA7nrruR5X9kvGuJBMeu5C/YPHhd9xduMejn55cdspE6s3yAyIi4D0R4quvF3j2fAXDMG5uvUIkTjoQIB49ZGnxex4vP+XvakmKske3UeP8JEE6dERgd4dvFu6zur6Bbds3A8+PY6RF8UQmRFgegbd/bpHN5a9aT/nrkGRol1giQCQU4Y2UWrPZvB7oXbmWL6OmzymnL2g1WzQ1jeFo5K8bI0PmCxQTGYqpPG29LX2syWtj/hfogWZ+k80Sfp1NLvM/838AnaToBRKjm84AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Bitcoin Network with ledger&quot;
+        title=&quot;&quot;
+        src=&quot;/expr-site/static/3e97be5128dbf2de27de1001d4825a31/1b588/bitcoinNetWithLedger.png&quot;
+        srcset=&quot;/expr-site/static/3e97be5128dbf2de27de1001d4825a31/dabf4/bitcoinNetWithLedger.png 148w,
+/expr-site/static/3e97be5128dbf2de27de1001d4825a31/6888f/bitcoinNetWithLedger.png 295w,
+/expr-site/static/3e97be5128dbf2de27de1001d4825a31/1b588/bitcoinNetWithLedger.png 590w,
+/expr-site/static/3e97be5128dbf2de27de1001d4825a31/5ad62/bitcoinNetWithLedger.png 885w,
+/expr-site/static/3e97be5128dbf2de27de1001d4825a31/0d330/bitcoinNetWithLedger.png 1000w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;Block Explorers&lt;/h2&gt;
+&lt;p&gt;The data in the Bitcoin blockchain is publicly available &lt;br&gt;
+But the format is not human understandable &lt;br&gt;
+There are a lot of applications that shows / visualizes / gives read-access to the data in the blockchain &lt;br&gt;
+These are called block explorers &lt;br&gt;
+&lt;a href=&quot;https://live.blockcypher.com/&quot;&gt;Example&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Refactoring]]></title><description><![CDATA[Goals The ultimate goal of performing refactoring on your code is to make it clearer to understand and thereby more effecient to maintain…]]></description><link>https://181192.github.io/expr-site/refactoring/refactoring/</link><guid isPermaLink="false">https://181192.github.io/expr-site/refactoring/refactoring/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Goals&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The ultimate goal of performing refactoring on your code is to make it clearer to understand and thereby more effecient to maintain&lt;/li&gt;
+&lt;li&gt;Refactoring changes the code internally by altering its structure, but it does not under any circumstances create change to the external behaviour of the code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Way of working&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Refactoring is heavily based on test driven development.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/expr-site/static/0bb965deaf94160743f557e10daed46f/9417b/TDD.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 57.14285714285714%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAB2U2lyuJKP//EABkQAQEAAwEAAAAAAAAAAAAAAAECAAMREP/aAAgBAQABBQLa8k6XlAknn//EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAwEBPwEcn//EABYRAAMAAAAAAAAAAAAAAAAAAAEQYf/aAAgBAgEBPwExf//EABkQAAIDAQAAAAAAAAAAAAAAAAEhABAREv/aAAgBAQAGPwJHID0qc2v/xAAaEAEBAAMBAQAAAAAAAAAAAAABEQAQUSEx/9oACAEBAAE/IXtR3CQpnzuoMXBUR7Nf/9oADAMBAAIAAwAAABA7D//EABcRAAMBAAAAAAAAAAAAAAAAAAEQEUH/2gAIAQMBAT8QJU1f/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8QaEf/xAAdEAEBAAEEAwAAAAAAAAAAAAABESEAEDFBUWFx/9oACAEBAAE/EA9WgIodtPmoVsiWjtTOfeNnAAZL5ONWsZKvd2//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Test driven development&quot;
+        title=&quot;&quot;
+        src=&quot;/expr-site/static/0bb965deaf94160743f557e10daed46f/7fd8e/TDD.jpg&quot;
+        srcset=&quot;/expr-site/static/0bb965deaf94160743f557e10daed46f/815e2/TDD.jpg 148w,
+/expr-site/static/0bb965deaf94160743f557e10daed46f/58ff1/TDD.jpg 295w,
+/expr-site/static/0bb965deaf94160743f557e10daed46f/7fd8e/TDD.jpg 590w,
+/expr-site/static/0bb965deaf94160743f557e10daed46f/bf67d/TDD.jpg 885w,
+/expr-site/static/0bb965deaf94160743f557e10daed46f/305a1/TDD.jpg 1180w,
+/expr-site/static/0bb965deaf94160743f557e10daed46f/9417b/TDD.jpg 1190w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;Bad smells within classes&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.codinghorror.com/code-smells/&quot;&gt;Overview of smells&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Long Methods&lt;/li&gt;
+&lt;li&gt;Long Parameter List&lt;/li&gt;
+&lt;li&gt;Duplicated code&lt;/li&gt;
+&lt;li&gt;Conditional Complexity&lt;/li&gt;
+&lt;li&gt;Combinitorial Explosion&lt;/li&gt;
+&lt;li&gt;Large Class&lt;/li&gt;
+&lt;li&gt;Type Embedded in Name&lt;/li&gt;
+&lt;li&gt;Uncommunicative Name&lt;/li&gt;
+&lt;li&gt;Inconsistent Names&lt;/li&gt;
+&lt;li&gt;Dead Code&lt;/li&gt;
+&lt;li&gt;Speculative Generality&lt;/li&gt;
+&lt;li&gt;Oddball Solution&lt;/li&gt;
+&lt;li&gt;Temporary Field&lt;/li&gt;
+&lt;li&gt;Switch statements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Bad smells between classes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Alternative Classes with Different Interfaces&lt;/li&gt;
+&lt;li&gt;Primitive Obsession&lt;/li&gt;
+&lt;li&gt;Data Clumps&lt;/li&gt;
+&lt;li&gt;Refused Bequest&lt;/li&gt;
+&lt;li&gt;Inappropriate Intimacy&lt;/li&gt;
+&lt;li&gt;Indecent Exposure&lt;/li&gt;
+&lt;li&gt;Feature Envy&lt;/li&gt;
+&lt;li&gt;Lazy Class&lt;/li&gt;
+&lt;li&gt;Message Chains&lt;/li&gt;
+&lt;li&gt;Middle Man&lt;/li&gt;
+&lt;li&gt;Divergent Change&lt;/li&gt;
+&lt;li&gt;Shotgun Surgery&lt;/li&gt;
+&lt;li&gt;Parallel Inheritance Hierarchies&lt;/li&gt;
+&lt;li&gt;Incomplete Library Class&lt;/li&gt;
+&lt;li&gt;Solution Sprawl&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;http://mikamantyla.eu/BadCodeSmellsTaxonomy.html&quot;&gt;Grouping of smells&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Cooking recepies&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.industriallogic.com/wp-content/uploads/2005/09/smellstorefactorings.pdf&quot;&gt;Cooking recepies&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://refactoring.com/catalog/&quot;&gt;Refactor Catalog&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Affine Cypher]]></title><description><![CDATA[Think about how to decrypt the Affine Cipher Decryption Inverse’of’multiplicative’cipher How to compute the inverse of a key (Trial and…]]></description><link>https://181192.github.io/expr-site/cryptography/affine-cypher/</link><guid isPermaLink="false">https://181192.github.io/expr-site/cryptography/affine-cypher/</guid><pubDate>Fri, 23 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/expr-site/static/23caa89c66e6c93812508814c8d16df4/f2eef/affineCypherEncryption.jpg&quot;
