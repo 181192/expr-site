@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ExPr 2018]]></title><description><![CDATA[Exam Preparation 2018]]></description><link>https://181192.github.io/expr-site</link><generator>RSS for Node</generator><lastBuildDate>Tue, 04 Dec 2018 19:19:48 GMT</lastBuildDate><item><title><![CDATA[Cloud Computing]]></title><description><![CDATA[Characteristics of Cloud Computing On-demand self service Cloud computing resources can be provisioned on-demand by the users, without…]]></description><link>https://181192.github.io/expr-site/iot/cloud-computing/</link><guid isPermaLink="false">https://181192.github.io/expr-site/iot/cloud-computing/</guid><pubDate>Tue, 04 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Characteristics of Cloud Computing&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ExPr 2018]]></title><description><![CDATA[Exam Preparation 2018]]></description><link>https://181192.github.io/expr-site</link><generator>RSS for Node</generator><lastBuildDate>Tue, 04 Dec 2018 19:37:08 GMT</lastBuildDate><item><title><![CDATA[Cloud Computing]]></title><description><![CDATA[Characteristics of Cloud Computing On-demand self service Cloud computing resources can be provisioned on-demand by the users, without…]]></description><link>https://181192.github.io/expr-site/iot/cloud-computing/</link><guid isPermaLink="false">https://181192.github.io/expr-site/iot/cloud-computing/</guid><pubDate>Tue, 04 Dec 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Characteristics of Cloud Computing&lt;/h2&gt;
 &lt;h3&gt;On-demand self service&lt;/h3&gt;
 &lt;p&gt;Cloud computing resources can be provisioned on-demand by the users, without requiring interactons with the cloud service provider. The process of provisioning resources is automated.&lt;/p&gt;
 &lt;h3&gt;Broad network access&lt;/h3&gt;
@@ -541,7 +541,18 @@ With smart contracts, facilitating agreements where all the nodes are witnesses,
 &lt;li&gt;Cloud computing: Characteristics, service models, deployment models, storage/compute and relevant technologies&lt;/li&gt;
 &lt;li&gt;Security in IoT: Design challenges and threats of IoT systems&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;The total examination time for this module is ~10 minutes. You are allowed to have 1-2 sheets of paper sheets with notes and consult these occasionally&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[IoT Questions]]></title><description><![CDATA[Internet of Things (IoT) / Web of Things (WoT) Cloud computing Cloud computing models and services Define cloud computing List the pros and…]]></description><link>https://181192.github.io/expr-site/questions/iot/</link><guid isPermaLink="false">https://181192.github.io/expr-site/questions/iot/</guid><pubDate>Mon, 26 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Internet of Things (IoT) / Web of Things (WoT)&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;The total examination time for this module is ~10 minutes. You are allowed to have 1-2 sheets of paper sheets with notes and consult these occasionally&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[IoT Questions]]></title><description><![CDATA[Internet of Things (IoT) / Web of Things (WoT) Describe an example of an IoT system in witch information and knowledge are inferred from…]]></description><link>https://181192.github.io/expr-site/questions/iot/</link><guid isPermaLink="false">https://181192.github.io/expr-site/questions/iot/</guid><pubDate>Mon, 26 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Internet of Things (IoT) / Web of Things (WoT)&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Describe an example of an IoT system in witch information and knowledge are inferred from data.&lt;/li&gt;
+&lt;li&gt;Why do IoT systems have to be self-adapting and self-configuring?&lt;/li&gt;
+&lt;li&gt;What is the role of things and Internet in IoT?&lt;/li&gt;
+&lt;li&gt;What is the cuntion of communication funtional block in an IoT system?&lt;/li&gt;
+&lt;li&gt;Describe an exampe of IoT service that uses publish-subscribe communication model.&lt;/li&gt;
+&lt;li&gt;Describe an example of IoT service that uses WebSocked-based communication.&lt;/li&gt;
+&lt;li&gt;What are the architectural constraints of REST?&lt;/li&gt;
+&lt;li&gt;What is the role of a coordinator in wireless sensor network?&lt;/li&gt;
+&lt;li&gt;What is the role of a controller service in an IoT system?&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2&gt;Cloud computing&lt;/h2&gt;
 &lt;h3&gt;Cloud computing models and services&lt;/h3&gt;
 &lt;ol&gt;
@@ -550,7 +561,7 @@ With smart contracts, facilitating agreements where all the nodes are witnesses,
 &lt;li&gt;Distinguish between IaaS, PaaS and SaaS.&lt;/li&gt;
 &lt;li&gt;Define mulit-tenancy. What is the difference between virtual and organic multi-tenancy?&lt;/li&gt;
 &lt;li&gt;What is the difference betwwen horizontal scaling and vertical scaling? Describe scenarios in which you will use each type of scaling.&lt;/li&gt;
-&lt;li&gt;Define virtualization. What is the difference between full, para- and hardware-ssisted virtualization? &lt;/li&gt;
+&lt;li&gt;Define virtualization. What is the difference between full, para- and hardware-ssisted virtualization?&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3&gt;Cloud concepts and technologies&lt;/h3&gt;
 &lt;ol&gt;
