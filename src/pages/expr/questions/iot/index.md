@@ -11,6 +11,15 @@ ogDescription: "IoT Questions"
 
 ## Internet of Things (IoT) / Web of Things (WoT)
 
+1. Describe an example of an IoT system in witch information and knowledge are inferred from data.
+2. Why do IoT systems have to be self-adapting and self-configuring?
+3. What is the role of things and Internet in IoT?
+4. What is the cuntion of communication funtional block in an IoT system?
+5. Describe an exampe of IoT service that uses publish-subscribe communication model.
+6. Describe an example of IoT service that uses WebSocked-based communication.
+7. What are the architectural constraints of REST?
+8. What is the role of a coordinator in wireless sensor network?
+9. What is the role of a controller service in an IoT system?
 
 ## Cloud computing
 
@@ -21,7 +30,7 @@ ogDescription: "IoT Questions"
 3. Distinguish between IaaS, PaaS and SaaS.
 4. Define mulit-tenancy. What is the difference between virtual and organic multi-tenancy?
 5. What is the difference betwwen horizontal scaling and vertical scaling? Describe scenarios in which you will use each type of scaling.
-6. Define virtualization. What is the difference between full, para- and hardware-ssisted virtualization? 
+6. Define virtualization. What is the difference between full, para- and hardware-ssisted virtualization?
 
 ### Cloud concepts and technologies
 
