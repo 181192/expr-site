@@ -60,10 +60,51 @@ Unlike http, it is a duplex connection that allows client and server push frames
 ### Cloud computing models and services
 
 1. Define cloud computing
+
+- Cloud computing let the user(s) access computing, network and storage resources as on demand services without requiring interactions with the Cloud service provider. It can be accessed over the network via standard access mechanics making it platform independent for workstations, laptops, tables and smart phones. 
+
 2. List the pros and cons of cloud computing.
+
+- Pro:
+    * Cost efficient - save the cost of HW and implementing services with the same flexibility as Cloud computing.
+    * Almost Unlimited Storage
+    * Backup and Recovery 
+    * Automatic Software Integration
+    * Easy Access to Information 
+    * Quick Deployment 
+
+- Con:
+    * Technical Issues, cloud internal issues or your internet connection. 
+    * Security in the Cloud, sensitive information to a third-party cloud service provider.
+    * Prone to attack, cloud services are more prone to attacks than your standalone servers.  
+
+
 3. Distinguish between IaaS, PaaS and SaaS.
+
+ - Iaas: Infrastructure-as-a-Service. Computing and storage resources in form of virtual machine and virtual storage. Users can start, stop, configure and manage the virtual machine instances. Users can deploy operating systems and applications of their choice. 
+ TL;DR Virtual Resources.
+
+ - PaaS: Platform-as-a-Service. Users can develop and deploy applications in the cloud using the development tools, APIs, libraries and services provided by the cloud service provider. The cloud service provider manages the underlying infrastructure with operating system, servers, network and storage. 
+ TL;DR User responsible for development, deploying, configuring and managing applications on the cloud. 
+
+ - Saas: Software-as-a-Service. Cloud service provides the user with complete software applications, or the user interface to the application. The cloud provides all the underlying infrastructures. Applications to the user is provided through platfor independent thin clients aka web browsers. 
+ TL;DR User accesses application through web browser. 
+
 4. Define mulit-tenancy. What is the difference between virtual and organic multi-tenancy?
+
+- Common factors:
+    Specific physical resources assigned to each tenant or virtual storage array
+    Specific management and security restrictions
+    Multiple parties each having access to, and control over, their own storage resources
+ 
+- Multi-tenancy is an architecture in which a single instance of a software application serves multiple customers. Each customer is called a tenant. Tenants may be given the ability to customize some parts of the application, such as color of the user interface (UI) or business rules, but they cannot customize the application's code.
+
+- A Virtual-tenancy is an architecture in which a single instance of a software application serves single customers.
+
 5. What is the difference betwwen horizontal scaling and vertical scaling? Describe scenarios in which you will use each type of scaling.
+
+
+
 6. Define virtualization. What is the difference between full, para- and hardware-ssisted virtualization?
 
 ### Cloud concepts and technologies
