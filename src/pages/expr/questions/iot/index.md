@@ -11,15 +11,49 @@ ogDescription: "IoT Questions"
 
 ## Internet of Things (IoT) / Web of Things (WoT)
 
-1. Describe an example of an IoT system in witch information and knowledge are inferred from data.
+1. Describe an example of an IoT system in which information and knowledge are inferred from data.
+
+ - A weather monitoring system where sensors sends raw data values, ex (((67,25);(67,24)), for humidity and temperature. Context is added to the data in form of tuples ex ("humidity", 67). This gives us information and knowledge can be obtained by continuous monitoring of the sensor data and adding ex alerts if the values exceeds a certain threshold. 
+
 2. Why do IoT systems have to be self-adapting and self-configuring?
+
+- I general it's because the basic concept of IoT that it should not be more of a hazzle for the client to use than the manual counterpart. In other words, example if you need to change the architecture of the network it can be done without taking down all nodes. Self-adapting is limited to the intelligense given to the device. Say a survilliance camera could switch to night mode given that it has knowledge of the time, or drapes could close if the sensor detects sunlight directed towards it. This touches on self configuring where several devices works together to provide a certain functionality such as a weather monitoring system. The devices can have the ability to to configure themselves, setup the networking and fetch latest sw upgrade with minimal user intervention. 
+
 3. What is the role of things and Internet in IoT?
-4. What is the cuntion of communication funtional block in an IoT system?
+
+- The "things" can perform remote sensing, actuating or monitoring. They have unique identities and can exchange data with other connected devices and applications (directly or indirectly) or collect data from other devices and process the data either locally or send it to centralized servers or cloud based applications for processing the data.
+
+4. What is the funtion of communication funtional block in an IoT system?
+
+- It handles the communication for the IoT system. It adapts to the different protocols for communicating in an IoT network such as:
+    * HTTP (Stateless aka each request is independent of previous requests) --> TCP --> URI's --> Request/Response
+    * CoAP (Machine to Machine, M2M) --> UDP --> URI's --> Client/Server
+    * WebSocket (Full duplex) --> TCP --> Client/Server
+    * MQTT --> Client/Server --> Topics --> Publish/Subscribe --> Broker middleman.
+    * XMPP --> Real time streaming of XML data --> Client/Server, Server/Server.
+    * DDS --> Device/Device, Machine/Machine --> Publish/Subscribe --> Topics --> QoS (Quality of Service).
+    * AMQP --> Publish/Subscribe, Point-to-Point --> Uses message queues. 
+
 5. Describe an exampe of IoT service that uses publish-subscribe communication model.
+
+- MQTT, DDS and AMQP.
+
 6. Describe an example of IoT service that uses WebSocked-based communication.
+
+- WebSocket is a simple tcp based protocol which does the initial handshake by http and keeps a persistent tcp connection to the server. 
+Unlike http, it is a duplex connection that allows client and server push frames from either side. Hence allowing the client and server to communicate in more real-time. A self driving car, pizza delivery service, realtime ambulance guiding system to accident spot etc. There are many usecase where websockets can be or will be or being used. 
+
 7. What are the architectural constraints of REST?
+
+- A HTTP Client (REST-Aware), A HTTP Packet (HTTP Commands(GET, PUT, POST, DELETE) REST payload (JSON, XML)), A HTTP Server (Authorization, RESTful Web Service) and the Resources (Software components for accessing, processing and storing sensor data or controlling actuators and remote monitoring capabilities).
+
 8. What is the role of a coordinator in wireless sensor network?
+
+- The coordinator collects data from all nodes (which can have several sensors attached) and acts as a gateway between the WSN (Wireless Sensor Network) and WLAN/Ethernet. 
+
 9. What is the role of a controller service in an IoT system?
+
+- Controller service is a native service that runs on the device and interacts with the web services. It sends data from the device and receives commands from the application (via web services) for controlling the device. 
 
 ## Cloud computing
 
